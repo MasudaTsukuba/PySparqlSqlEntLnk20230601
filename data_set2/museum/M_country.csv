@@ -1,0 +1,188 @@
+co_id,name,comment
+17m,Japan,island country in East Asia
+16m,Canada,country in North America
+29m,Spain,country in southwestern Europe with territories in Africa
+20m,Norway,country in northern Europe
+28m,Hungary,country in Central Europe
+35m,Denmark,country in Northern Europe
+30m,United States of America,country in North America
+32m,Luxembourg,country in Western Europe
+41m,Greece,country in Southeast Europe
+33m,Finland,country in Northern Europe
+43m,Turkey,transcontinental country straddling Western Asia and Southeastern Europe
+31m,Belgium,country in western Europe
+34m,Sweden,country in Northern Europe
+36m,Poland,country in Central Europe
+114m,Kenya,country in Eastern Africa
+115m,Ethiopia,country in the Horn of Africa
+37m,Lithuania,country in Eastern Europe
+38m,Italy,country in Southern Europe
+39m,Switzerland,country in Central Europe
+189m,Iceland,country in the North Atlantic Ocean
+117m,Ghana,sovereign state in West Africa
+45m,Portugal,country in Southwestern Europe
+40m,Austria,country in Central Europe
+213m,Czech Republic,country in Central Europe
+191m,Estonia,sovereign state in northeastern Europe
+215m,Slovenia,country in Central Europe
+55m,Netherlands,country in Northwestern Europe with territories in the Caribbean
+218m,Romania,country in Central and Eastern Europe
+77m,Uruguay,sovereign state in South America
+219m,Bulgaria,country in Southeast Europe
+221m,North Macedonia,country in southeastern Europe
+79m,Egypt,sovereign state in North Africa and Asia
+96m,Mexico,country in North America
+142m,France,country in Western Europe
+232m,Kazakhstan,sovereign state in Eastern Europe and Central Asia
+145m,United Kingdom,country in north-west Europe
+238m,San Marino,"sovereign state in southern Europe, enclaved within Italy"
+242m,Belize,sovereign state in Central America
+148m,People's Republic of China,country in East Asia
+155m,Brazil,country in South America
+244m,Barbados,island country in the Caribbean
+258m,South Africa,country in Southern Africa
+334m,Singapore,city-state in maritime Southeast Asia
+183m,Germany,country in Central Europe
+159m,Russia,sovereign state in Eastern Europe and Northern Asia
+423m,North Korea,sovereign state in East Asia
+184m,Belarus,country in Eastern Europe
+424m,Cambodia,sovereign state in Southeast Asia
+657m,Chad,sovereign state in central Africa
+672m,Tuvalu,island sovereign state in Oceania
+211m,Latvia,sovereign state in northeastern Europe
+678m,Tonga,"sovereign state in Oceania, situated on an archipelago"
+212m,Ukraine,country in Eastern Europe
+214m,Slovakia,country in Central Europe
+685m,Solomon Islands,island sovereign state in Oceania
+683m,Samoa,sovereign state made up of six islands in the Pacific Ocean
+691m,Papua New Guinea,country in Oceania
+217m,Moldova,country in Eastern Europe
+697m,Nauru,country in Oceania
+222m,Albania,country in southeastern Europe
+709m,Marshall Islands,island sovereign state in Oceania
+712m,Fiji,island sovereign state in Oceania
+224m,Croatia,country in Central and Southeastern Europe
+730m,Suriname,country in South America
+225m,Bosnia and Herzegovina,country in Southeast Europe
+733m,Paraguay,sovereign state in South America
+227m,Azerbaijan,country in the Caucasus in Eastern Europe
+734m,Guyana,country in South America
+736m,Ecuador,sovereign state in South America
+739m,Colombia,sovereign state in South America
+228m,Andorra,"sovereign microstate between France and Spain, in Western Europe"
+754m,Trinidad and Tobago,island sovereign state in the Caribbean
+229m,Cyprus,sovereign state situated on an island in the Eastern Mediterranean Sea
+757m,Saint Vincent and the Grenadines,island sovereign state in the Caribbean Sea
+233m,Malta,sovereign state in Southern Europe situated on an archipelago in the Mediterranean Sea
+763m,Saint Kitts and Nevis,island sovereign state in the Caribbean Sea
+235m,Monaco,sovereign city-state on the French Riviera
+774m,Guatemala,sovereign state in Central America
+766m,Jamaica,country in the Caribbean Sea
+236m,Montenegro,country in southeastern Europe
+781m,Antigua and Barbuda,island sovereign state in the Caribbean Sea
+241m,Cuba,sovereign state situated on an island in the Caribbean Sea
+792m,El Salvador,sovereign state in Central America
+252m,Indonesia,country in Southeast Asia and Oceania
+796m,Iraq,sovereign state in western Asia
+810m,Jordan,country in Western Asia
+811m,Nicaragua,sovereign state in Central America
+262m,Algeria,country in North Africa
+265m,Uzbekistan,sovereign state in Central Asia
+813m,Kyrgyzstan,sovereign state in Central Asia
+817m,Kuwait,sovereign state in Western Asia
+298m,Chile,country in South America
+826m,Maldives,"sovereign state in South Asia, situated on an archipelago in the Arabian Sea"
+347m,Liechtenstein,country in Central Europe
+833m,Malaysia,country in Southeast Asia
+836m,Myanmar,sovereign state in Southeast Asia
+398m,Bahrain,country in the Persian Gulf
+837m,Nepal,country in South Asia
+399m,Armenia,sovereign state in the South Caucasus region of Eurasia
+843m,Pakistan,sovereign state in South Asia
+403m,Serbia,country in southeastern Europe
+851m,Saudi Arabia,country in Western Asia
+874m,Turkmenistan,country in Central Asia
+854m,Sri Lanka,country in South Asia
+408m,Australia,country in Oceania
+881m,Vietnam,country in Southeast Asia
+917m,Bhutan,sovereign state in South Asia
+574m,East Timor,sovereign state situated on several islands in Southeast Asia
+419m,Peru,sovereign state in South America
+921m,Brunei,sovereign state in Southeast Asia
+414m,Argentina,sovereign state in South America
+924m,Tanzania,country in East Africa
+664m,New Zealand,island country in the southwest Pacific Ocean
+928m,Philippines,sovereign state in Southeast Asia
+948m,Tunisia,country in North Africa
+668m,India,country in South Asia
+686m,Vanuatu,country In Oceania
+953m,Zambia,sovereign state in Southern Africa
+954m,Zimbabwe,sovereign state in southern Africa
+710m,Kiribati,island sovereign state in the central Pacific Ocean
+958m,South Sudan,country in East Africa
+963m,Botswana,sovereign state in Southern Africa
+711m,Mongolia,country in East Asia
+717m,Venezuela,sovereign state in northern South America
+965m,Burkina Faso,sovereign state in Africa
+750m,Bolivia,sovereign state in South America
+967m,Burundi,sovereign state in Africa
+983m,Equatorial Guinea,sovereign state in Africa
+1006m,Guinea,sovereign state in West Africa
+760m,Saint Lucia,island sovereign state in the Caribbean Sea
+1008m,Ivory Coast,sovereign state in West Africa
+769m,Grenada,island sovereign state in the Caribbean Sea
+1009m,Cameroon,sovereign state in West Africa
+778m,The Bahamas,island sovereign state in the West Indies
+1011m,Cape Verde,sovereign state comprising ten islands off the Western coast of Africa
+1013m,Lesotho,sovereign state in southern Africa
+783m,Honduras,sovereign state in Central America
+1020m,Malawi,sovereign state in Africa
+1025m,Mauritania,sovereign state in West Africa and North Africa
+784m,Dominica,island sovereign state in the Caribbean Sea
+786m,Dominican Republic,island sovereign state in the Caribbean Sea
+790m,Haiti,island sovereign state in the Caribbean Sea
+1027m,Mauritius,island sovereign state off of Africa in the Indian Ocean
+1029m,Mozambique,country in Southeastern Africa
+800m,Costa Rica,country in Central America
+1036m,Uganda,country in East-central Africa
+1030m,Namibia,country in Southern Africa
+794m,Iran,country in Western Asia
+1037m,Rwanda,sovereign state in Africa
+801m,Israel,country in Western Asia
+1039m,São Tomé and Príncipe,island sovereign state in Africa
+1041m,Senegal,country on the coast of West Africa
+804m,Panama,sovereign state in Central America
+1045m,Somalia,sovereign state in Africa
+805m,Yemen,sovereign state in western Asia
+1050m,Eswatini,sovereign state in southern Africa
+3359409m,Micronesia,subregion of Oceania
+842m,Oman,sovereign state in western Asia
+819m,Laos,country in Southeast Asia
+846m,Qatar,country in Western Asia
+858m,Syria,sovereign state in western Asia
+863m,Tajikistan,sovereign state in Central Asia
+869m,Thailand,country in Southeast Asia
+878m,United Arab Emirates,sovereign state in Southwest Asia
+884m,South Korea,country in East Asia
+889m,Afghanistan,country in Central and South Asia
+902m,Bangladesh,country in South Asia
+912m,Mali,country in West Africa
+916m,Angola,sovereign state in Africa
+929m,Central African Republic,country in Central Africa
+945m,Togo,country in West Africa
+962m,Benin,sovereign state in West Africa
+970m,Comoros,sovereign state situated on an archipelago in the Indian Ocean off the eastern coast of Africa
+977m,Djibouti,sovereign state in Africa
+986m,Eritrea,country in the Horn of Africa
+1000m,Gabon,equatorial country in West Africa
+1005m,The Gambia,sovereign state in West Africa
+1007m,Guinea-Bissau,sovereign state in Western Africa
+1014m,Liberia,sovereign state in West Africa
+1016m,Libya,sovereign state in north Africa
+1032m,Niger,sovereign state in western Africa
+1019m,Madagascar,"island sovereign state off the coast of Southeast Africa, in the Indian Ocean"
+1033m,Nigeria,sovereign state in West Africa
+1042m,Seychelles,island sovereign state off the eastern coast of Africa
+1044m,Sierra Leone,sovereign state in West Africa
+1049m,Sudan,country in Northeast Africa
+22890m,Ireland,island in the North Atlantic Ocean

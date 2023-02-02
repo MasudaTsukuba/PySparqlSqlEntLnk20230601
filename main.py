@@ -2,9 +2,17 @@ import json
 import csv
 import sqlite3
 import trans_sql
+import time
+
+query_URI = 'query.json'
+output = 'output.csv'
+dbname = './data_set2/data2.db'
+mapping_URI = './data_set2/mapping/mapping.json'
+URI_directory = './data_set2/URI/'
+
 
 # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
-json_open = open('query.json', 'r')
+json_open = open(query_URI, 'r')
 query_dict = json.load(json_open)
 json_open.close()
 # ------------------------------------------------------------
@@ -12,7 +20,7 @@ json_open.close()
 # ------ マッピングデータを使ってSPARQL -> SQL に変換する ----------
 
 #マッピングデータの取り込み
-json_open = open('./mapping/proposed/mapping.json', 'r')
+json_open = open(mapping_URI, 'r')
 mapping_dict = json.load(json_open)
 json_open.close()
 
@@ -36,7 +44,9 @@ for i in range(len(query_dict['where'])):
 #SPARQLクエリの各トリプルパターンから候補のSQLクエリを検索
 SQL_query = []
 transURI_list = []
-
+check = []
+checked = []
+sparql_to_sql_s = time.time()
 for i in range(len(query_dict['where'][0]['triples'])):
     SQL_subquery = []
     q_predicate = query_dict['where'][0]['triples'][i]['predicate']['value']
@@ -50,8 +60,11 @@ for i in range(len(query_dict['where'][0]['triples'])):
             answer = trans_sql.f(sql,query,mapping,filter_list)
             re_sql = answer[0]
             if(answer[1] != []):
-                for i in range(len(answer[1])):
-                    transURI_list.append(answer[1][i])
+                for k in range(len(answer[1])):
+                    if answer[1][k][0] not in checked:
+                        transURI_list.append(answer[1][k])
+                        check.append(answer[1][k][0])
+                
             if(re_sql != 'No'):
                 SQL_subquery.append(re_sql)
 
@@ -63,18 +76,18 @@ for i in range(len(query_dict['where'][0]['triples'])):
                 insert_SQL = insert_SQL + ' UNION '
         insert_SQL = insert_SQL.replace(';','') + ';'
 
+    checked = checked + check
+    #print(transURI_list)
+
     SQL_query.append(insert_SQL)
 
-
+sparql_to_sql_e = time.time()
 
 #print(SQL_query)
 
 # ------------------------------------------------------------
 
 # --------- 各SQLクエリを実行 ----------------------------------
-
-
-dbname = 'data_set/data.db'
 
 conn = sqlite3.connect(dbname)
 
@@ -100,7 +113,12 @@ for i in range(len(SQL_query)):
 
 exe_query = exe_query.replace(';','') + ';'
 
+#print(exe_query)
+
+q_start = time.time()
 results = cur.execute(exe_query).fetchall()
+q_end = time.time()
+
 headers = [col[0] for col in cur.description]
 
 # --------- SQLクエリ結果をSPARQLクエリ結果に合わせるため、必要に応じて文字列->URIに変換する ----------------------------------
@@ -114,17 +132,30 @@ results = [list(i) for i in results]
 
 #結果の表示, output.csvに出力される
 
+#print(transURI_list)
+
+t_start = time.time()
+
 for i in range(len(headers)):
     for transURI in transURI_list:
+
         if((headers[i] == transURI[0]) & (transURI[1] != 'plain')):
-             with open('./URI/' + transURI[1] + '.csv') as g:
+            with open(URI_directory + transURI[1] + '.csv') as g:
                 reader = csv.reader(g)
                 for row in reader:
                     for j in range(len(results)):
                         if(results[j][i] == row[0]):
                             results[j][i] = row[1]
+                            break
 
-with open('output.csv', mode='w') as file:
+t_end = time.time()
+
+with open(output, mode='w') as file:
     writer = csv.writer(file)
     writer.writerow(headers)
     writer.writerows(results)
+
+
+print('SPRARQL to SQL time: {0}'.format(sparql_to_sql_e - sparql_to_sql_s))
+print('SQL exe time: {0}'.format(q_end - q_start))
+print('URI trans time: {0}'.format(t_end - t_start))

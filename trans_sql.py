@@ -1,10 +1,14 @@
 import csv
 import rewriter
 
+URI_directory = '/data_set2/URI/'
+
 def f(sql:str, sparql, mapping, filter_list):
     #subject
+
     # print(sparql)
     # print(mapping)
+
     trans_URI = []
     if(sparql['subject']['termType']=='Variable'):
         value = sparql['subject']['value']
@@ -14,7 +18,7 @@ def f(sql:str, sparql, mapping, filter_list):
     elif(sparql['subject']['termType']=='NamedNode'):
         value = sparql['subject']['value']
         uri_function = mapping['subject_uri']
-        with open('./URI/' + uri_function + '.csv') as g:
+        with open(URI_directory + uri_function + '.csv') as g:
             reader = csv.reader(g)
             for row in reader:
                 if(value == row[1]):
@@ -42,7 +46,7 @@ def f(sql:str, sparql, mapping, filter_list):
         else:
             value = sparql['object']['value']
             uri_function = mapping['object_uri']
-            with open('./URI/' + uri_function + '.csv') as g:
+            with open(URI_directory + uri_function + '.csv') as g:
                 reader = csv.reader(g)
                 for row in reader:
                     if(value == row[1]):
