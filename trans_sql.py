@@ -64,3 +64,8 @@ def f(sql:str, sparql, mapping, filter_list):
 
     return [sql,trans_URI]
 
+def g(URI_mapping, b_trans, a_trans):
+    sql = str(URI_mapping['SQL'])
+    sql = sql.replace(URI_mapping['x'], b_trans)
+    sql = sql.replace(URI_mapping['y'], a_trans)
+    return sql
