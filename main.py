@@ -57,13 +57,16 @@ for i in range(len(query_dict['where'][0]['triples'])):
     q_predicate = query_dict['where'][0]['triples'][i]['predicate']['value']
     q_type = query_dict['where'][0]['triples'][i]['predicate']['termType']
     if(q_type != 'Variable'):
-        for j in range(len(mapping_dict)):
-            predicate = mapping_dict[j]["predicate"]
+        # for j in range(len(mapping_dict)):
+        for mapping in mapping_dict:
+            # predicate = mapping_dict[j]["predicate"]
+            predicate = mapping["predicate"]
 
             if(q_predicate == predicate):
-                sql = mapping_dict[j]["SQL"]
+                # sql = mapping_dict[j]["SQL"]
+                sql = mapping["SQL"]
                 query = query_dict['where'][0]['triples'][i]
-                mapping = mapping_dict[j]
+                # mapping = mapping_dict[j]
                 answer = trans_sql.f(sql,query,mapping,filter_list)
                 re_sql = answer[0]
                 if(answer[1] != []):
