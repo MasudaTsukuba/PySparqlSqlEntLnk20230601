@@ -32,10 +32,14 @@ for i in range(len(query_dict['variables'])):
 
 #FILTERの条件リストを作成
 filter_list = []
-for i in range(len(query_dict['where'])):
-    if(query_dict['where'][i]['type'] == 'filter'):
-        prefix = query_dict['where'][i]['expression']['args']
-        filter_list.append([prefix[0]['value'],prefix[0]['value'] + ' ' + query_dict['where'][i]['expression']['operator'] + ' "' + prefix[1]['value'] + '"'])
+# for i in range(len(query_dict['where'])):
+#     if(query_dict['where'][i]['type'] == 'filter'):
+#         prefix = query_dict['where'][i]['expression']['args']
+#         filter_list.append([prefix[0]['value'],prefix[0]['value'] + ' ' + query_dict['where'][i]['expression']['operator'] + ' "' + prefix[1]['value'] + '"'])
+for element in query_dict['where']:
+    if element['type'] == 'filter':
+        prefix = element['expression']['args']
+        filter_list.append([prefix[0]['value'], prefix[0]['value'] + ' ' + element['expression']['operator'] + ' "' + prefix[1]['value'] + '"'])
 
 #print(var_list)
 #print(filter_list)
