@@ -1,29 +1,29 @@
 import json
 import re
 import sqlite3
-from UriClass import Uri
+# from UriClass import Uri
 
 
 class SparqlQuery:
-    def __init__(self, query_uri, uri_path):
+    def __init__(self, query_uri, uri):
         # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
-        self.var_list = None
-        self.filter_list = None
+        self.var_list = None  # list of variables
+        self.filter_list = None  # list of filters
         self.trans_uri_list = None
         self.sql_query = None
         self.exe_query = None
-        self.uri = Uri(uri_path)
+        self.uri = uri  # instance of Uri class
         json_open = open(query_uri, 'r')
-        self.query_dict = json.load(json_open)
+        self.query_in_json = json.load(json_open)  # read query in jason format
         json_open.close()
 
-        def open_mapping():
-            uri_mapping = './data_set2/URI/URI_mapping.json'
-            json_open = open(uri_mapping, 'r')
-            u_mapping_dict = json.load(json_open)
-            json_open.close()
-            return u_mapping_dict
-        self.u_mapping_dict = open_mapping()
+        # def open_mapping():
+        #     uri_mapping = './data_set2/URI/URI_mapping.json'
+        #     json_open = open(uri_mapping, 'r')
+        #     uri_mapping_dict = json.load(json_open)
+        #     json_open.close()
+        #     return uri_mapping_dict
+        # self.uri_mapping_dict = open_mapping()
 
         # ------------------------------------------------------------
 
@@ -34,7 +34,7 @@ class SparqlQuery:
             for var in query_dict['variables']:  # extract variables from json
                 var_list.append(var['value'])  # append to a variable list
             return var_list
-        self.var_list = create_var_list(self.query_dict)
+        self.var_list = create_var_list(self.query_in_json)
 
         def create_filter_list(query_dict):
             # FILTERの条件リストを作成
@@ -48,7 +48,7 @@ class SparqlQuery:
                          + element['expression']['operator'] + ' "'  # =
                          + prefix[1]['value'] + '"'])  # 'United Kingdom'
             return filter_list
-        self.filter_list = create_filter_list(self.query_dict)
+        self.filter_list = create_filter_list(self.query_in_json)
 
         def create_sql_query(query_dict, filter_list, uri):
             # SPARQLクエリの各トリプルパターンから候補のSQLクエリを検索
@@ -122,7 +122,7 @@ class SparqlQuery:
             trans_uri_list = list(set(tuple(i) for i in trans_uri_list))
             trans_uri_list = [list(i) for i in trans_uri_list]
             return sql_query, trans_uri_list
-        self.sql_query, self.trans_uri_list = create_sql_query(self.query_dict, self.filter_list, self.uri)
+        self.sql_query, self.trans_uri_list = create_sql_query(self.query_in_json, self.filter_list, self.uri)
 
         def create_sql(var_list, sql_query):
             select_var = ''
@@ -149,11 +149,11 @@ class SparqlQuery:
             return tmp
         trans_uri_list = create_trans_uri_list(self.trans_uri_list)
 
-        def prepare_sql_tquery(u_mapping_dict):
+        def prepare_sql_tquery(uri_mapping_dict):
             def g(uri_mapping, b_trans, a_trans):
-                sql = str(uri_mapping['SQL'])
-                sql = sql.replace(uri_mapping['x'], b_trans)
-                sql = sql.replace(uri_mapping['y'], a_trans)
+                sql = str(uri_mapping['SQL'])  # "SQL":"SELECT ID AS A0, URI_Build AS A1 FROM PREFIX_Build"
+                sql = sql.replace(uri_mapping['x'], b_trans)  # "x":"A0"
+                sql = sql.replace(uri_mapping['y'], a_trans)  # "y":"A1"
                 return sql
 
             sql_tquery = []
@@ -161,7 +161,7 @@ class SparqlQuery:
             r_list = []
             for s in self.var_list:
                 r_list.append(s)
-            # print(r_list)
+            # print(r_list)  # ['s', 'name', 'cname']
             for y in range(len(r_list)):
                 or_query = []
                 insert_sql = ''
@@ -169,7 +169,7 @@ class SparqlQuery:
                 sql = ''
                 for j in trans_uri_list:
                     if j[0] == r_list[y]:
-                        for k in u_mapping_dict:
+                        for k in uri_mapping_dict:
                             if k['name'] == j[1]:
                                 i0 = r_list[y] + 'trans'
                                 sql = g(k, r_list[y], i0)
@@ -178,13 +178,13 @@ class SparqlQuery:
                     for or_q in or_query:
                         insert_sql += or_q + ' UNION '
                     insert_sql = re.sub('UNION $', '', insert_sql)
-                    insert_sql = insert_sql.replace(';', '') + ';'
+                    insert_sql = insert_sql.replace(';', '') + ';'  # add semicolon at the end while suppressing the duplicate
 
                 if insert_sql != '':
                     sql_tquery.append(insert_sql)
                     r_list[y] = i0
             return sql_tquery, r_list
-        sql_tquery, r_list = prepare_sql_tquery(self.u_mapping_dict)
+        sql_tquery, r_list = prepare_sql_tquery(self.uri.uri_mapping_dict)
 
         def uri_db(uri_database, var_list):
             c = sqlite3.connect(uri_database)
@@ -197,11 +197,20 @@ class SparqlQuery:
                     select_var = select_var + var_list[i]
             c.execute('CREATE TABLE Result(' + select_var + ')')
             v = ''
-            for b in range(len(var_list) - 1):
+            # for b in range(len(var_list) - 1):
+            for b in range(len(var_list)):
                 v = v + '?,'
-                if b == len(var_list) - 2:
-                    v = v + '?'
+                # if b == len(var_list) - 2:
+                # if b == len(var_list) - 1:
+                #     v = v + '?'
+            v = re.sub(',$', '', v)
             c.executemany('INSERT INTO Result (' + select_var + ') values (' + v + ')', results)
+            # for result in results:
+            #     v = ''
+            #     for element in result:
+            #         v += element + ', '
+            #     v = re.sub(', $', '', v)
+            #     c.execute('INSERT INTO Result (' + select_var + ') values (' + v + ')')
             cur = c.cursor()
             return cur
         cu = uri_db(uri_database, self.var_list)

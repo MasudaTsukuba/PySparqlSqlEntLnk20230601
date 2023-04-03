@@ -1,6 +1,7 @@
 from MappingClass import Mapping
 from DatabaseClass import DataBase
 from SparqlQueryClass import SparqlQuery
+from UriClass import Uri
 from OutputClass import Output
 
 
@@ -21,13 +22,18 @@ def main():
     # ------ マッピングデータを使ってSPARQL -> SQL に変換する ----------
     mapping_class = Mapping()
     # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
-    sparql_query = SparqlQuery('query/q2.json', './data_set2/URI/')
+    uri = Uri('./data_set2/URI/')
+    input_file = 'query/q3b.json'
+    # sparql_query = SparqlQuery('query/q2.json', uri)
+    sparql_query = SparqlQuery(input_file, uri)
+    # sparql_query = SparqlQuery('query/q7.json', uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
     sql_results, headers = data_base.execute(exe_query)  # execute sql query
     data_base.close()
     # results = [('15923583h', 'Conrad Hong Kong', "People's Republic of Chine")]  # debug, 20230323
     sparql_results = sparql_query.convert_to_rdf(uri_database, sql_results)  # back to rdf
-    Output.save_file(output_file_name, sparql_results, headers)  # save in a file
+    # Output.save_file(output_file_name, sparql_results, headers)  # save in a file
+    Output.save_file(input_file.replace('query/', 'output/').replace('.json', '.csv'), sparql_results, headers)  # save in a file
     return sparql_results
 
 

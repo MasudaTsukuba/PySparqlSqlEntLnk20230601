@@ -1,7 +1,7 @@
 import csv
 
 
-class Output:  # write the spaqrl query results ibto a file
+class Output:  # write the sparql query results into a file
     def __init__(self):
         pass
 
