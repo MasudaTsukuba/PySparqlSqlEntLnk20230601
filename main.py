@@ -23,7 +23,7 @@ def main():
     mapping_class = Mapping()
     # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
     uri = Uri('./data_set2/URI/')
-    input_file = 'query/q3b.json'
+    input_file = 'query/q1.json'
     # sparql_query = SparqlQuery('query/q2.json', uri)
     sparql_query = SparqlQuery(input_file, uri)
     # sparql_query = SparqlQuery('query/q7.json', uri)

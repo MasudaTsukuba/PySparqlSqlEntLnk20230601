@@ -167,22 +167,22 @@ class SparqlQuery:
                 insert_sql = ''
                 i0 = ''
                 sql = ''
-                for j in trans_uri_list:
-                    if j[0] == r_list[y]:
+                for j in trans_uri_list:  # [['s', 'PREFIX_museum'],...]
+                    if j[0] == r_list[y]:  # name of a variable
                         for k in uri_mapping_dict:
-                            if k['name'] == j[1]:
-                                i0 = r_list[y] + 'trans'
-                                sql = g(k, r_list[y], i0)
+                            if k['name'] == j[1]:  # mapping table/function
+                                i0 = r_list[y] + 'trans'  # s -> strans
+                                sql = g(k, r_list[y], i0)  # query for search PREFIX*
                         or_query.append(sql)
                 if len(or_query) != 0:
                     for or_q in or_query:
-                        insert_sql += or_q + ' UNION '
-                    insert_sql = re.sub('UNION $', '', insert_sql)
+                        insert_sql += or_q + ' UNION '  # combine with 'UNION
+                    insert_sql = re.sub('UNION $', '', insert_sql)  # remove the last 'UNION'
                     insert_sql = insert_sql.replace(';', '') + ';'  # add semicolon at the end while suppressing the duplicate
 
                 if insert_sql != '':
-                    sql_tquery.append(insert_sql)
-                    r_list[y] = i0
+                    sql_tquery.append(insert_sql)  # list of sql's
+                    r_list[y] = i0  # replace the list of variables
             return sql_tquery, r_list
         sql_tquery, r_list = prepare_sql_tquery(self.uri.uri_mapping_dict)
 
@@ -195,7 +195,7 @@ class SparqlQuery:
                     select_var = select_var + var_list[i] + ', '
                 else:
                     select_var = select_var + var_list[i]
-            c.execute('CREATE TABLE Result(' + select_var + ')')
+            c.execute('CREATE TABLE Result(' + select_var + ')')  # empty table
             v = ''
             # for b in range(len(var_list) - 1):
             for b in range(len(var_list)):
@@ -205,6 +205,7 @@ class SparqlQuery:
                 #     v = v + '?'
             v = re.sub(',$', '', v)
             c.executemany('INSERT INTO Result (' + select_var + ') values (' + v + ')', results)
+            # save the results of SQL query into a RD table
             # for result in results:
             #     v = ''
             #     for element in result:
@@ -219,6 +220,7 @@ class SparqlQuery:
         # test_results = cursor.execute(test_query).fetchall()  # debug 20230323
 
         def build_query(cursor, r_list, sql_tquery):
+            # by searching ID with ID->URI conversion table, convert ID to URI
             select_var2 = ''
             for r_l in r_list:
                 select_var2 += r_l + ', '
@@ -226,6 +228,7 @@ class SparqlQuery:
 
             # exe_query = 'SELECT ' + select_var2 + ' FROM (Result) '
             exe_query = 'SELECT DISTINCT ' + select_var2 + ' FROM (Result) '  # 20230323
+            # match 's' against Results and at the same time 's' and URI against PREFIX***
             for sql_tq in sql_tquery:
                 # exe_query = exe_query + ' NATURAL JOIN (' + SQL_tquery[i] + ')'
                 exe_query = exe_query + ' NATURAL LEFT JOIN (' + sql_tq + ')'  # 20230323
