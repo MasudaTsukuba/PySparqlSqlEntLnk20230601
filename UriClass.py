@@ -92,6 +92,9 @@ class Uri:
             if mapping['object_uri'] == '-':
                 if value != mapping['object']:
                     return ['No', []]
+            elif mapping['object_uri'] == 'plain':  # 2023/5/8
+                sql_value = value  # 2023/5/8
+                sql = rewrite_where_sql(sql, sql_value, mapping['object'])  # 2023/5/8
             else:
                 value = triple['object']['value']
                 uri_function = mapping['object_uri']
@@ -101,9 +104,12 @@ class Uri:
                 #         if value == row[1]:
                 #             sql_value = '"' + row[0] + '"'
                 #             break
-                sql_value = self.inv_dict[uri_function][value]
-                sql = rewrite_where_sql(sql, sql_value, mapping['object'])
-                # sql = sql.replace(mapping['object'], value)
+                try:  # 2023/5/8
+                    sql_value = self.inv_dict[uri_function][value]
+                    sql = rewrite_where_sql(sql, sql_value, mapping['object'])
+                    # sql = sql.replace(mapping['object'], value)
+                except KeyError:  # 2023/5/8
+                    return ['No', []]  # 2023/5/8
         else:  # termTypeが'Literalのとき'
             value = triple['object']['value']
             uri_function = mapping['object_uri']

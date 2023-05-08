@@ -3,9 +3,27 @@ from DatabaseClass import DataBase
 from SparqlQueryClass import SparqlQuery
 from UriClass import Uri
 from OutputClass import Output
+import subprocess
 
 
-def main():
+path = '/home/masuda/PycharmProjects/PySparqlQuery20230508/'
+working_dir = '/home/masuda/PycharmProjects/PySparqlSatoNew20230501/'
+
+
+def query2json(input_file):
+    json_file = input_file.replace('.txt', '.json')
+    command = working_dir + 'action_folder/node_modules/sparqljs/bin/sparql-to-json'
+    cp = subprocess.run([command, '--strict', path + input_file],
+                        capture_output=True, text=True)  # , '>', 'query_parse.json'])  # クエリをjson形式に構造化
+    if cp.returncode != 0:
+        print('Error: sparql-to-json: ', cp.stderr)
+        return -1
+    with open(working_dir+json_file, mode='w') as f:
+        f.write(cp.stdout)
+    return working_dir+json_file
+
+
+def execute_query(input_file):
     # query_URI = 'query.json'
     # query_URI = 'query/q1.json'  # #################2023/3/20
     # query_uri = 'query/q2.json'  # #################2023/3/20
@@ -23,9 +41,9 @@ def main():
     mapping_class = Mapping()
     # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
     uri = Uri('./data_set2/URI/')
-    input_file = 'query/q1.json'
+    # input_file = 'query/q1.json'
     # sparql_query = SparqlQuery('query/q2.json', uri)
-    sparql_query = SparqlQuery(input_file, uri)
+    sparql_query = SparqlQuery(query2json(input_file), uri)
     # sparql_query = SparqlQuery('query/q7.json', uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
     sql_results, headers = data_base.execute(exe_query)  # execute sql query
@@ -34,8 +52,11 @@ def main():
     sparql_results = sparql_query.convert_to_rdf(uri_database, sql_results)  # back to rdf
     # Output.save_file(output_file_name, sparql_results, headers)  # save in a file
     Output.save_file(input_file.replace('query/', 'output/').replace('.json', '.csv'), sparql_results, headers)  # save in a file
+    print(len(sparql_results))
     return sparql_results
 
 
 if __name__ == '__main__':
-    main()
+    # execute_query('query/q1.json')
+    # execute_query('query/q1.txt')
+    execute_query('query/q1pred_hotel.txt')

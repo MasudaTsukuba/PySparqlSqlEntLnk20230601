@@ -14,7 +14,7 @@ class SparqlQuery:
         self.exe_query = None
         self.uri = uri  # instance of Uri class
         json_open = open(query_uri, 'r')
-        self.query_in_json = json.load(json_open)  # read query in jason format
+        self.query_in_json = json.load(json_open)  # read query in json format
         json_open.close()
 
         # def open_mapping():

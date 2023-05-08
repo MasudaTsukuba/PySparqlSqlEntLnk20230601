@@ -15,7 +15,7 @@
         "subject":"Var1",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
         "object":"http://example.com/ontology/Hotel",
-        "SQL":"SELECT h_id AS Var1 FROM Hotel;"
+        "SQL":"SELECT h_id AS Var1, \"dummy\" AS Var1b FROM Hotel;"
     },
     {
         "mappingID":3,
@@ -84,9 +84,9 @@
         "mappingID":10,
         "subject_uri":"PREFIX_Build",
         "object_uri":"plain",
-        "subject":"Var10",
+        "subject":"Var14",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
-        "object":"Var11",
+        "object":"Var15",
         "SQL":"SELECT b_id AS Var14, comment AS Var15 FROM Build;"
     },
     {
@@ -123,7 +123,7 @@
         "subject":"Var22",
         "predicate":"http://example.com/predicate/country",
         "object":"Var23",
-        "SQL":"SELECT museum.museum_id AS Var20, M_country.co_id AS Var21 FROM museumIncountry, museum, M_country WHERE museum.museum_id = museumIncountry.museum_id AND museumIncountry.co_id = M_country.co_id;"
+        "SQL":"SELECT museum.museum_id AS Var22, M_country.co_id AS Var23 FROM museumIncountry, museum, M_country WHERE museum.museum_id = museumIncountry.museum_id AND museumIncountry.co_id = M_country.co_id;"
     },
     {
         "mappingID":15,
@@ -148,7 +148,7 @@
         "subject_uri":"PREFIX_countryW",
         "object_uri":"plain",
         "subject":"Var28",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var29",
         "SQL":"SELECT c_id AS Var28, name AS Var29 FROM W_country;"
     },
@@ -157,7 +157,7 @@
         "subject_uri":"PREFIX_countryM",
         "object_uri":"plain",
         "subject":"Var30",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var31",
         "SQL":"SELECT co_id AS Var30, name AS Var31 FROM M_country;"
     },
@@ -166,7 +166,7 @@
         "subject_uri":"PREFIX_countryH",
         "object_uri":"plain",
         "subject":"Var32",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var33",
         "SQL":"SELECT cn_id AS Var32, name AS Var33 FROM H_country;"
     },
@@ -175,7 +175,7 @@
         "subject_uri":"PREFIX_countryB",
         "object_uri":"plain",
         "subject":"Var34",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var35",
         "SQL":"SELECT bc_id AS Var34, name AS Var35 FROM B_country;"
     },
@@ -184,7 +184,7 @@
         "subject_uri":"PREFIX_countryW",
         "object_uri":"plain",
         "subject":"Var36",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var37",
         "SQL":"SELECT c_id AS Var36, comment AS Var37 FROM W_country;"
     },
@@ -193,7 +193,7 @@
         "subject_uri":"PREFIX_countryM",
         "object_uri":"plain",
         "subject":"Var38",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var39",
         "SQL":"SELECT co_id AS Var38, comment AS Var39 FROM M_country;"
     },
@@ -202,7 +202,7 @@
         "subject_uri":"PREFIX_countryH",
         "object_uri":"plain",
         "subject":"Var40",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var41",
         "SQL":"SELECT cn_id AS Var40, name AS Var41 FROM H_country;"
     },
@@ -211,7 +211,7 @@
         "subject_uri":"PREFIX_countryB",
         "object_uri":"plain",
         "subject":"Var42",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var43",
         "SQL":"SELECT bc_id AS Var42, name AS Var43 FROM B_country;"
     }
