@@ -7,7 +7,7 @@ import subprocess
 
 
 path = '/home/masuda/PycharmProjects/PySparqlQuery20230508/'
-working_dir = '/home/masuda/PycharmProjects/PySparqlSatoNew20230501/'
+working_dir = '/home/masuda/PycharmProjects/PySparqlSatoNew20230509/'
 
 
 def query2json(input_file):
