@@ -46,12 +46,14 @@ def execute_query(input_file):
     sparql_query = SparqlQuery(query2json(input_file), uri)
     # sparql_query = SparqlQuery('query/q7.json', uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
+    print(exe_query)
     sql_results, headers = data_base.execute(exe_query)  # execute sql query
     data_base.close()
     # results = [('15923583h', 'Conrad Hong Kong', "People's Republic of Chine")]  # debug, 20230323
     sparql_results = sparql_query.convert_to_rdf(uri_database, sql_results)  # back to rdf
     # Output.save_file(output_file_name, sparql_results, headers)  # save in a file
-    Output.save_file(input_file.replace('query/', 'output/').replace('.json', '.csv'), sparql_results, headers)  # save in a file
+    Output.save_file(input_file.replace('query/', 'output/').replace('.json', '.csv'),
+                     sparql_results, headers)  # save in a file
     print(len(sparql_results))
     return sparql_results
 
@@ -59,4 +61,9 @@ def execute_query(input_file):
 if __name__ == '__main__':
     # execute_query('query/q1.json')
     # execute_query('query/q1.txt')
-    execute_query('query/q1pred_hotel.txt')
+    # query = 'query/q1pred_hotel.txt'
+    # query = 'query/q1pred_build.txt'
+    # query = 'query/q1pred_museum.txt'
+    # query = 'query/q1pred_heritage.txt'
+    query = 'query/query_type_object_hotel20230518.txt'
+    execute_query(query)

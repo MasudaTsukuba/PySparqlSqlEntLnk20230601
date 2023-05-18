@@ -222,16 +222,20 @@ class SparqlQuery:
         def build_query(cursor, r_list, sql_tquery):
             # by searching ID with ID->URI conversion table, convert ID to URI
             select_var2 = ''
-            for r_l in r_list:
-                select_var2 += r_l + ', '
+            for r_l, var in zip(r_list, self.var_list):
+                if r_l:
+                    select_var2 += r_l + ', '
+                else:
+                    select_var2 += var + ', '  # 2023/5/18
             select_var2 = re.sub(', $', '', select_var2)
 
             # exe_query = 'SELECT ' + select_var2 + ' FROM (Result) '
             exe_query = 'SELECT DISTINCT ' + select_var2 + ' FROM (Result) '  # 20230323
             # match 's' against Results and at the same time 's' and URI against PREFIX***
             for sql_tq in sql_tquery:
-                # exe_query = exe_query + ' NATURAL JOIN (' + SQL_tquery[i] + ')'
-                exe_query = exe_query + ' NATURAL LEFT JOIN (' + sql_tq + ')'  # 20230323
+                if sql_tq != ' ;':  # 2023/5/18
+                    # exe_query = exe_query + ' NATURAL JOIN (' + SQL_tquery[i] + ')'
+                    exe_query = exe_query + ' NATURAL LEFT JOIN (' + sql_tq + ')'  # 20230323
             exe_query = exe_query.replace(';', '') + ';'
             print(exe_query)
             sql_results = cursor.execute(exe_query).fetchall()
