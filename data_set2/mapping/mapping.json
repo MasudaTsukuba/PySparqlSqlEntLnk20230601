@@ -3,37 +3,37 @@
         "mappingID":1,
         "subject_uri":"PREFIX_museum",
         "object_uri":"-",
-        "subject":"Var0",
+        "subject":"Var100",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Museum",
-        "SQL":"SELECT museum_id AS Var0 FROM museum;"
+        "object":"Var102",
+        "SQL":"SELECT museum_id AS Var100, \"http://example.com/ontology/Museum\" AS Var102 FROM museum;"
     },
     {
         "mappingID":2,
         "subject_uri":"PREFIX_hotel",
         "object_uri":"-",
-        "subject":"Var1",
+        "subject":"Var200",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Hotel",
-        "SQL":"SELECT h_id AS Var1, \"dummy\" AS Var1b FROM Hotel;"
+        "object":"Var202",
+        "SQL":"SELECT h_id AS Var200, \"http://example.com/ontology/Hotel\" AS Var202 FROM Hotel;"
     },
     {
         "mappingID":3,
         "subject_uri":"PREFIX_Build",
         "object_uri":"-",
-        "subject":"Var2",
+        "subject":"Var300",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Build",
-        "SQL":"SELECT b_id AS Var2 FROM Build;"
+        "object":"Var302",
+        "SQL":"SELECT b_id AS Var300, \"http://example.com/ontology/Build\" AS Var302 FROM Build;"
     },
     {
         "mappingID":4,
         "subject_uri":"PREFIX_WH",
         "object_uri":"-",
-        "subject":"Var3",
+        "subject":"Var400",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/World_Heritage",
-        "SQL":"SELECT p_id AS Var3 FROM heritage;"
+        "object":"Var402",
+        "SQL":"SELECT p_id AS Var400, \"http://example.com/ontology/World_Heritage\" AS Var402 FROM heritage;"
     },
     {
         "mappingID":5,

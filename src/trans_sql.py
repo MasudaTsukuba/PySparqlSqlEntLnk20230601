@@ -24,7 +24,7 @@ def f(sql:str, sparql, mapping, filter_list):
                 if(value == row[1]):
                      sql_value = row[0]
                      break     
-            sql = rewriter.rewrite_where_sql(sql,sql_value,mapping['subject'])
+            sql = rewriter.rewrite_where_sql(sql, sql_value, mapping['subject'])
 
     #object
     if(sparql['object']['termType']=='Variable'):
@@ -34,7 +34,7 @@ def f(sql:str, sparql, mapping, filter_list):
 
         for filter in filter_list:
             if(filter[0] == value):
-                sql = rewriter.rewrite_where_sql_filter(sql,filter[1])
+                sql = rewriter.rewrite_where_sql_filter(sql, filter[1])
 
     
     elif(sparql['object']['termType']=='NamedNode'):
@@ -52,14 +52,14 @@ def f(sql:str, sparql, mapping, filter_list):
                     if(value == row[1]):
                         sql_value = '"' + row[0] + '"'
                         break
-            sql = rewriter.rewrite_where_sql(sql,sql_value,mapping['object'])
+            sql = rewriter.rewrite_where_sql(sql, sql_value, mapping['object'])
             # sql = sql.replace(mapping['object'], value)
     
     else: #termTypeが'Literalのとき'
          value = sparql['object']['value']
          uri_function = mapping['object_uri']
          if(uri_function == 'plain'):
-           sql = rewriter.rewrite_where_sql(sql,value,mapping['object'])
+           sql = rewriter.rewrite_where_sql(sql, value, mapping['object'])
            sql = sql.replace(mapping['object'], value)
 
     return [sql,trans_URI]

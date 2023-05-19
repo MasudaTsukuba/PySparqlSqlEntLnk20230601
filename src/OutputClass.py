@@ -15,9 +15,9 @@ class Output:  # write the sparql query results into a file
         for item in results:
             if not isinstance(item[0], str):
                 print(index, item)
-                results2.append(['None', item[1]])
+                results2.append(['None']+item[1:])
             else:
-                results2.append([item[0], item[1]])
+                results2.append(item)
             index += 1
         sorted_results = sorted(results2, key=lambda x: x[0])  # sort
         # try:

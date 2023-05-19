@@ -27,7 +27,7 @@ def csv_to_sqlite(csv_file, db_file, table_name):
     conn.close()
 
 
-uri_path = './data_set2/URI/'
+uri_path = '../data_set2/URI/'
 files = os.listdir(uri_path)
 for file in files:
     if file.startswith('PREFIX'):
