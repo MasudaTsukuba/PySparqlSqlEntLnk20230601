@@ -8,6 +8,8 @@ from src.OutputClass import Output
 
 
 working_dir = os.getcwd()
+if working_dir.endswith('src'):
+    working_dir = os.path.dirname(working_dir)
 common_query_path = os.path.dirname(working_dir)+'/PySparqlQuery20230508/query/'
 
 
@@ -26,14 +28,15 @@ def query2json(input_file):  # convert sparql query string into json format
 
 def execute_query(input_file):
     uri_database = './data_set2/URI/URI_data.db'
-    data_base = DataBase('./data_set2/data2.db')
+    # data_base = DataBase('./data_set2/data2.db')
+    data_base = DataBase(working_dir+'/data_set2/landmark.db')  # 2023/5/22
     # ------ マッピングデータを使ってSPARQL -> SQL に変換する ----------
-    mapping_class = Mapping('./data_set2/mapping/mapping_revised.json')
+    mapping_class = Mapping(working_dir+'/data_set2/mapping/mapping_revised.json')
     # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
-    uri = Uri('./data_set2/URI/')
+    uri = Uri(working_dir+'/data_set2/URI/')
     sparql_query = SparqlQuery(query2json(input_file), uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
-    print(exe_query)  # debug
+    print(exe_query)  # for debug
     sql_results, headers = data_base.execute(exe_query)  # execute sql query
     data_base.close()
     sparql_results = sparql_query.convert_to_rdf(uri, sql_results)  # back to rdf
@@ -44,8 +47,10 @@ def execute_query(input_file):
 
 
 if __name__ == '__main__':
-    query = 'q1.txt'
-    query = 'q3b.txt'
+    # query = 'q1.txt'
+    # query = 'q3b.txt'
+    query = 'q5.txt'
+    # query = 'q5c.txt'
     # query = 'q7.txt'
     # query = 'q1pred_hotel.txt'
     # query = 'q1pred_build.txt'
@@ -58,4 +63,5 @@ if __name__ == '__main__':
     # query = 'query_extract_heritages20230519.txt'
     # query = 'query_extract_hotels_with_name20230519.txt'
     # query = 'query_extract_labels20230519.txt'
+    query = 'q1pred_get_hotel.txt'
     execute_query(query)

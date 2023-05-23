@@ -9,13 +9,15 @@ class SparqlQuery:
         # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
         self.var_list = None  # list of variables
         self.filter_list = None  # list of filters
-        self.trans_uri_list = None
+        # self.trans_uri_list = None  # not used? 2023/5/23
         self.sql_query = None
         self.exe_query = None
         self.uri = uri  # instance of Uri class
-        json_open = open(query_uri, 'r')
-        self.query_in_json = json.load(json_open)  # read query in json format
-        json_open.close()
+        # json_open = open(query_uri, 'r')
+        # self.query_in_json = json.load(json_open)  # read query in json format
+        # json_open.close()
+        with open(query_uri, 'r') as json_open:
+            self.query_in_json = json.load(json_open)  # read query in json format
 
         # def open_mapping():
         #     uri_mapping = './data_set2/URI/URI_mapping.json'
@@ -28,13 +30,13 @@ class SparqlQuery:
         # ------------------------------------------------------------
 
     def convert_to_sql(self, mapping_class):  # sparql to intermediate sql
-        def create_var_list(query_dict):
+        def create_var_list(query_dict):  # create a list of variables in sparql query
             # 出力する変数リストを作成
             var_list = []
             for var in query_dict['variables']:  # extract variables from json
                 var_list.append(var['value'])  # append to a variable list
             return var_list
-        self.var_list = create_var_list(self.query_in_json)
+        self.var_list = create_var_list(self.query_in_json)  # create a list of variables in sparql query: ['s', 'name, 'cname']
 
         def create_filter_list(query_dict):
             # FILTERの条件リストを作成
@@ -48,12 +50,12 @@ class SparqlQuery:
                          + element['expression']['operator'] + ' "'  # =
                          + prefix[1]['value'] + '"'])  # 'United Kingdom'
             return filter_list
-        self.filter_list = create_filter_list(self.query_in_json)
+        self.filter_list = create_filter_list(self.query_in_json)  # create a list of filters: []
 
-        def create_sql_query(query_dict, filter_list, uri):
+        def create_sql_query(query_dict, filter_list, uri):  # create a list of individual sql queries
             # SPARQLクエリの各トリプルパターンから候補のSQLクエリを検索
             sql_query = []  # return sql
-            trans_uri_list = []  # return value
+            # trans_uri_list = []  # return value
             check = []
             checked = []
             for triple in query_dict['where'][0]['triples']:  # process each triple in sparql query
@@ -66,10 +68,10 @@ class SparqlQuery:
                     'termType': 'NamedNode', 
                     'value': 'http://example.com/ontology/Museum'}}
                 """
-                sql_subquery = []
+                sql_subquery = []  # a list of individual sql queries
                 q_predicate = triple['predicate']['value']  # 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
                 q_type = triple['predicate']['termType']  # 'NamedNode'
-                if q_type == 'NamedNode':  # in case the predicate is not variable
+                if q_type == 'NamedNode':  # in case the predicate in the query triple is not variable
                     # for j in range(len(mapping_dict)):
                     for mapping in mapping_class.mapping_dict:  # search mapping rules
                         # predicate = mapping_dict[j]["predicate"]
@@ -81,11 +83,11 @@ class SparqlQuery:
                             # mapping = mapping_dict[j]
                             answer = uri.translate_sql(sql, triple, mapping, filter_list)
                             re_sql = answer[0]  # uri translated sql
-                            if answer[1]:
-                                for ans in answer[1]:
-                                    if ans[0] not in checked:
-                                        trans_uri_list.append(ans)
-                                        check.append(ans[0])
+                            # if answer[1]:
+                                # for ans in answer[1]:
+                                #     if ans[0] not in checked:
+                                #         # trans_uri_list.append(ans)
+                                #         check.append(ans[0])
                             if re_sql != 'No':
                                 sql_subquery.append(re_sql)
                     insert_sql = ''
@@ -94,57 +96,63 @@ class SparqlQuery:
                             insert_sql += sub_q + ' UNION '  # connect sqls with union
                         insert_sql = re.sub(r' UNION $', '', insert_sql)  # remove the last 'UNION'
                         insert_sql = insert_sql.replace(';', '') + ';'  # add a semicolon at the end
-                    checked = checked + check
+                    # checked = checked + check
                     sql_query.append(insert_sql)  # append into a list
-                elif q_type == 'Variable':
-                    for mapping in mapping_class.mapping_dict:
+                elif q_type == 'Variable':  # in the case the predicate of the query triple is a variable
+                    predicate_variable = triple['predicate']['value']
+                    for mapping in mapping_class.mapping_dict:  # pick up applicable mapping rules
                         # predicate = mapping_class.mapping_dict[j]["predicate"]
                         sql = mapping["SQL"]
                         # query = triple
                         # mapping = mapping_class.mapping_dict[j]
-                        answer = uri.translate_sql(sql, triple, mapping, filter_list)
-                        re_sql = answer[0]
-                        if answer[1]:
-                            for ans in answer[1]:
-                                if ans[0] not in checked:
-                                    trans_uri_list.append(ans)
-                                    check.append(ans[0])
+                        answer = uri.translate_sql(sql, triple, mapping, filter_list)  # create a uri translated sql and variables list
+                        re_sql = answer[0]  # answer[0] contains the sql statement
+                        # if answer[1]:  # answer[1] contains the list of variables
+                        #     for ans in answer[1]:
+                        #         if ans[0] not in checked:
+                        #             trans_uri_list.append(ans)
+                        #             check.append(ans[0])
                         if re_sql != 'No':
                             sql_subquery.append(re_sql)
                     insert_sql = ''
                     if sql_subquery:
-                        for sub_q in sql_subquery:
-                            insert_sql += sub_q + ' UNION '
-                        insert_sql = re.sub(r' UNION $', '', insert_sql)
-                        insert_sql = insert_sql.replace(';', '') + ';'
-                    checked = checked + check
-                    sql_query.append(insert_sql)
-            trans_uri_list = list(set(tuple(i) for i in trans_uri_list))
-            trans_uri_list = [list(i) for i in trans_uri_list]
-            return sql_query, trans_uri_list
-        self.sql_query, self.trans_uri_list = create_sql_query(self.query_in_json, self.filter_list, self.uri)
+                        # for sub_q in sql_subquery:
+                        #     insert_sql += sub_q + ' UNION '
+                        # insert_sql = re.sub(r' UNION $', '', insert_sql)
+                        insert_sql = ' UNION '.join(sql_subquery)  # 2023/5/23
+                        insert_sql = insert_sql.replace(';', '') + ';'  # add a semicolon at the end while avoiding the duplicate
+                    # checked = checked + check  # concatenate the list
+                    sql_query.append(insert_sql)  # add to the sql list
+            # trans_uri_list = list(set(tuple(i) for i in trans_uri_list))
+            # trans_uri_list = [list(i) for i in trans_uri_list]
+            # return sql_query, trans_uri_list
+            return sql_query
+        # self.sql_query, self.trans_uri_list = create_sql_query(self.query_in_json, self.filter_list, self.uri)  # create a list of individual sql queries
+        self.sql_query = create_sql_query(self.query_in_json, self.filter_list, self.uri)  # create a list of individual sql queries
 
-        def create_sql(var_list, sql_query):
-            select_var = ''
-            for var in var_list:  # list of variables in sparql query
-                select_var += var + ', '  # change them to a comma-separated string
-            select_var = re.sub(', $', '', select_var)  # remove the comma at the end
-            exe_query = 'SELECT ' + select_var + ' FROM '
-            try:
+        def create_sql(var_list, sql_query):  # final build of sql query
+            select_var = ''  # comma separated list string of variables
+            # for var in var_list:  # list of variables in sparql query
+            #     select_var += var + ', '  # change them to a comma-separated string
+            # select_var = re.sub(', $', '', select_var)  # remove the comma at the end
+            select_var = ', '.join(var_list)  # 2023/5/23
+            exe_query = 'SELECT ' + select_var + ' FROM '  # starting sql query build
+            try:  # in the case select has the option distinct
                 if self.query_in_json['distinct']:
                     exe_query = 'SELECT DISTINCT ' + select_var + ' FROM '
             except KeyError:
                 pass
-            for item in sql_query:
-                exe_query += ' (' + item + ') NATURAL JOIN '  # combine with NATURAL JOIN
-            exe_query = re.sub('NATURAL JOIN $', '', exe_query)  # remove the "NATURAL JOIN" at the end
+            # for item in sql_query:  # combine individual sql query with NATURAL JOIN
+            #     exe_query += ' (' + item + ') NATURAL JOIN '  # combine with NATURAL JOIN
+            # exe_query = re.sub('NATURAL JOIN $', '', exe_query)  # remove the "NATURAL JOIN" at the end
+            exe_query += '('+') NATURAL JOIN ('.join(sql_query)+')'
             exe_query = exe_query.replace(';', '') + ';'  # end up with a semicolon while suppressing a duplicate
             # print(exe_query)
             return exe_query  # return the built sql query
-        self.exe_query = create_sql(self.var_list, self.sql_query)
-        return self.exe_query
+        self.exe_query = create_sql(self.var_list, self.sql_query)  # final build of sql query
+        return self.exe_query  # return the built sql query
 
-    def convert_to_rdf(self, uri, results):
+    def convert_to_rdf(self, uri, results):  # convert the sql results into sparql results using uri_dict_all table
         # --------- SQLクエリ結果をSPARQLクエリ結果に合わせるため、必要に応じて文字列->URIに変換する ----------------------------------
         # def create_trans_uri_list(trans_uri_list):
         #     tmp = []

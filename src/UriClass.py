@@ -1,10 +1,7 @@
 import json
 import os
 import pandas as pd
-
-# import rewriter
-
-# URI_directory = '/data_set2/URI/'
+import re
 
 
 class Uri:
@@ -33,7 +30,7 @@ class Uri:
 
         pass
 
-    def translate_sql(self, sql: str, triple, mapping, filter_list):  # uri translation
+    def translate_sql(self, sql: str, triple, mapping, filter_list):  # uri translation: return [sql, trans_uri]
         def rewrite_where_sql(sql: str, where_value, var):
             if 'WHERE' in sql:
                 # print('A')
@@ -45,6 +42,15 @@ class Uri:
             return re_sql
 
         def rewrite_where_sql_filter(sql: str, sql_filter):
+            pattern = r'"(http://.*)"'
+            matches = re.findall(pattern, sql_filter)
+            if matches:
+                for match in matches:
+                    try:
+                        replacement = self.inv_dict_all[match]
+                        sql_filter = re.sub(match, replacement, sql_filter)
+                    except KeyError:
+                        pass
             if 'WHERE' in sql:
                 # print('A')
                 index = sql.find(';')
@@ -55,16 +61,19 @@ class Uri:
             return re_sql
 
         def create_trans_uri(triple, sql, key):
-            value = triple[key]['value']
-            sql_replace = sql.replace(mapping[key]['variable'], value)
-            trans_uri.append([value, mapping[key]['uri']])
+            value = triple[key]['value']  # get the name of the variable
+            sql_replace = sql.replace(mapping[key]['variable'], value)  # replace the variable in sql statement
+            try:
+                trans_uri.append([value, mapping[key]['uri']])
+            except KeyError:
+                pass
             return trans_uri, sql_replace, value
 
-        trans_uri = []
+        trans_uri = []  # translation uri; will be returned
         # subject
-        if triple['subject']['termType'] == 'Variable':
+        if triple['subject']['termType'] == 'Variable':  # in the case the subject is a variable
             trans_uri, sql, value = create_trans_uri(triple, sql, 'subject')
-        elif triple['subject']['termType'] == 'NamedNode':
+        elif triple['subject']['termType'] == 'NamedNode':  # in the case the subject is a constant
             value = triple['subject']['value']
             uri_function = mapping['subject']['uri']
             # with open(self.uri_directory + uri_function + '.csv') as g:
@@ -77,6 +86,10 @@ class Uri:
             # sql_value = self.inv_dict[uri_function][value]
             sql_value = self.inv_dict_all[value]
             sql = rewrite_where_sql(sql, sql_value, mapping['subject']['variable'])
+
+        # predicate  # 2023/5/23
+        if triple['predicate']['termType'] == 'Variable':
+            trans_uri, sql, value = create_trans_uri(triple, sql, 'predicate')
 
         # object
         if triple['object']['termType'] == 'Variable':
