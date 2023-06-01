@@ -2,18 +2,21 @@ import json
 import os
 import pandas as pd
 import re
+import csv
+import sqlite3
 
 
 class Uri:
-    def __init__(self, path):
-        self.uri_directory = path  # ./data_set2/URI
+    def __init__(self, path, dataset_name, uri_name):
+        self.path = path
+        self.uri_path = self.path.working_path + '/' + dataset_name + '/' + uri_name+'/'  # ./data_set2/URI
         self.uri_dict = {}  # str->uri dictionary
         self.inv_dict = {}  # uri->str dictionary
         self.uri_dict_all = {}
         self.inv_dict_all = {}
-        for file in os.listdir(path):  # read PREFIX*.csv
+        for file in os.listdir(self.uri_path):  # read PREFIX*.csv
             if file.endswith(".csv"):
-                df = pd.read_csv(path+file, header=None)
+                df = pd.read_csv(self.uri_path + file, header=None)
                 key = file.replace('.csv', '')  # key = PREFIX_Build, etc.
                 self.uri_dict[key] = dict(zip(df[0], df[1]))  # str->uri dictionary
                 self.inv_dict[key] = dict(zip(df[1], df[0]))  # uri->str dictionary
@@ -140,3 +143,42 @@ class Uri:
     #     sql = sql.replace(uri_mapping['y'], a_trans)
     #     return sql
 
+    def create_uri_db(self):
+        # column_dict = {'PREFIX_Build': 'URI_Build', 'PREFIX_hotel': 'URI_hotel', 'PREFIX_museum': 'URI_museum',
+        #                'PREFIX_WH': 'URI_WH', 'PREFIX_Country': 'URI_Country'}
+
+        # store the contents of PREFIX*.csv files into a sqlite3 database named URI_data.db
+        def csv_to_sqlite(csv_file, db_file, table_name):
+            conn = sqlite3.connect(db_file)
+            cursor = conn.cursor()
+            with open(csv_file, 'r') as input_file:
+                csv_reader = csv.reader(input_file)
+                header = ['ID',
+                          csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'URI')]  # next(csv_reader)
+                columns = [f'{column} TEXT' for column in header]
+                try:
+                    drop_table_query = f'DROP TABLE {table_name}'  # drop the table to create from zero
+                    cursor.execute(drop_table_query)
+                except:
+                    pass
+                # create a table
+                create_table_query = f'CREATE TABLE {table_name} ({", ".join(columns)})'
+                cursor.execute(create_table_query)
+
+                # insert the csv data
+                insert_query = f'INSERT INTO {table_name} VALUES ({", ".join(["?"] * len(header))})'
+                for row in csv_reader:
+                    cursor.execute(insert_query, row)
+            conn.commit()
+            conn.close()
+
+        # uri_path = path.working_path + '/data_set2/URI/'  # '../data_set2/URI/'
+        files = os.listdir(self.uri_path)
+        for file in files:
+            if file.startswith('PREFIX'):  # read all the file with a file name starting with 'PREFIX'
+                print(file)
+                csv_file = self.uri_path + file
+                db_file = self.uri_path + 'URI_data.db'
+                table_name = file.replace('.csv', '')
+                csv_to_sqlite(csv_file, db_file, table_name)  # save the contents of the csv files into sqlite3 database
+        pass

@@ -9,5 +9,5 @@ WHERE {
     ?s rdf:label ?name.
     ?s country: ?country_id.
     ?country_id country_name: ?cname.
-    FILTER (?country_id !=<http://example.com/country/id/237b>)
+    FILTER (?country_id !="<http://example.com/country/id/237>")
 }

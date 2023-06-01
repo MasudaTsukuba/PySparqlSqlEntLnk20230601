@@ -305,11 +305,11 @@
         "object":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryW",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var1302"
         },
-        "SQL":"SELECT heritage.p_id AS Var1300, \"http://example.com/predicate/country\" AS Var1301, w_country.c_id AS Var1302 FROM heritage_placein, heritage, w_country WHERE heritage.p_id = Heritage_placein.p_id AND heritage_placein.c_id = w_country.c_id;"
+        "SQL":"SELECT heritage.p_id AS Var1300, \"http://example.com/predicate/country\" AS Var1301, country.country_id AS Var1302 FROM heritage_placein, heritage, country WHERE heritage.p_id = Heritage_placein.p_id AND heritage_placein.c_id = country.country_id;"
     },
     {
         "mappingID":14,
@@ -329,11 +329,11 @@
         "object":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryM",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var1402"
         },
-        "SQL":"SELECT museum.museum_id AS Var1400, \"http://example.com/predicate/country\" AS Var1401, m_country.co_id AS Var1402 FROM museumincountry, museum, m_country WHERE museum.museum_id = museumincountry.museum_id AND museumincountry.co_id = m_country.co_id;"
+        "SQL":"SELECT museum.museum_id AS Var1400, \"http://example.com/predicate/country\" AS Var1401, country.country_id AS Var1402 FROM museumincountry, museum, country WHERE museum.museum_id = museumincountry.museum_id AND museumincountry.co_id = country.country_id;"
     },
     {
         "mappingID":15,
@@ -353,11 +353,11 @@
         "object":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryH",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var1502"
         },
-        "SQL":"SELECT hotel.h_id AS Var1500, \"http://example.com/predicate/country\" AS Var1501, h_country.cn_id AS Var1502 FROM hotel_place_in, hotel, h_country WHERE hotel.h_id = hotel_place_in.h_id AND hotel_place_in.cn_id = h_country.cn_id;"
+        "SQL":"SELECT hotel.h_id AS Var1500, \"http://example.com/predicate/country\" AS Var1501, country.country_id AS Var1502 FROM hotel_place_in, hotel, country WHERE hotel.h_id = hotel_place_in.h_id AND hotel_place_in.cn_id = country.country_id;"
     },
     {
         "mappingID":16,
@@ -377,18 +377,18 @@
         "object":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryB",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var1602"
         },
-        "SQL":"SELECT build.b_id AS Var1600, \"http://example.com/predicate/country\" AS Var1601, b_country.bc_id AS Var1602 FROM buildinc, build, b_country WHERE build.b_id = buildinc.b_id AND buildinc.bc_id = b_country.bc_id;"
+        "SQL":"SELECT build.b_id AS Var1600, \"http://example.com/predicate/country\" AS Var1601, country.country_id AS Var1602 FROM buildinc, build, country WHERE build.b_id = buildinc.b_id AND buildinc.bc_id = country.country_id;"
     },
     {
         "mappingID":17,
         "subject":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryW",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var1700"
         },
@@ -405,86 +405,14 @@
             "content": "",
             "variable": "Var1702"
         },
-        "SQL":"SELECT c_id AS Var1700, \"http://example.com/predicate/country_name\" AS Var1701, name AS Var1702 FROM w_country;"
-    },
-    {
-        "mappingID":18,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryM",
-            "content": "",
-            "variable": "Var1800"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_name",
-            "variable": "Var1801"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var1802"
-        },
-        "SQL":"SELECT co_id AS Var1800, \"http://example.com/predicate/country_name\" AS Var1801, name AS Var1802 FROM m_country;"
-    },
-    {
-        "mappingID":19,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryH",
-            "content": "",
-            "variable": "Var1900"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_name",
-            "variable": "Var1901"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var1902"
-        },
-        "SQL":"SELECT cn_id AS Var1900, \"http://example.com/predicate/country_name\" AS Var1901, name AS Var1902 FROM h_country;"
-    },
-    {
-        "mappingID":20,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryB",
-            "content": "",
-            "variable": "Var2000"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_name",
-            "variable": "Var2001"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var2002"
-        },
-        "SQL":"SELECT bc_id AS Var2000, \"http://example.com/predicate/country_name\" AS Var2001, name AS Var2002 FROM b_country;"
+        "SQL":"SELECT country_id AS Var1700, \"http://example.com/predicate/country_name\" AS Var1701, country_name AS Var1702 FROM country;"
     },
     {
         "mappingID":21,
         "subject":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryW",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var2100"
         },
@@ -501,86 +429,14 @@
             "content": "",
             "variable": "Var2102"
         },
-        "SQL":"SELECT c_id AS Var2100, \"http://example.com/predicate/country_comment\" AS Var2101, comment AS Var2102 FROM w_country;"
-    },
-    {
-        "mappingID":22,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryM",
-            "content": "",
-            "variable": "Var2200"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_comment",
-            "variable": "Var2201"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var2202"
-        },
-        "SQL":"SELECT co_id AS Var2200, \"http://example.com/predicate/country_comment\" AS Var2201, comment AS Var2202 FROM m_country;"
-    },
-    {
-        "mappingID":23,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryH",
-            "content": "",
-            "variable": "Var2300"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_comment",
-            "variable": "Var2301"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var2302"
-        },
-        "SQL":"SELECT cn_id AS Var2300, \"http://example.com/predicate/country_comment\" AS Var2301, comment AS Var2302 FROM h_country;"
-    },
-    {
-        "mappingID":24,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryB",
-            "content": "",
-            "variable": "Var2400"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://example.com/predicate/country_comment",
-            "variable": "Var2401"
-        },
-        "object":
-        {
-            "type": "Variable",
-            "uri": "plain",
-            "content": "",
-            "variable": "Var2402"
-        },
-        "SQL":"SELECT bc_id AS Var2400, \"http://example.com/predicate/country_comment\" AS Var2401, comment AS Var2402 FROM b_country;"
+        "SQL":"SELECT country_id AS Var2100, \"http://example.com/predicate/country_comment\" AS Var2101, country_comment AS Var2102 FROM country;"
     },
     {
         "mappingID":25,
         "subject":
         {
             "type": "Variable",
-            "uri": "PREFIX_countryW",
+            "uri": "PREFIX_Country",
             "content": "",
             "variable": "Var2500"
         },
@@ -597,78 +453,6 @@
             "content": "http://example.com/ontology/Country",
             "variable": "Var2502"
         },
-        "SQL":"SELECT c_id AS Var2500, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2501, \"http://example.com/ontology/Country\" AS Var2502 FROM w_country;"
-    },
-    {
-        "mappingID":26,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryM",
-            "content": "",
-            "variable": "Var2600"
-        },
-        "predicate":
-         {
-            "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "variable": "Var2601"
-        },
-        "object":
-        {
-            "type": "NamedNode",
-            "uri": "-",
-            "content": "http://example.com/ontology/Country",
-            "variable": "Var2602"
-        },
-        "SQL":"SELECT co_id AS Var2600, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2601, \"http://example.com/ontology/Country\" AS Var2602 FROM m_country;"
-    },
-    {
-        "mappingID":27,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryH",
-            "content": "",
-            "variable": "Var2700"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "variable": "Var2701"
-        },
-        "object":
-        {
-            "type": "NamedNode",
-            "uri": "-",
-            "content": "http://example.com/ontology/Country",
-            "variable": "Var2702"
-        },
-        "SQL":"SELECT cn_id AS Var2700, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2701, \"http://example.com/ontology/Country\" AS Var2702 FROM h_country;"
-    },
-    {
-        "mappingID":28,
-        "subject":
-        {
-            "type": "Variable",
-            "uri": "PREFIX_countryB",
-            "content": "",
-            "variable": "Var2800"
-        },
-        "predicate":
-        {
-            "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "variable": "Var2801"
-        },
-        "object":
-        {
-            "type": "NamedNode",
-            "uri": "-",
-            "content": "http://example.com/ontology/Country",
-            "variable": "Var2802"
-        },
-        "SQL":"SELECT bc_id AS Var2800, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2801, \"http://example.com/ontology/Country\" AS Var2802 FROM b_country;"
+        "SQL":"SELECT country_id AS Var2500, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2501, \"http://example.com/ontology/Country\" AS Var2502 FROM country;"
     }
 ]

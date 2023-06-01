@@ -1,7 +1,11 @@
+# class for handling the output of sparql queries into a file
+# 2023/6/1, Tadashi masuda
+
 import csv
 
 
-class Output:  # write the sparql query results into a file
+# write the sparql query results into a file
+class Output:
     def __init__(self):
         pass
 

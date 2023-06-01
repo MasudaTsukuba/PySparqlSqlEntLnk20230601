@@ -1,3 +1,6 @@
+# class for handling a mapping rules
+# 2023/6/1, Tadashi masuda
+
 import json
 
 
