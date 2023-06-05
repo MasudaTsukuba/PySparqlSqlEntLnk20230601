@@ -34,7 +34,7 @@ class DataBase:
         conn = sqlite3.connect(self.database_path)
         cursor = conn.cursor()
         tables = [
-            "build", "buildinc",
+            "building", "buildinc",
             "hotel", "hotel_place_in",
             "museum", "museumincountry",
             "heritage", "heritage_placein",
@@ -52,8 +52,8 @@ class DataBase:
             #         cnx.close()
 
         sqls = [
-            "CREATE TABLE build (b_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
-            "CREATE TABLE buildinc (b_id VARCHAR(255), bc_id VARCHAR(255), FOREIGN KEY (b_id) REFERENCES build(b_id), FOREIGN KEY (bc_id) REFERENCES country(country_id));",
+            "CREATE TABLE building (b_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
+            "CREATE TABLE buildinc (b_id VARCHAR(255), bc_id VARCHAR(255), FOREIGN KEY (b_id) REFERENCES building(b_id), FOREIGN KEY (bc_id) REFERENCES country(country_id));",
             "CREATE TABLE hotel (h_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
             "CREATE TABLE hotel_place_in (h_id VARCHAR(255), cn_id VARCHAR(255), FOREIGN KEY (h_id) REFERENCES hotel(h_id), FOREIGN KEY (cn_id) REFERENCES country(country_id));",
             "CREATE TABLE Museum (museum_iD VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
@@ -83,7 +83,7 @@ class DataBase:
         conn = sqlite3.connect(self.database_path)
         cursor = conn.cursor()
         tables = [
-            "build", "buildinc",
+            "building", "buildinc",
             "hotel", "hotel_place_in",
             "Museum", "museumincountry",
             "heritage", "heritage_placein",
@@ -98,7 +98,7 @@ class DataBase:
             "Country/Country",
         ]
         sqls = [
-            "INSERT INTO build (b_id, name, comment) VALUES (?, ?, ?)",
+            "INSERT INTO building (b_id, name, comment) VALUES (?, ?, ?)",
             "INSERT INTO buildinc (b_id, bc_id) VALUES (?, ?)",
             "INSERT INTO hotel (h_id, name, comment) VALUES (?, ?, ?)",
             "INSERT INTO hotel_place_in (h_id, cn_id) VALUES (?, ?)",
@@ -122,7 +122,7 @@ class DataBase:
                         try:
                             # print(row)
                             cursor.execute(sql, row)
-                        except:
+                        except Exception as e:
                             pass
                 conn.commit()
         cursor.close()

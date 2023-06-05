@@ -1,4 +1,8 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
 PREFIX ex: <http://example.com/ontology/>
 PREFIX country: <http://example.com/predicate/country>
 PREFIX country_name: <http://example.com/predicate/country_name>
@@ -6,5 +10,5 @@ PREFIX country_comment: <http://example.com/predicate/country_comment>
 
 SELECT ?name
 WHERE {
-    <http://example.com/hotel/id/1585008h> rdf:label ?name.
+    <https://www.wikidata.org/wiki/Q1585008> rdfs:label ?name.
 }

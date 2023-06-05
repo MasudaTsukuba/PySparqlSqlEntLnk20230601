@@ -21,7 +21,7 @@
             "content": "http://example.com/ontology/Museum",
             "variable": "Var102"
         },
-        "SQL":"SELECT museum_id AS Var100, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#typ\" AS Var101, \"http://example.com/ontology/Museum\" AS Var102 FROM museum;"
+        "SQL":"SELECT museum_id AS Var100, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var101, \"http://example.com/ontology/Museum\" AS Var102 FROM museum;"
     },
     {
         "mappingID":2,
@@ -69,7 +69,7 @@
             "content": "http://example.com/ontology/Build",
             "variable": "Var302"
         },
-        "SQL":"SELECT b_id AS Var300, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#typ\" AS Var301, \"http://example.com/ontology/Build\" AS Var302 FROM build;"
+        "SQL":"SELECT b_id AS Var300, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var301, \"http://example.com/ontology/Build\" AS Var302 FROM build;"
     },
     {
         "mappingID":4,
@@ -93,7 +93,7 @@
             "content": "http://example.com/ontology/World_Heritage",
             "variable": "Var402"
         },
-        "SQL":"SELECT p_id AS Var400, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#typ\" AS Var401, \"http://example.com/ontology/World_Heritage\" AS Var402 FROM heritage;"
+        "SQL":"SELECT p_id AS Var400, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var401, \"http://example.com/ontology/World_Heritage\" AS Var402 FROM heritage;"
     },
     {
         "mappingID":5,
@@ -107,7 +107,7 @@
         "predicate":
         {
             "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
             "variable": "Var501"
         },
         "object":
@@ -117,7 +117,7 @@
             "content": "",
             "variable": "Var502"
         },
-        "SQL":"SELECT museum_id AS Var500, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#label\" AS Var501, name AS Var502 FROM museum;"
+        "SQL":"SELECT museum_id AS Var500, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var501, name AS Var502 FROM museum;"
     },
     {
         "mappingID":6,
@@ -155,7 +155,7 @@
         "predicate":
         {
             "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
             "variable": "Var701"
         },
         "object":
@@ -165,7 +165,7 @@
             "content": "",
             "variable": "Var702"
         },
-        "SQL":"SELECT h_id AS Var700, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#label\" AS Var701, name AS Var702 FROM hotel;"
+        "SQL":"SELECT h_id AS Var700, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var701, name AS Var702 FROM hotel;"
     },
     {
         "mappingID":8,
@@ -203,7 +203,7 @@
         "predicate":
         {
             "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
             "variable": "Var901"
         },
         "object":
@@ -213,7 +213,7 @@
             "content": "",
             "variable": "Var902"
         },
-        "SQL":"SELECT b_id AS Var900, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#label\" AS Var901, name AS Var902 FROM build;"
+        "SQL":"SELECT b_id AS Var900, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var901, name AS Var902 FROM build;"
     },
     {
         "mappingID":10,
@@ -251,7 +251,7 @@
         "predicate":
         {
             "type": "NamedNode",
-            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
             "variable": "Var1101"
         },
         "object":
@@ -261,7 +261,7 @@
             "content": "",
             "variable": "Var1102"
         },
-        "SQL":"SELECT p_id AS Var1100, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#label\" AS Var1101, name AS Var1102 FROM heritage;"
+        "SQL":"SELECT p_id AS Var1100, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var1101, name AS Var1102 FROM heritage;"
     },
     {
         "mappingID":12,

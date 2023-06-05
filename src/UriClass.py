@@ -4,6 +4,11 @@ import pandas as pd
 import re
 import csv
 import sqlite3
+import spacy
+import csv
+from spacy.pipeline import EntityLinker
+from src.DatabaseClass import DataBase
+from src.PathClass import PathClass
 
 
 class Uri:
@@ -14,14 +19,14 @@ class Uri:
         self.inv_dict = {}  # uri->str dictionary
         self.uri_dict_all = {}
         self.inv_dict_all = {}
-        for file in os.listdir(self.uri_path):  # read PREFIX*.csv
-            if file.endswith(".csv"):
-                df = pd.read_csv(self.uri_path + file, header=None)
-                key = file.replace('.csv', '')  # key = PREFIX_Build, etc.
-                self.uri_dict[key] = dict(zip(df[0], df[1]))  # str->uri dictionary
-                self.inv_dict[key] = dict(zip(df[1], df[0]))  # uri->str dictionary
-                self.uri_dict_all.update(zip(df[0], df[1]))  # all the files in one dictionary
-                self.inv_dict_all.update(zip(df[1], df[0]))
+        # for file in os.listdir(self.uri_path):  # read PREFIX*.csv
+        #     if file.endswith(".csv"):
+        #         df = pd.read_csv(self.uri_path + file, header=None)
+        #         key = file.replace('.csv', '')  # key = PREFIX_Build, etc.
+        #         self.uri_dict[key] = dict(zip(df[0], df[1]))  # str->uri dictionary
+        #         self.inv_dict[key] = dict(zip(df[1], df[0]))  # uri->str dictionary
+        #         self.uri_dict_all.update(zip(df[0], df[1]))  # all the files in one dictionary
+        #         self.inv_dict_all.update(zip(df[1], df[0]))
 
         # def open_mapping(): not used. replaced by uri_dict, etc.
         #     uri_mapping = './data_set2/URI/URI_mapping.json'
@@ -30,7 +35,8 @@ class Uri:
         #     json_open.close()
         #     return uri_mapping_dict
         # self.uri_mapping_dict = open_mapping()
-
+        # self.entity_linking_file = None
+        self.entity_linking_file = self.uri_path+'entity_linking.db'
         pass
 
     def translate_sql(self, sql: str, triple, mapping, filter_list):  # uri translation: return [sql, trans_uri]
@@ -87,7 +93,11 @@ class Uri:
             #             break
             # sql_value = self.inv_dict[uri_function][value]
             # sql_value = self.inv_dict[uri_function][value]
-            sql_value = self.inv_dict_all[value]
+            sql_value = value
+            try:
+                sql_value = self.inv_dict_all[value]
+            except KeyError:
+                pass
             sql = rewrite_where_sql(sql, sql_value, mapping['subject']['variable'])
 
         # predicate  # 2023/5/23
@@ -123,7 +133,8 @@ class Uri:
                 #             sql_value = '"' + row[0] + '"'
                 #             break
                 try:  # 2023/5/8
-                    sql_value = self.inv_dict[uri_function][value]
+                    # sql_value = self.inv_dict[uri_function][value]
+                    sql_value = self.inv_dict_all[value]  # 2023/6/5
                     sql = rewrite_where_sql(sql, sql_value, mapping['object'])
                     # sql = sql.replace(mapping['object'], value)
                 except KeyError:  # 2023/5/8
@@ -143,42 +154,187 @@ class Uri:
     #     sql = sql.replace(uri_mapping['y'], a_trans)
     #     return sql
 
-    def create_uri_db(self):
-        # column_dict = {'PREFIX_Build': 'URI_Build', 'PREFIX_hotel': 'URI_hotel', 'PREFIX_museum': 'URI_museum',
-        #                'PREFIX_WH': 'URI_WH', 'PREFIX_Country': 'URI_Country'}
+    # def create_uri_db(self):
+    #     # column_dict = {'PREFIX_Build': 'URI_Build', 'PREFIX_hotel': 'URI_hotel', 'PREFIX_museum': 'URI_museum',
+    #     #                'PREFIX_WH': 'URI_WH', 'PREFIX_Country': 'URI_Country'}
+    #
+    #     # store the contents of PREFIX*.csv files into a sqlite3 database named URI_data.db
+    #     def csv_to_sqlite(csv_file, db_file, table_name):
+    #         conn = sqlite3.connect(db_file)
+    #         cursor = conn.cursor()
+    #         with open(csv_file, 'r') as input_file:
+    #             csv_reader = csv.reader(input_file)
+    #             header = ['ID',
+    #                       csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'URI')]  # next(csv_reader)
+    #             columns = [f'{column} TEXT' for column in header]
+    #             try:
+    #                 drop_table_query = f'DROP TABLE {table_name}'  # drop the table to create from zero
+    #                 cursor.execute(drop_table_query)
+    #             except:
+    #                 pass
+    #             # create a table
+    #             create_table_query = f'CREATE TABLE {table_name} ({", ".join(columns)})'
+    #             cursor.execute(create_table_query)
+    #
+    #             # insert the csv data
+    #             insert_query = f'INSERT INTO {table_name} VALUES ({", ".join(["?"] * len(header))})'
+    #             for row in csv_reader:
+    #                 cursor.execute(insert_query, row)
+    #         conn.commit()
+    #         conn.close()
+    #
+    #     # uri_path = path.working_path + '/data_set2/URI/'  # '../data_set2/URI/'
+    #     files = os.listdir(self.uri_path)
+    #     for file in files:
+    #         if file.startswith('PREFIX'):  # read all the file with a file name starting with 'PREFIX'
+    #             print(file)
+    #             csv_file = self.uri_path + file
+    #             db_file = self.uri_path + 'URI_data.db'
+    #             table_name = file.replace('.csv', '')
+    #             csv_to_sqlite(csv_file, db_file, table_name)  # save the contents of the csv files into sqlite3 database
+    #     pass
 
-        # store the contents of PREFIX*.csv files into a sqlite3 database named URI_data.db
-        def csv_to_sqlite(csv_file, db_file, table_name):
-            conn = sqlite3.connect(db_file)
-            cursor = conn.cursor()
-            with open(csv_file, 'r') as input_file:
-                csv_reader = csv.reader(input_file)
-                header = ['ID',
-                          csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'URI')]  # next(csv_reader)
-                columns = [f'{column} TEXT' for column in header]
-                try:
-                    drop_table_query = f'DROP TABLE {table_name}'  # drop the table to create from zero
-                    cursor.execute(drop_table_query)
-                except:
+    # create tables in entity_linking.db database
+    def create_entity_linking_db(self):
+        conn = sqlite3.connect(self.entity_linking_file)
+        cursor = conn.cursor()
+
+        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        sqls = [
+            'CREATE TABLE hotel (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+            'CREATE TABLE building (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+            'CREATE TABLE museum (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+            'CREATE TABLE heritage (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+            'CREATE TABLE country (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));'
+        ]
+
+        for table in tables:
+            sql = f'DROP TABLE {table};'
+            try:
+                cursor.execute(sql)
+                print('DROP TABLE SUCCEEDED: ' + sql)
+                pass
+            except:
+                print('DROP TABLE FAILED: ' + sql)
+                pass
+
+        for sql in sqls:
+            try:
+                cursor.execute(sql)
+                print('CREATE TABLE SUCCEEDED: ' + sql)
+                pass
+            except:
+                print('CREATE TABLE FAILED: ' + sql)
+                pass
+
+        cursor.close()
+        conn.commit()
+        conn.close()
+        pass
+
+    # for test entity_linking.db
+    def test_entity_linking(self):
+        conn = sqlite3.connect(self.entity_linking_file)
+        cursor = conn.cursor()
+        # sql = 'INSERT INTO hotel (id, uri, status) VALUES ("aaa", "bbb", "ccc");'
+        # cursor.execute(sql)
+
+        sql = 'SELECT * FROM hotel;'
+        return_list = cursor.execute(sql).fetchall()
+        headers = [col[0] for col in cursor.description]
+        results = [list(i) for i in return_list]
+        # print(results)
+        cursor.close()
+        conn.close()
+
+    # build entity linking
+    def build_entity_linking(self):
+        conn = sqlite3.connect(self.entity_linking_file)
+        cursor = conn.cursor()
+
+        nlp = spacy.load('en_core_web_md')
+        # nlp = spacy.load('en_core_web_lg')
+        nlp.add_pipe('entityLinker', last=True)
+
+        def spacy_entity_linking(text):
+            entity = nlp(text)
+            result_uri = ''
+            result_label = ''
+            result_description = ''
+            result_status = 'NoFound'
+            xxx = entity._.linkedEntities
+            my_ents = entity.ents
+            found = False
+            try:
+                yyy = xxx[0]
+                result_uri = yyy.get_url()
+                result_label = yyy.label
+                result_description = yyy.description
+                found = True
+            except TypeError:
+                pass
+            except IndexError:
+                pass
+            mark = '  '
+            try:
+                if len(xxx) == 1 and result_label == text and found:
+                    result_status = 'Succeeded'
                     pass
-                # create a table
-                create_table_query = f'CREATE TABLE {table_name} ({", ".join(columns)})'
-                cursor.execute(create_table_query)
+                else:
+                    result_uri = ''
+            except IndexError:
+                result_uri = ''
+                pass
+            pass
+            return result_status, result_uri, result_label, result_description, xxx
 
-                # insert the csv data
-                insert_query = f'INSERT INTO {table_name} VALUES ({", ".join(["?"] * len(header))})'
-                for row in csv_reader:
-                    cursor.execute(insert_query, row)
+        path = PathClass('')
+        database = DataBase(path, 'data_set2', 'landmark.db')
+        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        # tables = ['hotel']  # debug
+        conn.execute("BEGIN")
+        for table in tables:
+            print(table)  # debug
+            sql = f'SELECT * FROM {table};'
+            results, headers = database.execute(sql)
+            for result in results:
+                table_id = result[0]
+                name = result[1]
+                status, uri, label, description, xxx = spacy_entity_linking(name)
+                sql = f'INSERT INTO {table} (id, uri, status) VALUES ("{table_id}", "{uri}", "{status}");'
+                if status == 'Succeeded' and table_id.replace('h', '') != uri.split('/')[-1].replace('Q', ''):
+                    # print(sql)  # debug
+                    pass
+                cursor.execute(sql)
+                pass
             conn.commit()
-            conn.close()
+            query = f'SELECT * FROM {table} WHERE status = "Succeeded" ;'
+            results = cursor.execute(query).fetchall()
+            for row in results:
+                if row[0].replace('h', '') != row[1].split('/')[-1]:
+                    pass
+            # with open(f'uri_{table}.csv', 'w') as f:  # debug
+            #     writer = csv.writer(f)
+            #     writer.writerows(results)
+            pass
+        cursor.close()
+        conn.close()
+        pass
 
-        # uri_path = path.working_path + '/data_set2/URI/'  # '../data_set2/URI/'
-        files = os.listdir(self.uri_path)
-        for file in files:
-            if file.startswith('PREFIX'):  # read all the file with a file name starting with 'PREFIX'
-                print(file)
-                csv_file = self.uri_path + file
-                db_file = self.uri_path + 'URI_data.db'
-                table_name = file.replace('.csv', '')
-                csv_to_sqlite(csv_file, db_file, table_name)  # save the contents of the csv files into sqlite3 database
+    def read_entity_linking(self):
+        conn = sqlite3.connect(self.entity_linking_file)
+        cursor = conn.cursor()
+
+        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        for table in tables:  # read from tables in entity_linking.db
+            sql = f'SELECT id, uri, status from {table};'
+            results = cursor.execute(sql).fetchall()
+            for row in results:
+                if row[2] == 'Succeeded':
+                    record_id = row[0]
+                    record_uri = row[1]
+                    self.uri_dict_all[record_id] = record_uri  # all the files in one dictionary
+                    self.inv_dict_all[record_uri] = record_id
+        cursor.close()
+        conn.close()
         pass

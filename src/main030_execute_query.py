@@ -38,6 +38,7 @@ def execute_query(input_file):
     mapping_class = Mapping(path.mapping_file_path)
     # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
     uri = Uri(path, 'data_set2', 'URI')
+    uri.read_entity_linking()  # 2023/6/5
     sparql_query = SparqlQuery(query2json(path), uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
     print(exe_query)  # for debug
@@ -51,25 +52,28 @@ def execute_query(input_file):
 
 if __name__ == '__main__':
     query = 'q1.txt'
-    # query = 'q1_type.txt'
-    # query = 'q1_hotel_name.txt'
-    # query = 'q1_hotel_country_id.txt'
     query = 'q2.txt'
-    # query = 'q3b.txt'
+    query = 'q3a.txt'
+    query = 'q3b.txt'
     query = 'q4.txt'
     query = 'q5.txt'
-    # query = 'q5c.txt'
-    # query = 'q7.txt'
-    # query = 'q1pred_hotel.txt'
-    # query = 'q1pred_build.txt'
-    # query = 'q1pred_museum.txt'
-    # query = 'q1pred_heritage.txt'
-    # query = 'query_type_object_hotel20230518.txt'
-    # query = 'query_extract_hotels20230519.txt'
-    # query = 'query_extract_museums20230519.txt'
-    # query = 'query_extract_buildings20230519.txt'
-    # query = 'query_extract_heritages20230519.txt'
-    # query = 'query_extract_hotels_with_name20230519.txt'
-    # query = 'query_extract_labels20230519.txt'
-    # query = 'q1pred_get_hotel.txt'
+    query = 'q6.txt'
+    query = 'q7.txt'
+    query = 'q1pred_hotel.txt'
+    query = 'q1pred_build.txt'
+    query = 'q1pred_museum.txt'
+    query = 'q1pred_heritage.txt'
+    query = 'query_type_object20230518.txt'
+    query = 'query_extract_hotels20230519.txt'
+    query = 'query_extract_hotels_with_name20230519.txt'
+    query = 'query_extract_buildings20230519.txt'
+    query = 'query_extract_museums20230519.txt'
+    query = 'query_extract_heritages20230519.txt'
+    query = 'query_extract_labels20230519.txt'
+    query = 'q5b.txt'
+    query = 'q5c.txt'
+    query = 'q1_hotel_name_only.txt'  # q1 without country, only hotel id and name
+    query = 'q1_hotel_country_id.txt'  # q1 wit country_id, but without country name
+    query = 'q1_pred_of_hotel.txt'  # predicate for rdf:type is variable
+    query = 'q1pred_get_hotel.txt'  # return predicate value
     execute_query(query)
