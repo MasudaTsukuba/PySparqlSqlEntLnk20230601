@@ -6,11 +6,11 @@ PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX ex: <http://example.com/ontology/>
 PREFIX country: <http://example.com/predicate/country>
 PREFIX country_name: <http://example.com/predicate/country_name>
-PREFIX country_comment: <http://example.com/predicate/country_comment>
+PREFIX country_description: <http://example.com/predicate/country_description>
 
 SELECT ?s ?name ?cname
 WHERE {
-    ?s rdf:type ex:World_Heritage.
+    ?s rdf:type ex:Heritage.
     ?s rdfs:label ?name.
     ?s country: ?c_id.
     ?c_id country_name: ?cname.

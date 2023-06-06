@@ -23,12 +23,15 @@ class Output:
             else:
                 results2.append(item)
             index += 1
-        sorted_results = sorted(results2, key=lambda x: x[0])  # sort
+        dimension = len(results2[0])
+        sorted_results = results2
+        for i in range(dimension):
+            sorted_results = sorted(sorted_results, key=lambda x: x[dimension-i-1])  # sort
         # try:
         #     sorted_results = sorted(results, key=lambda x: x[0])  # sort
         # except:
         #     pass
         with open(output, mode='w') as file:
-            writer = csv.writer(file)
+            writer = csv.writer(file, lineterminator='\n')
             writer.writerow(headers)
             writer.writerows(sorted_results)

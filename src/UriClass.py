@@ -148,52 +148,6 @@ class Uri:
 
         return [sql, trans_uri]
 
-    # def g(uri_mapping, b_trans, a_trans):
-    #     sql = str(uri_mapping['SQL'])
-    #     sql = sql.replace(uri_mapping['x'], b_trans)
-    #     sql = sql.replace(uri_mapping['y'], a_trans)
-    #     return sql
-
-    # def create_uri_db(self):
-    #     # column_dict = {'PREFIX_Build': 'URI_Build', 'PREFIX_hotel': 'URI_hotel', 'PREFIX_museum': 'URI_museum',
-    #     #                'PREFIX_WH': 'URI_WH', 'PREFIX_Country': 'URI_Country'}
-    #
-    #     # store the contents of PREFIX*.csv files into a sqlite3 database named URI_data.db
-    #     def csv_to_sqlite(csv_file, db_file, table_name):
-    #         conn = sqlite3.connect(db_file)
-    #         cursor = conn.cursor()
-    #         with open(csv_file, 'r') as input_file:
-    #             csv_reader = csv.reader(input_file)
-    #             header = ['ID',
-    #                       csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'URI')]  # next(csv_reader)
-    #             columns = [f'{column} TEXT' for column in header]
-    #             try:
-    #                 drop_table_query = f'DROP TABLE {table_name}'  # drop the table to create from zero
-    #                 cursor.execute(drop_table_query)
-    #             except:
-    #                 pass
-    #             # create a table
-    #             create_table_query = f'CREATE TABLE {table_name} ({", ".join(columns)})'
-    #             cursor.execute(create_table_query)
-    #
-    #             # insert the csv data
-    #             insert_query = f'INSERT INTO {table_name} VALUES ({", ".join(["?"] * len(header))})'
-    #             for row in csv_reader:
-    #                 cursor.execute(insert_query, row)
-    #         conn.commit()
-    #         conn.close()
-    #
-    #     # uri_path = path.working_path + '/data_set2/URI/'  # '../data_set2/URI/'
-    #     files = os.listdir(self.uri_path)
-    #     for file in files:
-    #         if file.startswith('PREFIX'):  # read all the file with a file name starting with 'PREFIX'
-    #             print(file)
-    #             csv_file = self.uri_path + file
-    #             db_file = self.uri_path + 'URI_data.db'
-    #             table_name = file.replace('.csv', '')
-    #             csv_to_sqlite(csv_file, db_file, table_name)  # save the contents of the csv files into sqlite3 database
-    #     pass
-
     # create tables in entity_linking.db database
     def create_entity_linking_db(self):
         conn = sqlite3.connect(self.entity_linking_file)
@@ -257,6 +211,8 @@ class Uri:
         nlp.add_pipe('entityLinker', last=True)
 
         def spacy_entity_linking(text):
+            if text == 'United States of America':  # debug
+                pass
             entity = nlp(text)
             result_uri = ''
             result_label = ''
@@ -301,6 +257,10 @@ class Uri:
                 table_id = result[0]
                 name = result[1]
                 status, uri, label, description, xxx = spacy_entity_linking(name)
+                if status == 'Succeeded':
+                    uri = uri.replace('https://www.wikidata.org/wiki/', 'http://www.wikidata.org/entity/')
+                else:
+                    uri = f'http://example.com/id/{table_id}'
                 sql = f'INSERT INTO {table} (id, uri, status) VALUES ("{table_id}", "{uri}", "{status}");'
                 if status == 'Succeeded' and table_id.replace('h', '') != uri.split('/')[-1].replace('Q', ''):
                     # print(sql)  # debug
@@ -313,9 +273,9 @@ class Uri:
             for row in results:
                 if row[0].replace('h', '') != row[1].split('/')[-1]:
                     pass
-            # with open(f'uri_{table}.csv', 'w') as f:  # debug
-            #     writer = csv.writer(f)
-            #     writer.writerows(results)
+            with open(f'uri_{table}.csv', 'w') as f:  # debug
+                writer = csv.writer(f)
+                writer.writerows(results)
             pass
         cursor.close()
         conn.close()
@@ -330,11 +290,12 @@ class Uri:
             sql = f'SELECT id, uri, status from {table};'
             results = cursor.execute(sql).fetchall()
             for row in results:
-                if row[2] == 'Succeeded':
+                if True:  # row[2] == 'Succeeded':
                     record_id = row[0]
                     record_uri = row[1]
                     self.uri_dict_all[record_id] = record_uri  # all the files in one dictionary
                     self.inv_dict_all[record_uri] = record_id
+                    # xxx = self.uri_dict_all['Q30']  # debug
         cursor.close()
         conn.close()
         pass

@@ -4,14 +4,15 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 
 PREFIX ex: <http://example.com/ontology/>
+PREFIX pred: <http://example.com/predicate/>
 PREFIX country: <http://example.com/predicate/country>
 PREFIX country_name: <http://example.com/predicate/country_name>
-PREFIX country_comment: <http://example.com/predicate/country_comment>
+PREFIX country_description: <http://example.com/predicate/country_description>
 
-SELECT ?s ?name ?country_name
+SELECT ?s ?hotel_name ?country_name
 WHERE {
     ?s rdf:type ex:Hotel.
-    ?s rdfs:label ?name.
-    ?s country: ?country_id.
-    ?country_id country_name: ?country_name.
+    ?s rdfs:label ?hotel_name.
+    ?s pred:country ?country_id.
+    ?country_id pred:country_name ?country_name.
 }

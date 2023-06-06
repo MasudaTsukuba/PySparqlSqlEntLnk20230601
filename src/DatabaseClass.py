@@ -52,15 +52,15 @@ class DataBase:
             #         cnx.close()
 
         sqls = [
-            "CREATE TABLE building (b_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
+            "CREATE TABLE building (b_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
             "CREATE TABLE buildinc (b_id VARCHAR(255), bc_id VARCHAR(255), FOREIGN KEY (b_id) REFERENCES building(b_id), FOREIGN KEY (bc_id) REFERENCES country(country_id));",
-            "CREATE TABLE hotel (h_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
+            "CREATE TABLE hotel (h_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
             "CREATE TABLE hotel_place_in (h_id VARCHAR(255), cn_id VARCHAR(255), FOREIGN KEY (h_id) REFERENCES hotel(h_id), FOREIGN KEY (cn_id) REFERENCES country(country_id));",
-            "CREATE TABLE Museum (museum_iD VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
+            "CREATE TABLE Museum (museum_iD VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
             "CREATE TABLE museumincountry (museum_iD VARCHAR(255), co_id VARCHAR(255), FOREIGN KEY (museum_iD) REFERENCES Museum(museum_iD), FOREIGN KEY (co_id) REFERENCES country(country_id));",
-            "CREATE TABLE heritage (p_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), comment VARCHAR(255));",
+            "CREATE TABLE heritage (p_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
             "CREATE TABLE heritage_placein (p_id VARCHAR(255), c_id VARCHAR(255), FOREIGN KEY (p_id) REFERENCES heritage(p_id), FOREIGN KEY (c_id) REFERENCES country(country_id));",
-            "CREATE TABLE country (country_id VARCHAR(255) PRIMARY KEY, country_name VARCHAR(255), country_comment VARCHAR(255));"
+            "CREATE TABLE country (country_id VARCHAR(255) PRIMARY KEY, country_name VARCHAR(255), country_description VARCHAR(255));"
         ]
 
         for sql in sqls:
@@ -98,15 +98,15 @@ class DataBase:
             "Country/Country",
         ]
         sqls = [
-            "INSERT INTO building (b_id, name, comment) VALUES (?, ?, ?)",
+            "INSERT INTO building (b_id, name, description) VALUES (?, ?, ?)",
             "INSERT INTO buildinc (b_id, bc_id) VALUES (?, ?)",
-            "INSERT INTO hotel (h_id, name, comment) VALUES (?, ?, ?)",
+            "INSERT INTO hotel (h_id, name, description) VALUES (?, ?, ?)",
             "INSERT INTO hotel_place_in (h_id, cn_id) VALUES (?, ?)",
-            "INSERT INTO Museum (museum_id, name, comment) VALUES (?, ?, ?)",
+            "INSERT INTO Museum (museum_id, name, description) VALUES (?, ?, ?)",
             "INSERT INTO museumincountry (museum_id, co_id) VALUES (?, ?)",
-            "INSERT INTO heritage (p_id, name, comment) VALUES (?, ?, ?)",
+            "INSERT INTO heritage (p_id, name, description) VALUES (?, ?, ?)",
             "INSERT INTO heritage_placein (p_id, c_id) VALUES (?, ?)",
-            "INSERT INTO country (country_id, country_name, country_comment) VALUES (?, ?, ?)"
+            "INSERT INTO country (country_id, country_name, country_description) VALUES (?, ?, ?)"
         ]
 
         for table, path_table, sql in zip(tables, path_tables, sqls):

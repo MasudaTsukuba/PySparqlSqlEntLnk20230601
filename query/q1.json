@@ -83,6 +83,6 @@
     "ex": "http://example.com/ontology/",
     "country": "http://example.com/predicate/country",
     "country_name": "http://example.com/predicate/country_name/",
-    "country_comment": "http://example.com/predicate/country_comment/"
+    "country_description": "http://example.com/predicate/country_description/"
   }
 }

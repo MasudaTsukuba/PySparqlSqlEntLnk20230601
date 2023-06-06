@@ -49,9 +49,9 @@
         "subject_uri":"PREFIX_museum",
         "object_uri":"plain",
         "subject":"Var6",
-        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
         "object":"Var7",
-        "SQL":"SELECT museum_id AS Var6, comment AS Var7 FROM museum;"
+        "SQL":"SELECT museum_id AS Var6, description AS Var7 FROM museum;"
     },
     {
         "mappingID":7,
@@ -67,9 +67,9 @@
         "subject_uri":"PREFIX_hotel",
         "object_uri":"plain",
         "subject":"Var10",
-        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
         "object":"Var11",
-        "SQL":"SELECT h_id AS Var10, comment AS Var11 FROM Hotel;"
+        "SQL":"SELECT h_id AS Var10, description AS Var11 FROM Hotel;"
     },
     {
         "mappingID":9,
@@ -85,9 +85,9 @@
         "subject_uri":"PREFIX_Build",
         "object_uri":"plain",
         "subject":"Var14",
-        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
         "object":"Var15",
-        "SQL":"SELECT b_id AS Var14, comment AS Var15 FROM Build;"
+        "SQL":"SELECT b_id AS Var14, description AS Var15 FROM Build;"
     },
     {
         "mappingID":11,
@@ -103,9 +103,9 @@
         "subject_uri":"PREFIX_WH",
         "object_uri":"plain",
         "subject":"Var18",
-        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
         "object":"Var19",
-        "SQL":"SELECT p_id AS Var18, comment AS Var19 FROM heritage;"
+        "SQL":"SELECT p_id AS Var18, description AS Var19 FROM heritage;"
     },
     {
         "mappingID":13,
@@ -184,25 +184,25 @@
         "subject_uri":"PREFIX_countryW",
         "object_uri":"plain",
         "subject":"Var36",
-        "predicate":"http://example.com/predicate/country_comment",
+        "predicate":"http://example.com/predicate/country_description",
         "object":"Var37",
-        "SQL":"SELECT c_id AS Var36, comment AS Var37 FROM W_country;"
+        "SQL":"SELECT c_id AS Var36, description AS Var37 FROM W_country;"
     },
     {
         "mappingID":22,
         "subject_uri":"PREFIX_countryM",
         "object_uri":"plain",
         "subject":"Var38",
-        "predicate":"http://example.com/predicate/country_comment",
+        "predicate":"http://example.com/predicate/country_description",
         "object":"Var39",
-        "SQL":"SELECT co_id AS Var38, comment AS Var39 FROM M_country;"
+        "SQL":"SELECT co_id AS Var38, description AS Var39 FROM M_country;"
     },
     {
         "mappingID":23,
         "subject_uri":"PREFIX_countryH",
         "object_uri":"plain",
         "subject":"Var40",
-        "predicate":"http://example.com/predicate/country_comment",
+        "predicate":"http://example.com/predicate/country_description",
         "object":"Var41",
         "SQL":"SELECT cn_id AS Var40, name AS Var41 FROM H_country;"
     },
@@ -211,7 +211,7 @@
         "subject_uri":"PREFIX_countryB",
         "object_uri":"plain",
         "subject":"Var42",
-        "predicate":"http://example.com/predicate/country_comment",
+        "predicate":"http://example.com/predicate/country_description",
         "object":"Var43",
         "SQL":"SELECT bc_id AS Var42, name AS Var43 FROM B_country;"
     }

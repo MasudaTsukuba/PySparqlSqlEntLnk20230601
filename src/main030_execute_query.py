@@ -8,13 +8,6 @@ from src.OutputClass import Output
 from src.PathClass import PathClass
 
 
-# working_dir = os.getcwd()
-# if working_dir.endswith('src'):
-#     working_dir = os.path.dirname(working_dir)
-# # common_query_path = os.path.dirname(working_dir)+'/PySparqlQuery20230508/query/'
-# common_query_path = os.path.dirname(working_dir)+'/PySparqlSatoNew20230509/query/'
-
-
 def query2json(path):  # convert sparql query string into json format
     json_file = path.input_query_file.replace('.txt', '.json')  # output json file name
     command = path.working_path + '/action_folder/node_modules/sparqljs/bin/sparql-to-json'
@@ -23,9 +16,9 @@ def query2json(path):  # convert sparql query string into json format
     if cp.returncode != 0:
         print('Error: sparql-to-json: ', cp.stderr)
         return -1
-    with open(path.working_path+json_file, mode='w') as f:
+    with open(path.working_path+'/'+json_file, mode='w') as f:
         f.write(cp.stdout)
-    return path.working_path+json_file
+    return path.working_path+'/'+json_file
 
 
 def execute_query(input_file):
@@ -42,6 +35,7 @@ def execute_query(input_file):
     sparql_query = SparqlQuery(query2json(path), uri)
     exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
     print(exe_query)  # for debug
+    # exe_query = 'SELECT s, o FROM (SELECT p_id AS s, "http://www.w3.org/1999/02/22-rdf-syntax-ns#description" AS Var1201, description AS o FROM heritage );'  # debug
     sql_results, headers = data_base.execute(exe_query)  # execute sql query
     data_base.close()
     sparql_results = sparql_query.convert_to_rdf(uri, sql_results)  # back to rdf
@@ -59,10 +53,11 @@ if __name__ == '__main__':
     query = 'q5.txt'
     query = 'q6.txt'
     query = 'q7.txt'
-    query = 'q1pred_hotel.txt'
-    query = 'q1pred_build.txt'
-    query = 'q1pred_museum.txt'
-    query = 'q1pred_heritage.txt'
+    query = 'q7b.txt'
+    query = 'q1_pred_hotel.txt'
+    query = 'q1_pred_building.txt'
+    query = 'q1_pred_museum.txt'
+    query = 'q1_pred_heritage.txt'
     query = 'query_type_object20230518.txt'
     query = 'query_extract_hotels20230519.txt'
     query = 'query_extract_hotels_with_name20230519.txt'
@@ -74,6 +69,7 @@ if __name__ == '__main__':
     query = 'q5c.txt'
     query = 'q1_hotel_name_only.txt'  # q1 without country, only hotel id and name
     query = 'q1_hotel_country_id.txt'  # q1 wit country_id, but without country name
-    query = 'q1_pred_of_hotel.txt'  # predicate for rdf:type is variable
-    query = 'q1pred_get_hotel.txt'  # return predicate value
+    query = 'q1_pred_hotel_get.txt'  # predicate for rdf:type is variable
+    query = 'q1_pred_get_hotel.txt'  # return predicate value
+    query = 'query_description.txt'
     execute_query(query)

@@ -8,9 +8,9 @@ def test_q1():
     assert len(result) == 822
     result = execute_query('q1_hotel_country_id.txt')  # q1 wit country_id, but without country name
     assert len(result) == 801
-    result = execute_query('q1_pred_of_hotel.txt')  # get predicate of rdf:type as a variable
+    result = execute_query('q1_pred_hotel_get.txt')  # get predicate of rdf:type as a variable
     assert len(result) == 801
-    result = execute_query('q1pred_get_hotel.txt')  # return predicate value
+    result = execute_query('q1_pred_get_hotel.txt')  # return predicate value
     assert len(result) == 801
 
 
@@ -48,28 +48,28 @@ def test_q6():
     assert len(result) == 219
 
 
-def test_q7():
-    result = execute_query('q7.txt')
-    assert len(result) == 0
+def test_q7b():
+    result = execute_query('q7b.txt')
+    assert len(result) == 1
 
 
 def test_q1pred_hotel():
-    result = execute_query('q1pred_hotel.txt')
+    result = execute_query('q1_pred_hotel.txt')
     assert len(result) == 801
 
 
 def test_q1pred_build():
-    result = execute_query('q1pred_build.txt')
+    result = execute_query('q1_pred_building.txt')
     assert len(result) == 18470
 
 
 def test_q1pred_museum():
-    result = execute_query('q1pred_museum.txt')
+    result = execute_query('q1_pred_museum.txt')
     assert len(result) == 19533  # 19526  # 2023/6/1
 
 
 def test_q1pred_heritage():
-    result = execute_query('q1pred_heritage.txt')
+    result = execute_query('q1_pred_heritage.txt')
     assert len(result) == 5195  # 5191  # 2023/6/1
 
 
