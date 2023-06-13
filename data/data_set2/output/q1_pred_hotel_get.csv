@@ -1,0 +1,802 @@
+s,hotel_name,country_name
+http://example.com/id/100877359h,Müritz Hotel,Germany
+http://example.com/id/1011881h,Burg Großfurra,Germany
+http://example.com/id/1015042h,Burghaus Burgsahr,Germany
+http://example.com/id/10332618h,Mosteiro de Flor da Rosa,Portugal
+http://example.com/id/103331335h,"32 Bond Street, Ross",Australia
+http://example.com/id/10343928h,Palácio Belmonte,Portugal
+http://example.com/id/10344021h,Palácio de Estói,Portugal
+http://example.com/id/10352192h,Convento das Chagas (Vila Viçosa),Portugal
+http://example.com/id/10352195h,Convento dos Lóios,Portugal
+http://example.com/id/10352198h,Pousada de Condeixa-a-Nova,Portugal
+http://example.com/id/10352202h,Capela e Hospital da Santa Casa da Misericórdia de Ourém,Portugal
+http://example.com/id/10352206h,Pousada de Viseu,Portugal
+http://example.com/id/10352207h,Antigo Convento do Desagravo do Santíssimo Sacramento,Portugal
+http://example.com/id/10352211h,Convento de Nossa Senhora da Boa Esperança,Portugal
+http://example.com/id/10352218h,Solar da Rede,Portugal
+http://example.com/id/10352219h,Convento dos Lóios,Portugal
+http://example.com/id/104234251h,British Hotel,Australia
+http://example.com/id/104830558h,Welsbach Building,United States of America
+http://example.com/id/1049027h,Jumeirah Emirates Towers Hotel,United Arab Emirates
+http://example.com/id/1049209h,The Venetian,United States of America
+http://example.com/id/1051604h,Four Queens,United States of America
+http://example.com/id/10524043h,Hilton Nairobi,Kenya
+http://example.com/id/10524047h,Hilton Stockholm Slussen,Sweden
+http://example.com/id/10526554h,Hotel Knaust,Sweden
+http://example.com/id/10526572h,Hotel Billingen,Sweden
+http://example.com/id/105554563h,Heliopolis Towers Hotel,Egypt
+http://example.com/id/105621651h,Oubangui Hotel,Central African Republic
+http://example.com/id/106090892h,"Overtoom 33, Amsterdam",Netherlands
+http://example.com/id/106192327h,Can Ferrandell,Spain
+http://example.com/id/1063195h,Torre de Madrid,Spain
+http://example.com/id/106393048h,Hampton by Hilton Bursa,Turkey
+http://example.com/id/1064873h,Excalibur Hotel and Casino,United States of America
+http://example.com/id/106996884h,Na můstku 10,Czech Republic
+http://example.com/id/107121457h,Brinker Collegiate Institute,United States of America
+http://example.com/id/107607598h,Hotel Dudley,United States of America
+http://example.com/id/108294146h,"Flour Mill at 129 Port avenue, Valencia",Spain
+http://example.com/id/108309815h,Can Cera,Spain
+http://example.com/id/108516880h,Villa Balbi,Italy
+http://example.com/id/108729880h,Kasteel Solhof,Belgium
+http://example.com/id/108865646h,Lamar Hotel,United States of America
+http://example.com/id/109451447h,Panquinkazerne,Belgium
+http://example.com/id/110010967h,"SAii Lagoon Maldives, Curio Collection by Hilton",Maldives
+http://example.com/id/110041692h,Central téléphonique Ségur,France
+http://example.com/id/110147122h,Hilton Garden Inn London Heathrow Terminals 2 and 3,United Kingdom
+http://example.com/id/110251555h,Ostrovní 15,Czech Republic
+http://example.com/id/110407965h,Tours Odyssey,France
+http://example.com/id/110660109h,Silk Road Hotel (Yazd),Iran
+http://example.com/id/110660372h,Dalan-e Behesht Hotel,Iran
+http://example.com/id/110664670h,Khesht Abad Hotel,Iran
+http://example.com/id/1106716h,"Kempinski Hotel Corvinus, Budapest",Hungary
+http://example.com/id/110681137h,Zoerselhof,Belgium
+http://example.com/id/110735133h,Can Balaguer,Spain
+http://example.com/id/1107391h,Sands Hotel and Casino,United States of America
+http://example.com/id/110831132h,Casa Gabino Bobo,Spain
+http://example.com/id/111041461h,DoubleTree by Hilton Hannover Schweizerhof,Germany
+http://example.com/id/111243216h,Hilton Singapore Orchard,Singapore
+http://example.com/id/111445383h,Chestnut Residence and Conference Centre,Canada
+http://example.com/id/1116194h,The Leland Hotel,United States of America
+http://example.com/id/112111547h,Lepopirtti,Finland
+http://example.com/id/112147576h,Torenhuis,Belgium
+http://example.com/id/112168936h,De Gouden Leeuw,Belgium
+http://example.com/id/113051152h,Putnam House,United States of America
+http://example.com/id/113164146h,Palmetto House,United States of America
+http://example.com/id/11330330h,Hilton Nagoya,Indonesia
+http://example.com/id/11330330h,Hilton Nagoya,Japan
+http://example.com/id/11330332h,Hilton Odawara Resort & Spa,Japan
+http://example.com/id/11330335h,Hilton Tokyo Bay,Japan
+http://example.com/id/113564549h,Hôtel La Pérouse,France
+http://example.com/id/1136654h,The D Las Vegas,United States of America
+http://example.com/id/1136841h,Fremont Hotel and Casino,United States of America
+http://example.com/id/11415297h,JR Gate Tower,Japan
+http://example.com/id/114289194h,Grand Hôtel G. Scheers,Belgium
+http://example.com/id/115282741h,Nedermolen,Belgium
+http://example.com/id/116215655h,Hotel Antonio Perez,Belgium
+http://example.com/id/11700542h,Prince George Hotel,United States of America
+http://example.com/id/1189944h,Hotel Porta Fira,Spain
+http://example.com/id/12020416h,Hotel Paříž,Czech Republic
+http://example.com/id/1237113h,Convento de Santa Maria do Bouro,Portugal
+http://example.com/id/13049756h,Canfranc-Estación,Spain
+http://example.com/id/13103085h,Hôtel de Paris,Luxembourg
+http://example.com/id/1324543h,El Rancho Hotel & Motel,United States of America
+http://example.com/id/1340132h,Encore,United States of America
+http://example.com/id/1340365h,Westgate Las Vegas Resort & Casino,United States of America
+http://example.com/id/1342565h,Planet Hollywood Resort & Casino,United States of America
+http://example.com/id/1347033h,Dunes,United States of America
+http://example.com/id/13529145h,"The Biltmore Mayfair, LXR Hotels & Resorts",United Kingdom
+http://example.com/id/1360313h,Treasure Island Hotel and Casino,United States of America
+http://example.com/id/1401439h,Schüttkasten Geras,Austria
+http://example.com/id/1412478h,"The Waldorf Hilton, London",United Kingdom
+http://example.com/id/1429071h,New York-New York Hotel and Casino,United States of America
+http://example.com/id/1436845h,Cosmopolitan of Las Vegas,United States of America
+http://example.com/id/14683065h,"333 Battery Street, San Francisco,",United States of America
+http://example.com/id/14753688h,"Casa Alberola Alicante, Curio Collection by Hilton",Spain
+http://example.com/id/1481002h,The Ritz London,United Kingdom
+http://example.com/id/14954702h,107 Piccadilly,United Kingdom
+http://example.com/id/1504641h,Kaufhaus Jonaß,Germany
+http://example.com/id/15068974h,Zein-o-Din Caravanserai,Iran
+http://example.com/id/1514587h,The Palazzo,United States of America
+http://example.com/id/1535018h,Golden Nugget Las Vegas Hotel & Casino,United States of America
+http://example.com/id/1535845h,Riviera Hotel and Casino,United States of America
+http://example.com/id/15640601h,Palacio del Marqués de Velada,Spain
+http://example.com/id/1580067h,Harrah's Las Vegas,United States of America
+http://example.com/id/1585008h,Hard Rock Hotel and Casino,United States of America
+http://example.com/id/15923583h,Conrad Hong Kong,People's Republic of China
+http://example.com/id/16256099h,The Caledonian,United Kingdom
+http://example.com/id/1630814h,Hotel Weiss Kreuz,Switzerland
+http://example.com/id/1630833h,"Hotel Berlin, Berlin",Germany
+http://example.com/id/1630837h,Hotel Bodenhaus,Switzerland
+http://example.com/id/1630911h,Hilton Warsaw City,Poland
+http://example.com/id/16318627h,Abeno Harukas,Japan
+http://example.com/id/1637090h,"South Point Hotel, Casino & Spa",United States of America
+http://example.com/id/16528268h,Aquarium et Musée de la Mer de Dinard,France
+http://example.com/id/16621592h,Villa Torretta,Italy
+http://example.com/id/167870h,Boardwalk Hotel and Casino,United States of America
+http://example.com/id/16833188h,Lloyd-Bahnhof,Germany
+http://example.com/id/17043498h,Viciebsk,Belarus
+http://example.com/id/17183802h,"Castle Hotel, Ruthin",United Kingdom
+http://example.com/id/17226268h,Hilton Tokyo,Japan
+http://example.com/id/17229982h,Hilton Fukuoka Sea Hawk,Japan
+http://example.com/id/17390148h,Citadel of Cascais,Portugal
+http://example.com/id/17444624h,Hilton Garden Inn Frankfurt Airport,Germany
+http://example.com/id/17444904h,DoubleTree by Hilton Hotel London - Docklands Riverside,United Kingdom
+http://example.com/id/17532427h,Stanley House,United Kingdom
+http://example.com/id/17533843h,Polebarn House,United Kingdom
+http://example.com/id/17534979h,5 and 7 High Street and Falcon Hotel Annexe,United Kingdom
+http://example.com/id/17544934h,Barton Seagrave Hall,United Kingdom
+http://example.com/id/17549646h,"2, 3 and 4, Regency Square",United Kingdom
+http://example.com/id/17554574h,Fritton Old Hall,United Kingdom
+http://example.com/id/17557267h,11 Market End,United Kingdom
+http://example.com/id/17793480h,Hilton Edinburgh Carlton,United Kingdom
+http://example.com/id/17834531h,1 Tower Knowe,United Kingdom
+http://example.com/id/17834546h,"Hawick, 1 Tower Dykeside",United Kingdom
+http://example.com/id/17834566h,"Hawick, 3, 4 Tower Dykeside",United Kingdom
+http://example.com/id/17835167h,2 Tower Dykeside,United Kingdom
+http://example.com/id/18008489h,Torre del Remei,Spain
+http://example.com/id/18112026h,DoubleTree by Hilton Hotel London - Chelsea,United Kingdom
+http://example.com/id/18286846h,Waldorf Astoria Amsterdam,Netherlands
+http://example.com/id/18340195h,Hybernská 12,Czech Republic
+http://example.com/id/18509174h,Fayrouz Ressort,Egypt
+http://example.com/id/18509281h,Hilton Hurghada Resort,Egypt
+http://example.com/id/18536h,The Shard,United Kingdom
+http://example.com/id/18712428h,Makkah Clock Royal Tower Hotel,Saudi Arabia
+http://example.com/id/1879918h,Löwenburger Hof,Germany
+http://example.com/id/18813051h,Hilton Rotterdam,Netherlands
+http://example.com/id/19307691h,Hilton Garden Inn London Heathrow Airport,United Kingdom
+http://example.com/id/19348190h,"25, place Dauphine",France
+http://example.com/id/19362430h,Gasthof Krone,Switzerland
+http://example.com/id/1943482h,Hilton Molino Stucky Venice,Italy
+http://example.com/id/19962146h,CloudNo7,Germany
+http://example.com/id/20046383h,Hilton Bonn,Germany
+http://example.com/id/202599h,Stardust Resort and Casino,United States of America
+http://example.com/id/20650664h,La Clef Louvre,France
+http://example.com/id/20828319h,Villa Santana,United States of America
+http://example.com/id/20830632h,Bluebeard's Castle,United States of America
+http://example.com/id/21402642h,18 Gramercy Park,United States of America
+http://example.com/id/2141411h,Hilton Bandung,Indonesia
+http://example.com/id/21532003h,Radisson Blu Hotel in Bamako,Mali
+http://example.com/id/21568919h,Tabacos de Filipinas building,Spain
+http://example.com/id/21619228h,Sheraton Guiyang Hotel,People's Republic of China
+http://example.com/id/22073967h,Hilton Bournemouth,United Kingdom
+http://example.com/id/22118627h,Global Gate,Japan
+http://example.com/id/22583354h,Nový Pachtovský palác,Czech Republic
+http://example.com/id/22976715h,Hilton Dubai The Walk,United Arab Emirates
+http://example.com/id/22997753h,Bay Mills Resort & Casino,United States of America
+http://example.com/id/23265h,Hôtel des 3 Collèges,France
+http://example.com/id/23305592h,"Kewadin Casino, Hotel and Convention Center",United States of America
+http://example.com/id/23646439h,"100 Queen's Gate Hotel London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/23685988h,DoubleTree by Hilton Hotel Bristol North,United Kingdom
+http://example.com/id/23828028h,Edificio Gran Vía 4,Spain
+http://example.com/id/23907594h,CAAC Tower,People's Republic of China
+http://example.com/id/23907601h,The London NYC,United States of America
+http://example.com/id/2398831h,Teatro Eden,Portugal
+http://example.com/id/24054070h,Hilton Cambridge City Centre,United Kingdom
+http://example.com/id/24241038h,Cambridge Hotel,United Kingdom
+http://example.com/id/24708167h,"Dominican monastery in Malá Strana, Prague",Czech Republic
+http://example.com/id/25007h,Bellagio Hotel & Casino,United States of America
+http://example.com/id/25204442h,Hilton Zurich Airport,Switzerland
+http://example.com/id/2523683h,Château d'Artigny,France
+http://example.com/id/2567200h,The Whittier,United States of America
+http://example.com/id/2579998h,Castle of Óbidos,Portugal
+http://example.com/id/26237391h,Conrad Tokyo,Japan
+http://example.com/id/26242212h,Hilton Garden Inn Sunderland,United Kingdom
+http://example.com/id/26306764h,The Mytton and Mermaid Hotel,United Kingdom
+http://example.com/id/2631856h,520 West 41st Street,United States of America
+http://example.com/id/26398842h,The Old Hall Hotel,United Kingdom
+http://example.com/id/26463120h,13 Market End,United Kingdom
+http://example.com/id/26483035h,"14 and 15, Warwick Road",United Kingdom
+http://example.com/id/26537718h,Dove Nest,United Kingdom
+http://example.com/id/26609450h,Crosby Lodge,United Kingdom
+http://example.com/id/26617946h,Kenwith Castle,United Kingdom
+http://example.com/id/26684094h,"12 and 13, Warwick Road",United Kingdom
+http://example.com/id/26685058h,15 Market End,United Kingdom
+http://example.com/id/26700322h,Hotel Omni Mont-Royal,Canada
+http://example.com/id/26707727h,Hotel Santo Mauro,Spain
+http://example.com/id/26723836h,De Gamlas Hem,Finland
+http://example.com/id/26734729h,Conrad Istanbul Bosphorus,Turkey
+http://example.com/id/26878946h,Hilton Sukhumvit Bangkok,Thailand
+http://example.com/id/26902701h,Hilton Helsinki Kalastajatorppa,Finland
+http://example.com/id/26960663h,Hampton by Hilton Bournemouth,United Kingdom
+http://example.com/id/27456363h,DoubleTree by Hilton Gurugram Baani Square,India
+http://example.com/id/2748565h,Claridge's,United Kingdom
+http://example.com/id/27825013h,Hilton Frankfurt City Centre,Germany
+http://example.com/id/27826630h,DoubleTree by Hilton Hotel Cairns,Australia
+http://example.com/id/278380h,The Drew Las Vegas,United States of America
+http://example.com/id/27962079h,Ausonia Palace Hotel,Italy
+http://example.com/id/27981667h,Hilton Garden Inn Dubai Mall of the Emirates,United Arab Emirates
+http://example.com/id/28053246h,Hilton Auckland,New Zealand
+http://example.com/id/28192892h,Waldorf Astoria Beijing,People's Republic of China
+http://example.com/id/28214174h,Hampton by Hilton Newcastle,United Kingdom
+http://example.com/id/28456180h,Makkah Millennium Hotel,Saudi Arabia
+http://example.com/id/28609672h,DoubleTree by Hilton Hotel Coventry,United Kingdom
+http://example.com/id/28662736h,"Gran Vía 22, Madrid",Spain
+http://example.com/id/28675210h,Castle mill in Toruń,Poland
+http://example.com/id/28675745h,15/17 Mostowa Street in Toruń,Poland
+http://example.com/id/28680070h,Sanatório das Penhas da Saúde,Portugal
+http://example.com/id/28746397h,Hotel NH Paseo del Prado,Spain
+http://example.com/id/28755991h,Hotel Catalonia Atocha,Spain
+http://example.com/id/28756542h,Palacio Oriol,Spain
+http://example.com/id/28756862h,Hotel Catalonia Gran Vía,Spain
+http://example.com/id/28757120h,Gran Vía 18,Spain
+http://example.com/id/28757959h,Hotel Senator Gran Vía,Spain
+http://example.com/id/28757977h,Hotel Tryp Cibeles,Spain
+http://example.com/id/28769024h,Hotel Gran Vía,Spain
+http://example.com/id/28777988h,DoubleTree by Hilton Hotel Aberdeen Treetops,United Kingdom
+http://example.com/id/28844857h,El Palace Hotel Barcelona,Spain
+http://example.com/id/2899830h,Hilton The Hague,Netherlands
+http://example.com/id/29000794h,DoubleTree by Hilton Hotel Darwin,Australia
+http://example.com/id/29007102h,Papelera Española building,Spain
+http://example.com/id/2902501h,Palatin Hotel Tel Aviv,Israel
+http://example.com/id/29053655h,Hilton Paris Charles de Gaulle Airport,France
+http://example.com/id/29053691h,Hilton Coylumbridge,United Kingdom
+http://example.com/id/2905596h,The Blackstone Hotel,United States of America
+http://example.com/id/2912992h,The Harmon,United States of America
+http://example.com/id/29415039h,Hotel Alay,Spain
+http://example.com/id/2961297h,Chartreuse du Reposoir,France
+http://example.com/id/29909111h,Hotel Alfonso X El Sabio,Spain
+http://example.com/id/2992084h,Hilton Paris Opera,France
+http://example.com/id/29948012h,DoubleTree by Hilton Hotel Edinburgh Airport,United Kingdom
+http://example.com/id/29981099h,Conrad Bali,Indonesia
+http://example.com/id/30014678h,DoubleTree by Hilton Hotel Istanbul - Old Town,Turkey
+http://example.com/id/30021076h,Hilton Cologne,Germany
+http://example.com/id/30021879h,DoubleTree by Hilton London Heathrow Airport,United Kingdom
+http://example.com/id/30035305h,Hilton Saint Petersburg ExpoForum,Russia
+http://example.com/id/30047899h,Hilton Garden Inn Stuttgart NeckarPark,Germany
+http://example.com/id/30090585h,Conrad Makkah,Saudi Arabia
+http://example.com/id/30097763h,"The Westminster London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/30097821h,Conrad Beijing,People's Republic of China
+http://example.com/id/30139243h,Hilton Prague Old Town,Czech Republic
+http://example.com/id/30140581h,DoubleTree by Hilton Hotel Oradea,Romania
+http://example.com/id/30147522h,Hilton Dubai Jumeirah,United Arab Emirates
+http://example.com/id/30174421h,Hilton Colombo Residences,Sri Lanka
+http://example.com/id/30242708h,DoubleTree by Hilton Hotel Avanos - Cappadocia,Turkey
+http://example.com/id/30251296h,Hilton Garden Inn Matera,Italy
+http://example.com/id/30301927h,Hampton by Hilton Bristol City Centre,United Kingdom
+http://example.com/id/30302746h,Hilton Brussels City,Belgium
+http://example.com/id/30306779h,Hilton Adelaide,Australia
+http://example.com/id/30307361h,Hilton Hurghada Plaza,Egypt
+http://example.com/id/30308807h,Hilton Alexandria King's Ranch,Egypt
+http://example.com/id/30337433h,Hilton Garden Inn Volgograd,Russia
+http://example.com/id/30346525h,Hilton Edinburgh Grosvenor,United Kingdom
+http://example.com/id/30347445h,DoubleTree by Hilton Hotel Milan,Italy
+http://example.com/id/30402016h,Hilton Belfast,United Kingdom
+http://example.com/id/30407987h,DoubleTree by Hilton Hotel Wroclaw,Poland
+http://example.com/id/30409284h,Hilton Vienna Park,Austria
+http://example.com/id/30438998h,Hilton Dusseldorf,Germany
+http://example.com/id/30504052h,DoubleTree by Hilton Hotel London - Marble Arch,United Kingdom
+http://example.com/id/30504754h,Hilton Nottingham,United Kingdom
+http://example.com/id/30522857h,Hilton Brussels Grand Place,Belgium
+http://example.com/id/30736107h,Hilton Imperial Dubrovnik,Croatia
+http://example.com/id/30927563h,Koriyama View Hotel Annex,Japan
+http://example.com/id/31277862h,Hilton Tallinn Park,Estonia
+http://example.com/id/3142395h,Hyatt Regency Paris Etoile,France
+http://example.com/id/31827676h,U zlatého anděla,Czech Republic
+http://example.com/id/31861463h,"Krajinská 41, Zátkův dům",Czech Republic
+http://example.com/id/3192583h,Kanayama Minami Building,Japan
+http://example.com/id/3278286h,Main Street Station Hotel and Casino and Brewery,United States of America
+http://example.com/id/3281025h,APA Hotel & Resort Tokyo Bay Makuhari,Japan
+http://example.com/id/32947262h,Hilton Garden Inn New Delhi/Saket,India
+http://example.com/id/33035435h,DoubleTree by Hilton Hotel Istanbul - Moda,Turkey
+http://example.com/id/33101471h,DoubleTree by Hilton Hotel Cluj - City Plaza,Romania
+http://example.com/id/33189243h,Feuerschiff,Germany
+http://example.com/id/33229354h,Hilton London Croydon,United Kingdom
+http://example.com/id/33382454h,DoubleTree by Hilton Hotel Melbourne - Flinders Street,Australia
+http://example.com/id/3356472h,The Orleans,United States of America
+http://example.com/id/3533060h,Tour Duo,France
+http://example.com/id/3545225h,"Sam's Town Hotel and Gambling Hall, Las Vegas",United States of America
+http://example.com/id/37857517h,Hampton by Hilton Birmingham Jewellery Quarter,United Kingdom
+http://example.com/id/37858337h,Hampton by Hilton Glasgow Central,United Kingdom
+http://example.com/id/37858682h,DoubleTree by Hilton Hotel Leeds City Centre,United Kingdom
+http://example.com/id/38251391h,3 V Tourist Court,United States of America
+http://example.com/id/40037779h,Dämman,Sweden
+http://example.com/id/41069183h,Hilton Amsterdam Airport Schiphol,Netherlands
+http://example.com/id/41300192h,Hilton Pyramids Golf,Egypt
+http://example.com/id/42341625h,DoubleTree by Hilton Hotel London - Hyde Park,United Kingdom
+http://example.com/id/4261094h,Downtown Grand Hotel & Casino,United States of America
+http://example.com/id/4261374h,Suncoast Hotel and Casino,United States of America
+http://example.com/id/42748124h,Shah Abbasi Caravanserai of Abuzeydabad,Iran
+http://example.com/id/42867978h,Tehrani House (Yazd),Iran
+http://example.com/id/42874514h,Golshan House (Yazd),Iran
+http://example.com/id/43031921h,Corona Hotel in Baia Sprie,Romania
+http://example.com/id/4385582h,Page-Walker Hotel,United States of America
+http://example.com/id/4448816h,Tsukuba Center Building,Japan
+http://example.com/id/45316350h,DoubleTree by Hilton Hotel Edinburgh City Centre,United Kingdom
+http://example.com/id/4596016h,1 Snow Hill Plaza,United Kingdom
+http://example.com/id/47166648h,Palau Benet-Desvilar,Spain
+http://example.com/id/4725573h,Aliante Casino and Hotel,United States of America
+http://example.com/id/47401774h,Conrad Bora Bora Nui,France
+http://example.com/id/47518776h,Millennium Hilton Bangkok,Thailand
+http://example.com/id/47902573h,Schloss Kölzow,Germany
+http://example.com/id/4791273h,Arizona Charlie's Boulder,United States of America
+http://example.com/id/49393251h,DoubleTree by Hilton Hotel Kuala Lumpur,Malaysia
+http://example.com/id/49573628h,Hilton Cabo Verde Sal Resort,Cape Verde
+http://example.com/id/49593283h,Breite Straße 19,Germany
+http://example.com/id/49593839h,Friedrichplatz 8,Germany
+http://example.com/id/49594143h,Kurstraße 6,Germany
+http://example.com/id/49595033h,Schloßstraße 5,Germany
+http://example.com/id/49807274h,Hilton London Bankside,United Kingdom
+http://example.com/id/4993716h,Castle of Alvito,Portugal
+http://example.com/id/4999251h,Burlington Hotel,United States of America
+http://example.com/id/50308536h,DoubleTree by Hilton Hotel Dubai - Jumeirah Beach,United Arab Emirates
+http://example.com/id/50353048h,Hilton Istanbul Bomonti Hotel & Conference Center,Turkey
+http://example.com/id/50356312h,Hotel Palace of Valencia,Spain
+http://example.com/id/5049621h,Castaways Hotel and Casino,United States of America
+http://example.com/id/5049734h,Castle of Alcácer do Sal,Portugal
+http://example.com/id/5049843h,Castle of Vila Nova de Cerveira,Portugal
+http://example.com/id/50611971h,Hampton by Hilton London Gatwick Airport,United Kingdom
+http://example.com/id/50809149h,Hilton Astana,Kazakhstan
+http://example.com/id/50841764h,Hilton York,United Kingdom
+http://example.com/id/51025456h,Hilton Garden Inn Florence Novoli,Italy
+http://example.com/id/51222702h,H10 Berlin Ku'damm,Germany
+http://example.com/id/51824364h,Hilton London Kensington,United Kingdom
+http://example.com/id/51918515h,Hilton Cairns,Australia
+http://example.com/id/52886668h,"Rome Cavalieri, A Waldorf Astoria Hotel",Italy
+http://example.com/id/53632218h,DoubleTree by Hilton Hotel London ExCel,United Kingdom
+http://example.com/id/53806946h,Convento do Salvador,Portugal
+http://example.com/id/53881282h,Palacete do Chafariz d'El-Rei,Portugal
+http://example.com/id/53999203h,Hilton Niseko Village,Japan
+http://example.com/id/5430586h,Hilton Cairo Heliopolis,Egypt
+http://example.com/id/54474974h,Companhia de Moagens Harmonia,Portugal
+http://example.com/id/54475112h,Quinta da Pacheca,Portugal
+http://example.com/id/54475217h,NH Collection Porto Batalha,Portugal
+http://example.com/id/54475224h,Moov Hotel Porto Centro,Portugal
+http://example.com/id/546221h,Trump International Hotel and Tower,United States of America
+http://example.com/id/54652699h,DoubleTree Resort by Hilton Penang,Malaysia
+http://example.com/id/5472556h,Forte de São Sebastião,Portugal
+http://example.com/id/5475490h,"Four Seasons Hotel building, San Francisco",United States of America
+http://example.com/id/5475499h,Four Seasons Hotel Chicago,United States of America
+http://example.com/id/55185046h,Sint-Antonius van Paduakerk,Netherlands
+http://example.com/id/55346142h,Convent of the Capuchinos,Spain
+http://example.com/id/55865629h,Hampton by Hilton Liverpool City Centre,United Kingdom
+http://example.com/id/5594050h,Hotel Gran Meliá Don Pepe,Spain
+http://example.com/id/5594866h,"Grand Palace Hotel, New Orleans",United States of America
+http://example.com/id/5595660h,Brampton Grange,United Kingdom
+http://example.com/id/56027180h,former station for biology Plön,Germany
+http://example.com/id/56071855h,DoubleTree by Hilton Hotel & Spa Liverpool,United Kingdom
+http://example.com/id/56084920h,Clayton Crown Hotel,United Kingdom
+http://example.com/id/56085005h,Clayton Hotel Chiswick,United Kingdom
+http://example.com/id/56085020h,Clayton Hotel Leeds,United Kingdom
+http://example.com/id/56085053h,Clayton Hotel Birmingham,United Kingdom
+http://example.com/id/56085075h,Clayton Hotel Belfast,United Kingdom
+http://example.com/id/56150916h,Clayton Hotel Cardiff,United Kingdom
+http://example.com/id/56194854h,Hilton Garden Inn Orenburg,Russia
+http://example.com/id/56214797h,Hilton Garden Inn Novorossiysk,Russia
+http://example.com/id/56446735h,Hilton Beijing Capital Airport,People's Republic of China
+http://example.com/id/5646336h,Hampton by Hilton Liverpool/John Lennon Airport,United Kingdom
+http://example.com/id/56478942h,Hilton Kuwait Resort,Kuwait
+http://example.com/id/56522910h,"Grand Hotel des Sablettes Plage, Curio Collection by Hilton",France
+http://example.com/id/56598554h,Canopy by Hilton Reykjavik City Centre,Iceland
+http://example.com/id/56705491h,"former Hotel Castilla, Toledo",Spain
+http://example.com/id/56711100h,Edifício A Tarde,Brazil
+http://example.com/id/56827407h,Hilton Garden Inn Puchong,Malaysia
+http://example.com/id/5683588h,Malek al-Tojar House (Yazd),Iran
+http://example.com/id/5705250h,Guged Caravanserai,Iran
+http://example.com/id/5710559h,Paasitorni,Finland
+http://example.com/id/57297679h,"Gran Vía 74, Madrid",Spain
+http://example.com/id/57385878h,Hampton by Hilton London Luton Airport,United Kingdom
+http://example.com/id/57613527h,Palazzo Montemartini,Italy
+http://example.com/id/5764637h,Hilton Liverpool City Centre,United Kingdom
+http://example.com/id/5764652h,DoubleTree by Hilton Hotel Luxembourg,Luxembourg
+http://example.com/id/5764716h,Safir Sharm Waterfalls Resort,Egypt
+http://example.com/id/57739907h,Conrad Xiamen,People's Republic of China
+http://example.com/id/5785660h,Convento Dominico de Nuestra Señora de la Consolación,Spain
+http://example.com/id/58069409h,Hampton by Hilton Samara,Russia
+http://example.com/id/58086658h,Hilton Garden Inn Ufa Riverside,Russia
+http://example.com/id/58229015h,DoubleTree by Hilton Hotel Girona,Spain
+http://example.com/id/5878173h,Malekzadeh House (Yazd),Iran
+http://example.com/id/5883194h,Qorban Alizadeh House,Iran
+http://example.com/id/5884157h,Khoshnevis Mansion,Iran
+http://example.com/id/5885917h,Kasra Vafadari House,Iran
+http://example.com/id/5891776h,Moshir Garden,Iran
+http://example.com/id/5892374h,Moshir Caravanserai,Iran
+http://example.com/id/5894717h,Dr. Hojjat House,Iran
+http://example.com/id/5901285h,Alafchian House,Iran
+http://example.com/id/5903404h,Hotel Málaga Palacio,Spain
+http://example.com/id/5903511h,"Hotel de las Letras, Madrid",Spain
+http://example.com/id/5907540h,Aminabad Caravanserai,Iran
+http://example.com/id/5908224h,Shah Abbasi Caravanserai of Bisotun,Iran
+http://example.com/id/5912133h,"Hagia Sofia Mansions Istanbul, Curio Collection by Hilton",Turkey
+http://example.com/id/59131992h,DoubleTree by Hilton Hotel Minsk,Belarus
+http://example.com/id/59138963h,Hilton Garden Inn Moscow New Riga,Russia
+http://example.com/id/5918301h,Banitaba House,Iran
+http://example.com/id/5920727h,Manuchehri House (Kashan),Iran
+http://example.com/id/59209270h,Hilton Istanbul Maslak,Turkey
+http://example.com/id/59492165h,Hilton Hua Hin Resort & Spa,Thailand
+http://example.com/id/59519828h,house at V jirchářích 13,Czech Republic
+http://example.com/id/5963275h,Ehsan House (Kashan),Iran
+http://example.com/id/59872505h,"George Hotel, Sydney",Australia
+http://example.com/id/59872532h,Trickett's Hotel,Australia
+http://example.com/id/60055194h,"Wales House, Sydney",Australia
+http://example.com/id/60389409h,Ancienne église Saint-Nicolas,France
+http://example.com/id/6044861h,"InterContinental Chicago Magnificent Mile, an IHG Hotel",United States of America
+http://example.com/id/60452089h,Hilton Cape Town City Centre,South Africa
+http://example.com/id/6058109h,Antiguo Hotel Miramar,Spain
+http://example.com/id/60641676h,"Grand Tirolia Hotel Kitzbuhel, Curio Collection by Hilton",Austria
+http://example.com/id/60642328h,Canopy by Hilton Zagreb - City Centre,Croatia
+http://example.com/id/60732352h,Hilton Garden Inn Dubai Al Jadaf Culture Village,United Arab Emirates
+http://example.com/id/60746742h,The Durant,United States of America
+http://example.com/id/60847568h,King's Casino Rozvadov,Czech Republic
+http://example.com/id/60912347h,Hampton by Hilton Freiburg,Germany
+http://example.com/id/61090457h,Transcorp Hilton Abuja,Nigeria
+http://example.com/id/61100884h,DoubleTree by Hilton Hotel London - West End,United Kingdom
+http://example.com/id/61114082h,"La Bagnaia Golf & Spa Resort Siena, Curio Collection by Hilton",Italy
+http://example.com/id/61165878h,"Hilton at St George's Park, Burton Upon Trent",United Kingdom
+http://example.com/id/61357012h,Semnani House,Iran
+http://example.com/id/61465403h,DoubleTree by Hilton Hotel Tyumen,Russia
+http://example.com/id/61567322h,Hilton Newcastle Gateshead,United Kingdom
+http://example.com/id/61573625h,Hilton Surfers Paradise Hotel & Residences,Australia
+http://example.com/id/616726h,Hooters Casino Hotel,United States of America
+http://example.com/id/61717587h,Hilton London Gatwick Airport,United Kingdom
+http://example.com/id/6172690h,Jeddah Hilton Hotel,Saudi Arabia
+http://example.com/id/61868406h,DoubleTree by Hilton Hotel Woking,United Kingdom
+http://example.com/id/61885625h,Hilton Marsa Alam Nubian Resort,Egypt
+http://example.com/id/61888685h,Hilton Fiji Beach Resort and Spa,Fiji
+http://example.com/id/61897167h,Conrad Bangkok,Thailand
+http://example.com/id/62068054h,Conrad Cairo,Egypt
+http://example.com/id/62479268h,Hampton by Hilton Munich City West,Germany
+http://example.com/id/63164854h,Hilton Garden Inn Luton North,United Kingdom
+http://example.com/id/63190257h,Hilton Brisbane,Australia
+http://example.com/id/63296024h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman South,Malaysia
+http://example.com/id/63435869h,Fort Worth Club Building,United States of America
+http://example.com/id/63608863h,DoubleTree by Hilton Hotel London - Victoria,United Kingdom
+http://example.com/id/637389h,Luxor Resort & Casino,United States of America
+http://example.com/id/63790123h,Hilton Garden Inn Kampala,Uganda
+http://example.com/id/63832005h,Hampton by Hilton Warsaw Mokotow,Poland
+http://example.com/id/63859908h,Hilton Garden Inn Tirana,Albania
+http://example.com/id/63869688h,DoubleTree by Hilton Kocaeli,Turkey
+http://example.com/id/63883252h,Hilton Moorea Lagoon Resort & Spa,France
+http://example.com/id/63885416h,Hilton Garden Inn Birmingham Brindleyplace,United Kingdom
+http://example.com/id/63975276h,Hampton by Hilton Belfast City Centre,United Kingdom
+http://example.com/id/64152343h,DoubleTree by Hilton Cambridge Belfry,United Kingdom
+http://example.com/id/64363310h,DoubleTree by Hilton Hotel Bristol City Centre,United Kingdom
+http://example.com/id/64701276h,Hilton Seychelles Labriz Resort & Spa,Seychelles
+http://example.com/id/64769038h,Washingtonova 23,Czech Republic
+http://example.com/id/64785112h,"Hotel Villa Magna, Madrid",Spain
+http://example.com/id/64822290h,Hilton Reykjavik Nordica,Iceland
+http://example.com/id/64827562h,Hilton Garden Inn Singapore Serangoon,Singapore
+http://example.com/id/64845950h,Hampton by Hilton Amsterdam / Arena Boulevard,Netherlands
+http://example.com/id/64845961h,Conrad Algarve,Portugal
+http://example.com/id/64859000h,Hilton Colombo,Sri Lanka
+http://example.com/id/64868965h,Hilton Garden Inn Bristol City Centre,United Kingdom
+http://example.com/id/64933804h,Hilton Garden Inn Ras Al Khaimah,United Arab Emirates
+http://example.com/id/64992591h,Hampton by Hilton Exeter Airport,United Kingdom
+http://example.com/id/65037569h,Parnitha Sanatorium,Greece
+http://example.com/id/65042333h,The Salvation Army Building,United States of America
+http://example.com/id/65218555h,"Danubius Hotel Hungaria City Center, Budapest",Hungary
+http://example.com/id/6538417h,Zargar Yazdi House,Iran
+http://example.com/id/654279h,Aria Resort and Casino,United States of America
+http://example.com/id/654906h,Binion's Horseshoe,United States of America
+http://example.com/id/65769542h,DoubleTree by Hilton Carcassonne,France
+http://example.com/id/65770076h,Hilton Garden Inn Glasgow City Centre,United Kingdom
+http://example.com/id/66423173h,Waldorf Astoria Ras Al Khaimah,United Arab Emirates
+http://example.com/id/66424250h,Hilton Garden Inn Istanbul Golden Horn Turkey,Turkey
+http://example.com/id/66437370h,DoubleTree by Hilton Dubai - Business Bay,United Arab Emirates
+http://example.com/id/66439260h,DoubleTree by Hilton Hotel Gurgaon - New Delhi NCR,India
+http://example.com/id/66586875h,Hilton Makkah Convention Hotel,Saudi Arabia
+http://example.com/id/66658603h,Hilton Pattaya,Thailand
+http://example.com/id/66660297h,Hilton Garden Inn Dubai Al Mina,United Arab Emirates
+http://example.com/id/66771676h,Hilton Shillim Estate Retreat & Spa,India
+http://example.com/id/66813051h,"Palácio Hotel de Bussaco, Palacete Hotel do Buçaco",Portugal
+http://example.com/id/66813690h,Castle of Estremoz,Portugal
+http://example.com/id/66814366h,"Hotel Ritz, incluindo o património integrado",Portugal
+http://example.com/id/66924306h,Jurys Inn Leeds,United Kingdom
+http://example.com/id/66969081h,Hampton by Hilton Leeds City Centre,United Kingdom
+http://example.com/id/66969175h,Ibis Leeds Centre,United Kingdom
+http://example.com/id/66969326h,Hilton Leeds City,United Kingdom
+http://example.com/id/67013894h,DoubleTree by Hilton Hotel Olbia - Sardinia,Italy
+http://example.com/id/67206508h,Hilton Garden Inn Rome Airport,Italy
+http://example.com/id/6747856h,Loews Regency San Francisco,United States of America
+http://example.com/id/67765140h,Conrad Koh Samui,Thailand
+http://example.com/id/67863357h,Hilton Glasgow Grosvenor,United Kingdom
+http://example.com/id/67868674h,DoubleTree by Hilton Royal Parc Soestduinen,Netherlands
+http://example.com/id/67874379h,Hampton by Hilton Dundee City Centre,United Kingdom
+http://example.com/id/67920401h,Hilton Malta,Malta
+http://example.com/id/68121379h,Parkhotel Praha,Czech Republic
+http://example.com/id/68167138h,Hotel Pyramida,Czech Republic
+http://example.com/id/69383898h,Hilton Sydney,Australia
+http://example.com/id/69531148h,Hampton by Hilton Amsterdam Airport Schiphol,Netherlands
+http://example.com/id/69647678h,Hilton Aberdeen TECA,United Kingdom
+http://example.com/id/70206906h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman North,Malaysia
+http://example.com/id/71409297h,Hilton London Watford,United Kingdom
+http://example.com/id/71817207h,Hampton by Hilton Warsaw Airport,Poland
+http://example.com/id/71828738h,"Hilton Puckrup Hall, Tewkesbury",United Kingdom
+http://example.com/id/7203612h,Plaza Hotel & Casino,United States of America
+http://example.com/id/72067004h,DoubleTree by Hilton Moscow - Vnukovo Airport,Russia
+http://example.com/id/72172868h,DoubleTree by Hilton Madrid - Prado,Spain
+http://example.com/id/72177013h,Palacete B. Carrera,Brazil
+http://example.com/id/72278577h,Hilton Jaipur,India
+http://example.com/id/72812966h,Hilton Addis Ababa,Ethiopia
+http://example.com/id/72988389h,DoubleTree by Hilton Hotel Zanzibar - Stone Town,Tanzania
+http://example.com/id/7304924h,"Red Rock Casino, Resort & Spa",United States of America
+http://example.com/id/73274620h,Pellihof,Germany
+http://example.com/id/7336896h,Ritz-Carlton Chicago,United States of America
+http://example.com/id/73499085h,Hampton by Hilton Berlin City Centre Alexanderplatz,Germany
+http://example.com/id/73621829h,Hilton Luxor Resort & Spa,Egypt
+http://example.com/id/73640935h,Santa Casa da Misericórdia de Óbidos,Portugal
+http://example.com/id/7374338h,Royal Insurance Building,United Kingdom
+http://example.com/id/73879785h,Hilton Mandalay,Myanmar
+http://example.com/id/73898961h,Hilton Garden Inn Zagreb - Radnicka,Croatia
+http://example.com/id/739914h,Rio All-Suite Hotel and Casino,United States of America
+http://example.com/id/74527699h,Hilton Capital Grand Abu Dhabi,United Arab Emirates
+http://example.com/id/74665770h,DoubleTree by Hilton Hotel Jakarta - Diponegoro,Indonesia
+http://example.com/id/74812978h,DoubleTree by Hilton Hotel Aqaba,Jordan
+http://example.com/id/75018491h,Hilton Garden Inn Krakow,Poland
+http://example.com/id/7553767h,DoubleTree by Hilton Hotel Shanghai - Pudong,People's Republic of China
+http://example.com/id/7553769h,Pullman Bangkok Hotel G,Thailand
+http://example.com/id/75721557h,DoubleTree by Hilton Edinburgh - Queensferry Crossing,United Kingdom
+http://example.com/id/75971164h,Hilton Garden Inn Riyadh Olaya,Saudi Arabia
+http://example.com/id/76021053h,ANA Crowne Plaza Akita,Japan
+http://example.com/id/76355045h,Arena Center,Albania
+http://example.com/id/76620470h,Hampton by Hilton Dubai Al Barsha,United Arab Emirates
+http://example.com/id/76721707h,Hilton Kuching,Malaysia
+http://example.com/id/76724214h,DoubleTree by Hilton Krakow Hotel & Convention Center,Poland
+http://example.com/id/76726211h,DoubleTree by Hilton Hotel Moscow - Marina,Russia
+http://example.com/id/76795105h,Hilton Sharks Bay Resort,Egypt
+http://example.com/id/7720948h,The Cairo,United States of America
+http://example.com/id/7730896h,The Drayton Court,United Kingdom
+http://example.com/id/7736171h,The George Hotel,United Kingdom
+http://example.com/id/77416106h,DoubleTree by Hilton Glasgow Westerwood Spa & Golf Resort,United Kingdom
+http://example.com/id/77418726h,Hilton Garden Inn Lusaka Society Business Park,Zambia
+http://example.com/id/7745429h,The Landmark Hotel and Casino,United States of America
+http://example.com/id/7754900h,"The Old Rectory, St Columb Major",United Kingdom
+http://example.com/id/7756547h,The Peninsula Chicago,United States of America
+http://example.com/id/7774298h,The Western,United States of America
+http://example.com/id/779373h,The Linq,United States of America
+http://example.com/id/78036841h,Hilton Guam Resort & Spa,United States of America
+http://example.com/id/78054939h,"AlRayyan Hotel Doha, Curio Collection by Hilton",Qatar
+http://example.com/id/7832418h,"The Trafalgar St. James London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/78897920h,"West Hotel Sydney, Curio Collection by Hilton",Australia
+http://example.com/id/79309518h,MLC Building,New Zealand
+http://example.com/id/7969454h,Merdeka 118,Malaysia
+http://example.com/id/79942014h,Hotel Amigo,Belgium
+http://example.com/id/805467h,Bally's Las Vegas Hotel & Casino,United States of America
+http://example.com/id/81100400h,Casa Pere Villoch,Spain
+http://example.com/id/81100403h,Edifici Companyia Transatlàntica,Spain
+http://example.com/id/81495406h,DoubleTree by Hilton Bangkok Ploenchit,Thailand
+http://example.com/id/84029894h,Hampton by Hilton Nuremberg City Centre,Germany
+http://example.com/id/845846h,"The STRAT Hotel, Casino & SkyPod",United States of America
+http://example.com/id/851102h,Hotel Kvarner,Croatia
+http://example.com/id/85749503h,Bump Block-Bellevue House-Hawthorne Hotel,United States of America
+http://example.com/id/85758819h,El Monte Hotel,United States of America
+http://example.com/id/85845504h,Berwyn Apartments,United States of America
+http://example.com/id/86595792h,Valkealinna,Finland
+http://example.com/id/86754328h,Inez Hotel,United States of America
+http://example.com/id/869378h,California Hotel and Casino,United States of America
+http://example.com/id/89425684h,Rawema-Haus,Germany
+http://example.com/id/900983h,The Mirage,United States of America
+http://example.com/id/90404749h,Hilton Durban,South Africa
+http://example.com/id/9054487h,Palácio do Freixo,Portugal
+http://example.com/id/90545243h,Hilton Garden Inn Sevilla,Spain
+http://example.com/id/90682834h,Hilton Sandton,South Africa
+http://example.com/id/91607548h,Hilton Suites Makkah,Saudi Arabia
+http://example.com/id/916673h,The Signature at MGM Grand,United States of America
+http://example.com/id/92176916h,Hilton London Heathrow Airport Terminal 5,United Kingdom
+http://example.com/id/9294078h,Hilton Gdańsk,Poland
+http://example.com/id/9294080h,Hotel Jalta,Czech Republic
+http://example.com/id/9294281h,Ameri House,Iran
+http://example.com/id/93121772h,Hôtel Napoléon,France
+http://example.com/id/9358597h,El Rancho Hotel and Casino,United States of America
+http://example.com/id/96377064h,Hilton Bursa Convention Center and Spa,Turkey
+http://example.com/id/96743206h,Great Falls Tavern,United States of America
+http://example.com/id/96757505h,Pazo of the Maceda Counts,Spain
+http://example.com/id/96787014h,Hilton Garden Inn Kuwait,Kuwait
+http://example.com/id/979477h,Athenee Palace Hilton Bucharest,Romania
+http://example.com/id/98407274h,Albertinkatu 34 - Lönnrotinkatu 26,Finland
+http://example.com/id/98407275h,Albertinkatu 34,Finland
+http://example.com/id/98407311h,Annankatu 1,Finland
+http://example.com/id/98412731h,Hotelli Helsinki,Finland
+http://example.com/id/98412733h,Hotelli Marskin talo,Finland
+http://example.com/id/98413370h,Kanavakatu 8,Finland
+http://example.com/id/98432053h,Pohjoinen Rautatiekatu 23,Finland
+http://example.com/id/98433308h,Valion juustovaraston rakennus,Finland
+http://example.com/id/98433345h,Valtion biokemiallisen tutkimuslaitoksen laboratoriorakennus,Finland
+http://example.com/id/98433742h,Katajanokan vankilan rakennus,Finland
+http://example.com/id/98433825h,Suomi-yhtiön talo,Finland
+http://example.com/id/98550889h,Villa Gaia,Italy
+http://example.com/id/98582250h,Hotel Villa,Finland
+http://example.com/id/9871323h,Convento das Eremitas de Santo Agostinho,Portugal
+http://example.com/id/98784123h,"Stadshotellet, Karlstad",Sweden
+http://example.com/id/99454646h,Conrad Bengaluru,India
+http://example.com/id/99583717h,Hôtel van Ertborn,Belgium
+http://www.wikidata.org/entity/Q1092961,Circus Circus Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1096141,Act Tower,Japan
+http://www.wikidata.org/entity/Q1127749,Hotel Kämp,Finland
+http://www.wikidata.org/entity/Q1143174,Ritz-Carlton Toronto,Canada
+http://www.wikidata.org/entity/Q1147483,Sahara Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1200583,Desert Inn,United States of America
+http://www.wikidata.org/entity/Q12072758,Westin Book Cadillac Hotel,United States of America
+http://www.wikidata.org/entity/Q1221513,Grand Hôtel,France
+http://www.wikidata.org/entity/Q12495,Burj Khalifa,United Arab Emirates
+http://www.wikidata.org/entity/Q1281171,Trump Hotel Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1304383,Waldorf Astoria Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1309059,Wynn Las Vegas,United States of America
+http://www.wikidata.org/entity/Q13529180,Hilton London Hyde Park,United Kingdom
+http://www.wikidata.org/entity/Q1368043,Mandalay Bay,United States of America
+http://www.wikidata.org/entity/Q1368798,SEG Plaza,People's Republic of China
+http://www.wikidata.org/entity/Q1426968,Flamingo Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1430318,Rossiya Hotel,Russia
+http://www.wikidata.org/entity/Q145361,Gezirah Palace,Egypt
+http://www.wikidata.org/entity/Q1457875,Villa Crespi,Italy
+http://www.wikidata.org/entity/Q14705265,Resorts World Las Vegas,United States of America
+http://www.wikidata.org/entity/Q15125469,Prinzenpalais,Germany
+http://www.wikidata.org/entity/Q151599,Metropolis,New Zealand
+http://www.wikidata.org/entity/Q15228738,InterContinental Budapest,Hungary
+http://www.wikidata.org/entity/Q1541365,Renaissance Center,United States of America
+http://www.wikidata.org/entity/Q15909474,Hengshan Picardie Hotel,People's Republic of China
+http://www.wikidata.org/entity/Q15978898,Berry Head House,United Kingdom
+http://www.wikidata.org/entity/Q1682221,Dagebüll lighthouse,Germany
+http://www.wikidata.org/entity/Q16843761,Hilton Diagonal Mar Barcelona,Spain
+http://www.wikidata.org/entity/Q168575,CTF Finance Centre,People's Republic of China
+http://www.wikidata.org/entity/Q16890775,Crown Sydney,Australia
+http://www.wikidata.org/entity/Q16949846,B&O Railroad Headquarters Building,United States of America
+http://www.wikidata.org/entity/Q16995460,Wyndham Springfield City Centre,United States of America
+http://www.wikidata.org/entity/Q17019762,Magnolia Hotel,United States of America
+http://www.wikidata.org/entity/Q1743514,Kirkland Hotel,United States of America
+http://www.wikidata.org/entity/Q17444603,Hilton Frankfurt Airport,Germany
+http://www.wikidata.org/entity/Q17619057,Agronomitalo,Finland
+http://www.wikidata.org/entity/Q1795050,Palace Station,United States of America
+http://www.wikidata.org/entity/Q18534517,Hilton London Syon Park,United Kingdom
+http://www.wikidata.org/entity/Q18547,Shanghai Tower,People's Republic of China
+http://www.wikidata.org/entity/Q1874734,Hotel International Prague,Czech Republic
+http://www.wikidata.org/entity/Q18760038,Munkkiniemi education center,Finland
+http://www.wikidata.org/entity/Q189476,Abraj Al Bait,Saudi Arabia
+http://www.wikidata.org/entity/Q19462194,Harper House,United States of America
+http://www.wikidata.org/entity/Q19513101,Hilton Manchester Deansgate,United Kingdom
+http://www.wikidata.org/entity/Q19564041,Hedemora stadshotell,Sweden
+http://www.wikidata.org/entity/Q19817552,Delta Toronto Hotel,Canada
+http://www.wikidata.org/entity/Q19871631,Broadway Hotel,United States of America
+http://www.wikidata.org/entity/Q20075891,Hilton Kyiv,Ukraine
+http://www.wikidata.org/entity/Q2048307,Palms Casino Resort,United States of America
+http://www.wikidata.org/entity/Q2135814,Hilton Amsterdam,Netherlands
+http://www.wikidata.org/entity/Q214139,Morrison Hotel,United States of America
+http://www.wikidata.org/entity/Q21504226,Hilton Birmingham Metropole,United Kingdom
+http://www.wikidata.org/entity/Q220141,Waldorf Astoria Berlin,Germany
+http://www.wikidata.org/entity/Q22079320,St. Nicholas Hotel,United States of America
+http://www.wikidata.org/entity/Q2258969,Eureka Inn,United States of America
+http://www.wikidata.org/entity/Q2297323,Delano Las Vegas,United States of America
+http://www.wikidata.org/entity/Q22978033,U Medvídků,Czech Republic
+http://www.wikidata.org/entity/Q23301461,Beaumont Hotel,United States of America
+http://www.wikidata.org/entity/Q2363048,Place Viger,Canada
+http://www.wikidata.org/entity/Q23640921,Bowen River Hotel,Australia
+http://www.wikidata.org/entity/Q240711,Hotel Chelsea,United States of America
+http://www.wikidata.org/entity/Q2416198,MGM Grand Detroit,United States of America
+http://www.wikidata.org/entity/Q2461831,Las Vegas Plaza,United States of America
+http://www.wikidata.org/entity/Q24693404,Bangor House,United States of America
+http://www.wikidata.org/entity/Q24971211,El Reno Hotel,United States of America
+http://www.wikidata.org/entity/Q264203,Vegas World,United States of America
+http://www.wikidata.org/entity/Q2648096,W San Francisco,United States of America
+http://www.wikidata.org/entity/Q264858,M Resort,United States of America
+http://www.wikidata.org/entity/Q280339,Tropicana Las Vegas,United States of America
+http://www.wikidata.org/entity/Q280910,Vdara,United States of America
+http://www.wikidata.org/entity/Q28184307,Royal Mail Hotel,Australia
+http://www.wikidata.org/entity/Q28184310,Noccundra Hotel,Australia
+http://www.wikidata.org/entity/Q2837946,Allerton Hotel,United States of America
+http://www.wikidata.org/entity/Q2908788,Leonardo City Tower Hotel,Israel
+http://www.wikidata.org/entity/Q2928530,Cadillac Hotel,United States of America
+http://www.wikidata.org/entity/Q2935180,Camlin Hotel,United States of America
+http://www.wikidata.org/entity/Q2971063,Taagepera Castle,Estonia
+http://www.wikidata.org/entity/Q3037053,Hilton Athens,Greece
+http://www.wikidata.org/entity/Q306000,Abbasi Hotel,Iran
+http://www.wikidata.org/entity/Q30644484,Hotel Manger,United States of America
+http://www.wikidata.org/entity/Q3145454,Clarendon Hotel,United States of America
+http://www.wikidata.org/entity/Q3145697,Windsor Hotel,United States of America
+http://www.wikidata.org/entity/Q3153055,InterContinental San Francisco,United States of America
+http://www.wikidata.org/entity/Q3185653,Joseph Smith Memorial Building,United States of America
+http://www.wikidata.org/entity/Q3359202,Wyndham Grand İzmir Özdilek,Turkey
+http://www.wikidata.org/entity/Q3389734,Place Bonaventure,Canada
+http://www.wikidata.org/entity/Q3414568,Quinta das Lágrimas,Portugal
+http://www.wikidata.org/entity/Q34204337,Waldorf Astoria Dubai Palm Jumeirah,United Arab Emirates
+http://www.wikidata.org/entity/Q3471438,San Francisco Marriott Marquis,United States of America
+http://www.wikidata.org/entity/Q3482309,Shiodome Media Tower,Japan
+http://www.wikidata.org/entity/Q3498798,Hilton San Francisco Union Square,United States of America
+http://www.wikidata.org/entity/Q3699364,Culver Hotel,United States of America
+http://www.wikidata.org/entity/Q38251423,Mosborough Hall,United Kingdom
+http://www.wikidata.org/entity/Q38251968,Bonneville Hotel,United States of America
+http://www.wikidata.org/entity/Q4040675,Hilton Prague,Czech Republic
+http://www.wikidata.org/entity/Q4260261,Price Tower,United States of America
+http://www.wikidata.org/entity/Q4261384,Las Vegas Club,United States of America
+http://www.wikidata.org/entity/Q4272608,Fairmont San Francisco,United States of America
+http://www.wikidata.org/entity/Q4272804,Breakers Hotel,United States of America
+http://www.wikidata.org/entity/Q43371249,Brooks Hotel,United States of America
+http://www.wikidata.org/entity/Q44406603,Hampshire House,United States of America
+http://www.wikidata.org/entity/Q4479814,West Baden Springs Hotel,United States of America
+http://www.wikidata.org/entity/Q456685,Ambassador Hotel,United States of America
+http://www.wikidata.org/entity/Q47004857,Brandt Hotel,United States of America
+http://www.wikidata.org/entity/Q4792350,Arlington Hotel,Canada
+http://www.wikidata.org/entity/Q4792350,Arlington Hotel,United States of America
+http://www.wikidata.org/entity/Q4793581,Arminius Hotel,United States of America
+http://www.wikidata.org/entity/Q4806513,Hilton Istanbul Bosphorus,Turkey
+http://www.wikidata.org/entity/Q4822225,Hilton Izmir,Turkey
+http://www.wikidata.org/entity/Q4841991,Baglioni Hotel,United Kingdom
+http://www.wikidata.org/entity/Q4842213,Baha Mar,The Bahamas
+http://www.wikidata.org/entity/Q48843972,Booth Hotel,United States of America
+http://www.wikidata.org/entity/Q4949600,Boulder Station,United States of America
+http://www.wikidata.org/entity/Q4979998,Bryan Building,United States of America
+http://www.wikidata.org/entity/Q4985118,Texas Station,United States of America
+http://www.wikidata.org/entity/Q5061223,Central House Hotel,United States of America
+http://www.wikidata.org/entity/Q5065298,Cerulean Tower,Japan
+http://www.wikidata.org/entity/Q510121,Schlosshotel Kronberg,Germany
+http://www.wikidata.org/entity/Q5120095,Cimarron Hotel,United States of America
+http://www.wikidata.org/entity/Q5152499,Commercial Hotel,Australia
+http://www.wikidata.org/entity/Q5152499,Commercial Hotel,United States of America
+http://www.wikidata.org/entity/Q5179785,Coworth House,United Kingdom
+http://www.wikidata.org/entity/Q5189543,Crowne Plaza Times Square,United States of America
+http://www.wikidata.org/entity/Q51956193,Fort Piqua Plaza,United States of America
+http://www.wikidata.org/entity/Q5230243,Davenport Hotel,United States of America
+http://www.wikidata.org/entity/Q5302326,Dousman Hotel,United States of America
+http://www.wikidata.org/entity/Q5330926,Eastside Cannery,United States of America
+http://www.wikidata.org/entity/Q5351073,El Cortez,United States of America
+http://www.wikidata.org/entity/Q54427554,Dalmatia Tower,Croatia
+http://www.wikidata.org/entity/Q5472026,Fort Shelby Hotel,United States of America
+http://www.wikidata.org/entity/Q54873914,Clarke Hotel,United States of America
+http://www.wikidata.org/entity/Q550379,Conrad Dubai,United Arab Emirates
+http://www.wikidata.org/entity/Q55075422,Hippee Building,United States of America
+http://www.wikidata.org/entity/Q55347999,Hilton Barcelona,Spain
+http://www.wikidata.org/entity/Q5545987,George Washington House,United States of America
+http://www.wikidata.org/entity/Q5594404,Grand Central Hotel,United States of America
+http://www.wikidata.org/entity/Q5594662,Grand Hyatt San Francisco,United States of America
+http://www.wikidata.org/entity/Q5602124,Greektown Casino Hotel,United States of America
+http://www.wikidata.org/entity/Q5637110,Hacienda,United States of America
+http://www.wikidata.org/entity/Q569978,Caesars Palace,United States of America
+http://www.wikidata.org/entity/Q5764519,Hilton Chennai,India
+http://www.wikidata.org/entity/Q5764570,Hilton Glasgow,United Kingdom
+http://www.wikidata.org/entity/Q5764576,Hilton Hanoi Opera,Vietnam
+http://www.wikidata.org/entity/Q5764648,Hilton London Metropole,United Kingdom
+http://www.wikidata.org/entity/Q5764722,Hilton Singapore,Singapore
+http://www.wikidata.org/entity/Q587108,Yokohama Landmark Tower,Japan
+http://www.wikidata.org/entity/Q5872085,Flour factory San José,Spain
+http://www.wikidata.org/entity/Q5911169,Hotel Alder,United States of America
+http://www.wikidata.org/entity/Q5911415,Hilton Podgorica Crna Gora,Montenegro
+http://www.wikidata.org/entity/Q5952911,Hyatt Regency San Francisco,United States of America
+http://www.wikidata.org/entity/Q60323642,Hoff Building,United States of America
+http://www.wikidata.org/entity/Q60748351,Harvey Hotel,United States of America
+http://www.wikidata.org/entity/Q60767158,Oakland Hotel,United States of America
+http://www.wikidata.org/entity/Q6108856,JR Central Towers,Japan
+http://www.wikidata.org/entity/Q6109260,JW Marriott San Francisco Union Square,United States of America
+http://www.wikidata.org/entity/Q6109264,JW Marriott Las Vegas,United States of America
+http://www.wikidata.org/entity/Q6117167,Jackson Hotel,United States of America
+http://www.wikidata.org/entity/Q634258,Veer Towers,United States of America
+http://www.wikidata.org/entity/Q6411469,King Edward Hotel,United States of America
+http://www.wikidata.org/entity/Q6439146,Krrish Square,Sri Lanka
+http://www.wikidata.org/entity/Q6448583,Vakil Caravanserai,Iran
+http://www.wikidata.org/entity/Q646339,Hotel Torni,Finland
+http://www.wikidata.org/entity/Q6493973,Lassen Hotel,United States of America
+http://www.wikidata.org/entity/Q65043882,Rickman House,United States of America
+http://www.wikidata.org/entity/Q656743,Kingdom Centre,Saudi Arabia
+http://www.wikidata.org/entity/Q673627,The International,United States of America
+http://www.wikidata.org/entity/Q6747847,Mandarin Orchard Singapore,Singapore
+http://www.wikidata.org/entity/Q6751307,Manor Apartment Hotel,Australia
+http://www.wikidata.org/entity/Q6751348,Manor House Hotel,United States of America
+http://www.wikidata.org/entity/Q6869131,Minor Sod House,United States of America
+http://www.wikidata.org/entity/Q691491,Paris Las Vegas,United States of America
+http://www.wikidata.org/entity/Q696927,Oheka Castle,United States of America
+http://www.wikidata.org/entity/Q7040843,Nisiyama Onsen Keiunkan,Japan
+http://www.wikidata.org/entity/Q7126178,Palace Hotel Residential Tower,United States of America
+http://www.wikidata.org/entity/Q713960,MGM Grand Las Vegas,United States of America
+http://www.wikidata.org/entity/Q7216435,Hilton Tel Aviv,Israel
+http://www.wikidata.org/entity/Q7247936,Professional Building,United States of America
+http://www.wikidata.org/entity/Q7281354,Hilton Dubai Creek,United Arab Emirates
+http://www.wikidata.org/entity/Q731089,Willard InterContinental Washington,United States of America
+http://www.wikidata.org/entity/Q737602,Aspire Tower,Qatar
+http://www.wikidata.org/entity/Q7419570,Santa Fe Station,United States of America
+http://www.wikidata.org/entity/Q743147,Hotel Negresco,France
+http://www.wikidata.org/entity/Q7503956,Shrigley Hall,United Kingdom
+http://www.wikidata.org/entity/Q7520490,Simonsbath House,United Kingdom
+http://www.wikidata.org/entity/Q752939,RMS Queen Mary,United States of America
+http://www.wikidata.org/entity/Q7553765,Sofitel Chicago Water Tower,United States of America
+http://www.wikidata.org/entity/Q7575371,Speech House,United Kingdom
+http://www.wikidata.org/entity/Q7588502,St. James Hotel,United States of America
+http://www.wikidata.org/entity/Q7591596,St. Regis Museum Tower,United States of America
+http://www.wikidata.org/entity/Q7641354,Sunset Station,United States of America
+http://www.wikidata.org/entity/Q7643550,Superior Oil Company Building,United States of America
+http://www.wikidata.org/entity/Q7885770,Union Hotel,United States of America
+http://www.wikidata.org/entity/Q7885775,Union House,United States of America
+http://www.wikidata.org/entity/Q7988922,Westin Las Vegas,United States of America
+http://www.wikidata.org/entity/Q7988923,Westin San Francisco Market Street,United States of America
+http://www.wikidata.org/entity/Q7988926,Westin St. Francis,United States of America
+http://www.wikidata.org/entity/Q804686,Balboa Inn,United States of America
+http://www.wikidata.org/entity/Q804702,Balch Hotel,United States of America
+http://www.wikidata.org/entity/Q896259,Monrepos,Germany
+http://www.wikidata.org/entity/Q952861,World Trade Centre Montreal,Canada
+http://www.wikidata.org/entity/Q995338,Bryson Apartment Hotel,United States of America

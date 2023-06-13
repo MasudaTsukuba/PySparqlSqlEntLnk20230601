@@ -7,7 +7,7 @@ from src.UriClass import Uri
 
 if __name__ == '__main__':
     path = PathClass('')
-    uri = Uri(path, 'data_set2', 'URI')
+    uri = Uri(path, 'data_set2', 'uri')
     uri.create_entity_linking_db()
 
     uri.build_entity_linking()

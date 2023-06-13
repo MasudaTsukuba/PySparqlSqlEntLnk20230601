@@ -3,11 +3,11 @@ from src.UriClass import Uri
 import sqlite3
 
 
-path = PathClass('')
+path = PathClass('data_set2')
 
 
 def test_entity_linking_db():
-    uri = Uri(path, 'data_set2', 'URI')
+    uri = Uri(path, 'uri')
     conn = sqlite3.connect(uri.entity_linking_file)
     cursor = conn.cursor()
     sql = 'SELECT * FROM hotel;'

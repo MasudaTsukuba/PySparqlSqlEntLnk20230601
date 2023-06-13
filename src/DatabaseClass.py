@@ -8,10 +8,10 @@ from src.PathClass import PathClass
 
 
 class DataBase:
-    def __init__(self, path, dataset_name, db_name):
+    def __init__(self, path, db_name):
         self.path = path
-        self.dataset_path = path.working_path+'/'+dataset_name
-        self.database_path = self.dataset_path+'/'+db_name
+        self.dataset_csv_path = path.dataset_path+'/csv/'
+        self.database_path = self.dataset_csv_path+db_name
         self.conn = sqlite3.connect(self.database_path)
         self.cur = self.conn.cursor()
 
@@ -34,10 +34,10 @@ class DataBase:
         conn = sqlite3.connect(self.database_path)
         cursor = conn.cursor()
         tables = [
-            "building", "buildinc",
-            "hotel", "hotel_place_in",
-            "museum", "museumincountry",
-            "heritage", "heritage_placein",
+            "building", "building_country",
+            "hotel", "hotel_country",
+            "museum", "museum_country",
+            "heritage", "heritage_country",
             "country"
         ]
         for table in tables:
@@ -52,14 +52,14 @@ class DataBase:
             #         cnx.close()
 
         sqls = [
-            "CREATE TABLE building (b_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
-            "CREATE TABLE buildinc (b_id VARCHAR(255), bc_id VARCHAR(255), FOREIGN KEY (b_id) REFERENCES building(b_id), FOREIGN KEY (bc_id) REFERENCES country(country_id));",
-            "CREATE TABLE hotel (h_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
-            "CREATE TABLE hotel_place_in (h_id VARCHAR(255), cn_id VARCHAR(255), FOREIGN KEY (h_id) REFERENCES hotel(h_id), FOREIGN KEY (cn_id) REFERENCES country(country_id));",
-            "CREATE TABLE Museum (museum_iD VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
-            "CREATE TABLE museumincountry (museum_iD VARCHAR(255), co_id VARCHAR(255), FOREIGN KEY (museum_iD) REFERENCES Museum(museum_iD), FOREIGN KEY (co_id) REFERENCES country(country_id));",
-            "CREATE TABLE heritage (p_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
-            "CREATE TABLE heritage_placein (p_id VARCHAR(255), c_id VARCHAR(255), FOREIGN KEY (p_id) REFERENCES heritage(p_id), FOREIGN KEY (c_id) REFERENCES country(country_id));",
+            "CREATE TABLE building (building_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
+            "CREATE TABLE building_country (building_id VARCHAR(255), country_id VARCHAR(255), FOREIGN KEY (building_id) REFERENCES building(building_id), FOREIGN KEY (country_id) REFERENCES country(country_id));",
+            "CREATE TABLE hotel (hotel_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
+            "CREATE TABLE hotel_country (hotel_id VARCHAR(255), country_id VARCHAR(255), FOREIGN KEY (hotel_id) REFERENCES hotel(hotel_id), FOREIGN KEY (country_id) REFERENCES country(country_id));",
+            "CREATE TABLE museum (museum_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
+            "CREATE TABLE museum_country (museum_id VARCHAR(255), country_id VARCHAR(255), FOREIGN KEY (museum_id) REFERENCES museum(museum_id), FOREIGN KEY (country_id) REFERENCES country(country_id));",
+            "CREATE TABLE heritage (heritage_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255), description VARCHAR(255));",
+            "CREATE TABLE heritage_country (heritage_id VARCHAR(255), country_id VARCHAR(255), FOREIGN KEY (heritage_id) REFERENCES heritage(heritage_id), FOREIGN KEY (country_id) REFERENCES country(country_id));",
             "CREATE TABLE country (country_id VARCHAR(255) PRIMARY KEY, country_name VARCHAR(255), country_description VARCHAR(255));"
         ]
 
@@ -83,29 +83,29 @@ class DataBase:
         conn = sqlite3.connect(self.database_path)
         cursor = conn.cursor()
         tables = [
-            "building", "buildinc",
-            "hotel", "hotel_place_in",
-            "Museum", "museumincountry",
-            "heritage", "heritage_placein",
+            "building", "building_country",
+            "hotel", "hotel_country",
+            "museum", "museum_country",
+            "heritage", "heritage_country",
             "country"
         ]
 
         path_tables = [
-            "Building/Build", "Building/buildinC",
-            "Hotel/Hotel", "Hotel/Hotel_place_in",
-            "Museum/Museum", "Museum/museumIncountry",
-            "Heritage/heritage", "Heritage/Heritage_placein",
+            "Building/Building", "Building/Building_Country",
+            "Hotel/Hotel", "Hotel/Hotel_Country",
+            "Museum/Museum", "Museum/Museum_Country",
+            "Heritage/Heritage", "Heritage/Heritage_Country",
             "Country/Country",
         ]
         sqls = [
-            "INSERT INTO building (b_id, name, description) VALUES (?, ?, ?)",
-            "INSERT INTO buildinc (b_id, bc_id) VALUES (?, ?)",
-            "INSERT INTO hotel (h_id, name, description) VALUES (?, ?, ?)",
-            "INSERT INTO hotel_place_in (h_id, cn_id) VALUES (?, ?)",
-            "INSERT INTO Museum (museum_id, name, description) VALUES (?, ?, ?)",
-            "INSERT INTO museumincountry (museum_id, co_id) VALUES (?, ?)",
-            "INSERT INTO heritage (p_id, name, description) VALUES (?, ?, ?)",
-            "INSERT INTO heritage_placein (p_id, c_id) VALUES (?, ?)",
+            "INSERT INTO building (building_id, name, description) VALUES (?, ?, ?)",
+            "INSERT INTO building_country (building_id, country_id) VALUES (?, ?)",
+            "INSERT INTO hotel (hotel_id, name, description) VALUES (?, ?, ?)",
+            "INSERT INTO hotel_country (hotel_id, country_id) VALUES (?, ?)",
+            "INSERT INTO museum (museum_id, name, description) VALUES (?, ?, ?)",
+            "INSERT INTO museum_country (museum_id, country_id) VALUES (?, ?)",
+            "INSERT INTO heritage (heritage_id, name, description) VALUES (?, ?, ?)",
+            "INSERT INTO heritage_country (heritage_id, country_id) VALUES (?, ?)",
             "INSERT INTO country (country_id, country_name, country_description) VALUES (?, ?, ?)"
         ]
 

@@ -1,0 +1,802 @@
+s,p,hotel_name,country_name
+http://example.com/id/100877359h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Müritz Hotel,Germany
+http://example.com/id/1011881h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Burg Großfurra,Germany
+http://example.com/id/1015042h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Burghaus Burgsahr,Germany
+http://example.com/id/10332618h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Mosteiro de Flor da Rosa,Portugal
+http://example.com/id/103331335h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"32 Bond Street, Ross",Australia
+http://example.com/id/10343928h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palácio Belmonte,Portugal
+http://example.com/id/10344021h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palácio de Estói,Portugal
+http://example.com/id/10352192h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento das Chagas (Vila Viçosa),Portugal
+http://example.com/id/10352195h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento dos Lóios,Portugal
+http://example.com/id/10352198h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pousada de Condeixa-a-Nova,Portugal
+http://example.com/id/10352202h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Capela e Hospital da Santa Casa da Misericórdia de Ourém,Portugal
+http://example.com/id/10352206h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pousada de Viseu,Portugal
+http://example.com/id/10352207h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Antigo Convento do Desagravo do Santíssimo Sacramento,Portugal
+http://example.com/id/10352211h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento de Nossa Senhora da Boa Esperança,Portugal
+http://example.com/id/10352218h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Solar da Rede,Portugal
+http://example.com/id/10352219h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento dos Lóios,Portugal
+http://example.com/id/104234251h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,British Hotel,Australia
+http://example.com/id/104830558h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Welsbach Building,United States of America
+http://example.com/id/1049027h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Jumeirah Emirates Towers Hotel,United Arab Emirates
+http://example.com/id/1049209h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Venetian,United States of America
+http://example.com/id/1051604h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Four Queens,United States of America
+http://example.com/id/10524043h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Nairobi,Kenya
+http://example.com/id/10524047h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Stockholm Slussen,Sweden
+http://example.com/id/10526554h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Knaust,Sweden
+http://example.com/id/10526572h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Billingen,Sweden
+http://example.com/id/105554563h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Heliopolis Towers Hotel,Egypt
+http://example.com/id/105621651h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Oubangui Hotel,Central African Republic
+http://example.com/id/106090892h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Overtoom 33, Amsterdam",Netherlands
+http://example.com/id/106192327h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Can Ferrandell,Spain
+http://example.com/id/1063195h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Torre de Madrid,Spain
+http://example.com/id/106393048h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Bursa,Turkey
+http://example.com/id/1064873h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Excalibur Hotel and Casino,United States of America
+http://example.com/id/106996884h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Na můstku 10,Czech Republic
+http://example.com/id/107121457h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Brinker Collegiate Institute,United States of America
+http://example.com/id/107607598h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Dudley,United States of America
+http://example.com/id/108294146h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Flour Mill at 129 Port avenue, Valencia",Spain
+http://example.com/id/108309815h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Can Cera,Spain
+http://example.com/id/108516880h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Villa Balbi,Italy
+http://example.com/id/108729880h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kasteel Solhof,Belgium
+http://example.com/id/108865646h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Lamar Hotel,United States of America
+http://example.com/id/109451447h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Panquinkazerne,Belgium
+http://example.com/id/110010967h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"SAii Lagoon Maldives, Curio Collection by Hilton",Maldives
+http://example.com/id/110041692h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Central téléphonique Ségur,France
+http://example.com/id/110147122h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn London Heathrow Terminals 2 and 3,United Kingdom
+http://example.com/id/110251555h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ostrovní 15,Czech Republic
+http://example.com/id/110407965h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tours Odyssey,France
+http://example.com/id/110660109h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Silk Road Hotel (Yazd),Iran
+http://example.com/id/110660372h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dalan-e Behesht Hotel,Iran
+http://example.com/id/110664670h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Khesht Abad Hotel,Iran
+http://example.com/id/1106716h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Kempinski Hotel Corvinus, Budapest",Hungary
+http://example.com/id/110681137h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Zoerselhof,Belgium
+http://example.com/id/110735133h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Can Balaguer,Spain
+http://example.com/id/1107391h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sands Hotel and Casino,United States of America
+http://example.com/id/110831132h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Casa Gabino Bobo,Spain
+http://example.com/id/111041461h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hannover Schweizerhof,Germany
+http://example.com/id/111243216h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Singapore Orchard,Singapore
+http://example.com/id/111445383h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Chestnut Residence and Conference Centre,Canada
+http://example.com/id/1116194h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Leland Hotel,United States of America
+http://example.com/id/112111547h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Lepopirtti,Finland
+http://example.com/id/112147576h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Torenhuis,Belgium
+http://example.com/id/112168936h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,De Gouden Leeuw,Belgium
+http://example.com/id/113051152h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Putnam House,United States of America
+http://example.com/id/113164146h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palmetto House,United States of America
+http://example.com/id/11330330h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Nagoya,Indonesia
+http://example.com/id/11330330h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Nagoya,Japan
+http://example.com/id/11330332h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Odawara Resort & Spa,Japan
+http://example.com/id/11330335h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Tokyo Bay,Japan
+http://example.com/id/113564549h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hôtel La Pérouse,France
+http://example.com/id/1136654h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The D Las Vegas,United States of America
+http://example.com/id/1136841h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fremont Hotel and Casino,United States of America
+http://example.com/id/11415297h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,JR Gate Tower,Japan
+http://example.com/id/114289194h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Grand Hôtel G. Scheers,Belgium
+http://example.com/id/115282741h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Nedermolen,Belgium
+http://example.com/id/116215655h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Antonio Perez,Belgium
+http://example.com/id/11700542h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Prince George Hotel,United States of America
+http://example.com/id/1189944h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Porta Fira,Spain
+http://example.com/id/12020416h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Paříž,Czech Republic
+http://example.com/id/1237113h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento de Santa Maria do Bouro,Portugal
+http://example.com/id/13049756h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Canfranc-Estación,Spain
+http://example.com/id/13103085h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hôtel de Paris,Luxembourg
+http://example.com/id/1324543h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Rancho Hotel & Motel,United States of America
+http://example.com/id/1340132h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Encore,United States of America
+http://example.com/id/1340365h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Westgate Las Vegas Resort & Casino,United States of America
+http://example.com/id/1342565h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Planet Hollywood Resort & Casino,United States of America
+http://example.com/id/1347033h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dunes,United States of America
+http://example.com/id/13529145h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The Biltmore Mayfair, LXR Hotels & Resorts",United Kingdom
+http://example.com/id/1360313h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Treasure Island Hotel and Casino,United States of America
+http://example.com/id/1401439h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Schüttkasten Geras,Austria
+http://example.com/id/1412478h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The Waldorf Hilton, London",United Kingdom
+http://example.com/id/1429071h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,New York-New York Hotel and Casino,United States of America
+http://example.com/id/1436845h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Cosmopolitan of Las Vegas,United States of America
+http://example.com/id/14683065h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"333 Battery Street, San Francisco,",United States of America
+http://example.com/id/14753688h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Casa Alberola Alicante, Curio Collection by Hilton",Spain
+http://example.com/id/1481002h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Ritz London,United Kingdom
+http://example.com/id/14954702h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,107 Piccadilly,United Kingdom
+http://example.com/id/1504641h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kaufhaus Jonaß,Germany
+http://example.com/id/15068974h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Zein-o-Din Caravanserai,Iran
+http://example.com/id/1514587h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Palazzo,United States of America
+http://example.com/id/1535018h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Golden Nugget Las Vegas Hotel & Casino,United States of America
+http://example.com/id/1535845h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Riviera Hotel and Casino,United States of America
+http://example.com/id/15640601h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palacio del Marqués de Velada,Spain
+http://example.com/id/1580067h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Harrah's Las Vegas,United States of America
+http://example.com/id/1585008h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hard Rock Hotel and Casino,United States of America
+http://example.com/id/15923583h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Hong Kong,People's Republic of China
+http://example.com/id/16256099h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Caledonian,United Kingdom
+http://example.com/id/1630814h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Weiss Kreuz,Switzerland
+http://example.com/id/1630833h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hotel Berlin, Berlin",Germany
+http://example.com/id/1630837h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Bodenhaus,Switzerland
+http://example.com/id/1630911h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Warsaw City,Poland
+http://example.com/id/16318627h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Abeno Harukas,Japan
+http://example.com/id/1637090h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"South Point Hotel, Casino & Spa",United States of America
+http://example.com/id/16528268h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Aquarium et Musée de la Mer de Dinard,France
+http://example.com/id/16621592h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Villa Torretta,Italy
+http://example.com/id/167870h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Boardwalk Hotel and Casino,United States of America
+http://example.com/id/16833188h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Lloyd-Bahnhof,Germany
+http://example.com/id/17043498h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Viciebsk,Belarus
+http://example.com/id/17183802h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Castle Hotel, Ruthin",United Kingdom
+http://example.com/id/17226268h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Tokyo,Japan
+http://example.com/id/17229982h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Fukuoka Sea Hawk,Japan
+http://example.com/id/17390148h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Citadel of Cascais,Portugal
+http://example.com/id/17444624h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Frankfurt Airport,Germany
+http://example.com/id/17444904h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - Docklands Riverside,United Kingdom
+http://example.com/id/17532427h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Stanley House,United Kingdom
+http://example.com/id/17533843h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Polebarn House,United Kingdom
+http://example.com/id/17534979h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,5 and 7 High Street and Falcon Hotel Annexe,United Kingdom
+http://example.com/id/17544934h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Barton Seagrave Hall,United Kingdom
+http://example.com/id/17549646h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"2, 3 and 4, Regency Square",United Kingdom
+http://example.com/id/17554574h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fritton Old Hall,United Kingdom
+http://example.com/id/17557267h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,11 Market End,United Kingdom
+http://example.com/id/17793480h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Edinburgh Carlton,United Kingdom
+http://example.com/id/17834531h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,1 Tower Knowe,United Kingdom
+http://example.com/id/17834546h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hawick, 1 Tower Dykeside",United Kingdom
+http://example.com/id/17834566h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hawick, 3, 4 Tower Dykeside",United Kingdom
+http://example.com/id/17835167h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,2 Tower Dykeside,United Kingdom
+http://example.com/id/18008489h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Torre del Remei,Spain
+http://example.com/id/18112026h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - Chelsea,United Kingdom
+http://example.com/id/18286846h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Amsterdam,Netherlands
+http://example.com/id/18340195h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hybernská 12,Czech Republic
+http://example.com/id/18509174h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fayrouz Ressort,Egypt
+http://example.com/id/18509281h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Hurghada Resort,Egypt
+http://example.com/id/18536h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Shard,United Kingdom
+http://example.com/id/18712428h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Makkah Clock Royal Tower Hotel,Saudi Arabia
+http://example.com/id/1879918h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Löwenburger Hof,Germany
+http://example.com/id/18813051h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Rotterdam,Netherlands
+http://example.com/id/19307691h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn London Heathrow Airport,United Kingdom
+http://example.com/id/19348190h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"25, place Dauphine",France
+http://example.com/id/19362430h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Gasthof Krone,Switzerland
+http://example.com/id/1943482h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Molino Stucky Venice,Italy
+http://example.com/id/19962146h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,CloudNo7,Germany
+http://example.com/id/20046383h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Bonn,Germany
+http://example.com/id/202599h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Stardust Resort and Casino,United States of America
+http://example.com/id/20650664h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,La Clef Louvre,France
+http://example.com/id/20828319h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Villa Santana,United States of America
+http://example.com/id/20830632h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bluebeard's Castle,United States of America
+http://example.com/id/21402642h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,18 Gramercy Park,United States of America
+http://example.com/id/2141411h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Bandung,Indonesia
+http://example.com/id/21532003h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Radisson Blu Hotel in Bamako,Mali
+http://example.com/id/21568919h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tabacos de Filipinas building,Spain
+http://example.com/id/21619228h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sheraton Guiyang Hotel,People's Republic of China
+http://example.com/id/22073967h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Bournemouth,United Kingdom
+http://example.com/id/22118627h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Global Gate,Japan
+http://example.com/id/22583354h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Nový Pachtovský palác,Czech Republic
+http://example.com/id/22976715h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Dubai The Walk,United Arab Emirates
+http://example.com/id/22997753h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bay Mills Resort & Casino,United States of America
+http://example.com/id/23265h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hôtel des 3 Collèges,France
+http://example.com/id/23305592h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Kewadin Casino, Hotel and Convention Center",United States of America
+http://example.com/id/23646439h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"100 Queen's Gate Hotel London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/23685988h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Bristol North,United Kingdom
+http://example.com/id/23828028h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Edificio Gran Vía 4,Spain
+http://example.com/id/23907594h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,CAAC Tower,People's Republic of China
+http://example.com/id/23907601h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The London NYC,United States of America
+http://example.com/id/2398831h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Teatro Eden,Portugal
+http://example.com/id/24054070h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cambridge City Centre,United Kingdom
+http://example.com/id/24241038h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Cambridge Hotel,United Kingdom
+http://example.com/id/24708167h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Dominican monastery in Malá Strana, Prague",Czech Republic
+http://example.com/id/25007h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bellagio Hotel & Casino,United States of America
+http://example.com/id/25204442h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Zurich Airport,Switzerland
+http://example.com/id/2523683h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Château d'Artigny,France
+http://example.com/id/2567200h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Whittier,United States of America
+http://example.com/id/2579998h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle of Óbidos,Portugal
+http://example.com/id/26237391h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Tokyo,Japan
+http://example.com/id/26242212h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Sunderland,United Kingdom
+http://example.com/id/26306764h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Mytton and Mermaid Hotel,United Kingdom
+http://example.com/id/2631856h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,520 West 41st Street,United States of America
+http://example.com/id/26398842h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Old Hall Hotel,United Kingdom
+http://example.com/id/26463120h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,13 Market End,United Kingdom
+http://example.com/id/26483035h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"14 and 15, Warwick Road",United Kingdom
+http://example.com/id/26537718h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dove Nest,United Kingdom
+http://example.com/id/26609450h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Crosby Lodge,United Kingdom
+http://example.com/id/26617946h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kenwith Castle,United Kingdom
+http://example.com/id/26684094h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"12 and 13, Warwick Road",United Kingdom
+http://example.com/id/26685058h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,15 Market End,United Kingdom
+http://example.com/id/26700322h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Omni Mont-Royal,Canada
+http://example.com/id/26707727h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Santo Mauro,Spain
+http://example.com/id/26723836h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,De Gamlas Hem,Finland
+http://example.com/id/26734729h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Istanbul Bosphorus,Turkey
+http://example.com/id/26878946h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Sukhumvit Bangkok,Thailand
+http://example.com/id/26902701h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Helsinki Kalastajatorppa,Finland
+http://example.com/id/26960663h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Bournemouth,United Kingdom
+http://example.com/id/27456363h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Gurugram Baani Square,India
+http://example.com/id/2748565h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Claridge's,United Kingdom
+http://example.com/id/27825013h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Frankfurt City Centre,Germany
+http://example.com/id/27826630h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Cairns,Australia
+http://example.com/id/278380h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Drew Las Vegas,United States of America
+http://example.com/id/27962079h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ausonia Palace Hotel,Italy
+http://example.com/id/27981667h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Dubai Mall of the Emirates,United Arab Emirates
+http://example.com/id/28053246h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Auckland,New Zealand
+http://example.com/id/28192892h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Beijing,People's Republic of China
+http://example.com/id/28214174h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Newcastle,United Kingdom
+http://example.com/id/28456180h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Makkah Millennium Hotel,Saudi Arabia
+http://example.com/id/28609672h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Coventry,United Kingdom
+http://example.com/id/28662736h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Gran Vía 22, Madrid",Spain
+http://example.com/id/28675210h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle mill in Toruń,Poland
+http://example.com/id/28675745h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,15/17 Mostowa Street in Toruń,Poland
+http://example.com/id/28680070h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sanatório das Penhas da Saúde,Portugal
+http://example.com/id/28746397h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel NH Paseo del Prado,Spain
+http://example.com/id/28755991h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Catalonia Atocha,Spain
+http://example.com/id/28756542h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palacio Oriol,Spain
+http://example.com/id/28756862h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Catalonia Gran Vía,Spain
+http://example.com/id/28757120h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Gran Vía 18,Spain
+http://example.com/id/28757959h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Senator Gran Vía,Spain
+http://example.com/id/28757977h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Tryp Cibeles,Spain
+http://example.com/id/28769024h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Gran Vía,Spain
+http://example.com/id/28777988h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Aberdeen Treetops,United Kingdom
+http://example.com/id/28844857h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Palace Hotel Barcelona,Spain
+http://example.com/id/2899830h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton The Hague,Netherlands
+http://example.com/id/29000794h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Darwin,Australia
+http://example.com/id/29007102h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Papelera Española building,Spain
+http://example.com/id/2902501h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palatin Hotel Tel Aviv,Israel
+http://example.com/id/29053655h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Paris Charles de Gaulle Airport,France
+http://example.com/id/29053691h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Coylumbridge,United Kingdom
+http://example.com/id/2905596h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Blackstone Hotel,United States of America
+http://example.com/id/2912992h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Harmon,United States of America
+http://example.com/id/29415039h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Alay,Spain
+http://example.com/id/2961297h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Chartreuse du Reposoir,France
+http://example.com/id/29909111h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Alfonso X El Sabio,Spain
+http://example.com/id/2992084h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Paris Opera,France
+http://example.com/id/29948012h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Edinburgh Airport,United Kingdom
+http://example.com/id/29981099h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Bali,Indonesia
+http://example.com/id/30014678h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Istanbul - Old Town,Turkey
+http://example.com/id/30021076h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cologne,Germany
+http://example.com/id/30021879h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton London Heathrow Airport,United Kingdom
+http://example.com/id/30035305h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Saint Petersburg ExpoForum,Russia
+http://example.com/id/30047899h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Stuttgart NeckarPark,Germany
+http://example.com/id/30090585h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Makkah,Saudi Arabia
+http://example.com/id/30097763h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The Westminster London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/30097821h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Beijing,People's Republic of China
+http://example.com/id/30139243h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Prague Old Town,Czech Republic
+http://example.com/id/30140581h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Oradea,Romania
+http://example.com/id/30147522h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Dubai Jumeirah,United Arab Emirates
+http://example.com/id/30174421h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Colombo Residences,Sri Lanka
+http://example.com/id/30242708h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Avanos - Cappadocia,Turkey
+http://example.com/id/30251296h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Matera,Italy
+http://example.com/id/30301927h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Bristol City Centre,United Kingdom
+http://example.com/id/30302746h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Brussels City,Belgium
+http://example.com/id/30306779h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Adelaide,Australia
+http://example.com/id/30307361h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Hurghada Plaza,Egypt
+http://example.com/id/30308807h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Alexandria King's Ranch,Egypt
+http://example.com/id/30337433h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Volgograd,Russia
+http://example.com/id/30346525h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Edinburgh Grosvenor,United Kingdom
+http://example.com/id/30347445h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Milan,Italy
+http://example.com/id/30402016h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Belfast,United Kingdom
+http://example.com/id/30407987h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Wroclaw,Poland
+http://example.com/id/30409284h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Vienna Park,Austria
+http://example.com/id/30438998h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Dusseldorf,Germany
+http://example.com/id/30504052h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - Marble Arch,United Kingdom
+http://example.com/id/30504754h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Nottingham,United Kingdom
+http://example.com/id/30522857h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Brussels Grand Place,Belgium
+http://example.com/id/30736107h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Imperial Dubrovnik,Croatia
+http://example.com/id/30927563h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Koriyama View Hotel Annex,Japan
+http://example.com/id/31277862h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Tallinn Park,Estonia
+http://example.com/id/3142395h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hyatt Regency Paris Etoile,France
+http://example.com/id/31827676h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,U zlatého anděla,Czech Republic
+http://example.com/id/31861463h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Krajinská 41, Zátkův dům",Czech Republic
+http://example.com/id/3192583h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kanayama Minami Building,Japan
+http://example.com/id/3278286h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Main Street Station Hotel and Casino and Brewery,United States of America
+http://example.com/id/3281025h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,APA Hotel & Resort Tokyo Bay Makuhari,Japan
+http://example.com/id/32947262h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn New Delhi/Saket,India
+http://example.com/id/33035435h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Istanbul - Moda,Turkey
+http://example.com/id/33101471h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Cluj - City Plaza,Romania
+http://example.com/id/33189243h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Feuerschiff,Germany
+http://example.com/id/33229354h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Croydon,United Kingdom
+http://example.com/id/33382454h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Melbourne - Flinders Street,Australia
+http://example.com/id/3356472h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Orleans,United States of America
+http://example.com/id/3533060h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tour Duo,France
+http://example.com/id/3545225h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Sam's Town Hotel and Gambling Hall, Las Vegas",United States of America
+http://example.com/id/37857517h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Birmingham Jewellery Quarter,United Kingdom
+http://example.com/id/37858337h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Glasgow Central,United Kingdom
+http://example.com/id/37858682h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Leeds City Centre,United Kingdom
+http://example.com/id/38251391h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,3 V Tourist Court,United States of America
+http://example.com/id/40037779h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dämman,Sweden
+http://example.com/id/41069183h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Amsterdam Airport Schiphol,Netherlands
+http://example.com/id/41300192h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Pyramids Golf,Egypt
+http://example.com/id/42341625h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - Hyde Park,United Kingdom
+http://example.com/id/4261094h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Downtown Grand Hotel & Casino,United States of America
+http://example.com/id/4261374h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Suncoast Hotel and Casino,United States of America
+http://example.com/id/42748124h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Shah Abbasi Caravanserai of Abuzeydabad,Iran
+http://example.com/id/42867978h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tehrani House (Yazd),Iran
+http://example.com/id/42874514h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Golshan House (Yazd),Iran
+http://example.com/id/43031921h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Corona Hotel in Baia Sprie,Romania
+http://example.com/id/4385582h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Page-Walker Hotel,United States of America
+http://example.com/id/4448816h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tsukuba Center Building,Japan
+http://example.com/id/45316350h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Edinburgh City Centre,United Kingdom
+http://example.com/id/4596016h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,1 Snow Hill Plaza,United Kingdom
+http://example.com/id/47166648h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palau Benet-Desvilar,Spain
+http://example.com/id/4725573h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Aliante Casino and Hotel,United States of America
+http://example.com/id/47401774h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Bora Bora Nui,France
+http://example.com/id/47518776h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Millennium Hilton Bangkok,Thailand
+http://example.com/id/47902573h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Schloss Kölzow,Germany
+http://example.com/id/4791273h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Arizona Charlie's Boulder,United States of America
+http://example.com/id/49393251h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Kuala Lumpur,Malaysia
+http://example.com/id/49573628h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cabo Verde Sal Resort,Cape Verde
+http://example.com/id/49593283h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Breite Straße 19,Germany
+http://example.com/id/49593839h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Friedrichplatz 8,Germany
+http://example.com/id/49594143h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kurstraße 6,Germany
+http://example.com/id/49595033h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Schloßstraße 5,Germany
+http://example.com/id/49807274h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Bankside,United Kingdom
+http://example.com/id/4993716h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle of Alvito,Portugal
+http://example.com/id/4999251h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Burlington Hotel,United States of America
+http://example.com/id/50308536h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Dubai - Jumeirah Beach,United Arab Emirates
+http://example.com/id/50353048h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Istanbul Bomonti Hotel & Conference Center,Turkey
+http://example.com/id/50356312h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Palace of Valencia,Spain
+http://example.com/id/5049621h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castaways Hotel and Casino,United States of America
+http://example.com/id/5049734h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle of Alcácer do Sal,Portugal
+http://example.com/id/5049843h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle of Vila Nova de Cerveira,Portugal
+http://example.com/id/50611971h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton London Gatwick Airport,United Kingdom
+http://example.com/id/50809149h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Astana,Kazakhstan
+http://example.com/id/50841764h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton York,United Kingdom
+http://example.com/id/51025456h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Florence Novoli,Italy
+http://example.com/id/51222702h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,H10 Berlin Ku'damm,Germany
+http://example.com/id/51824364h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Kensington,United Kingdom
+http://example.com/id/51918515h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cairns,Australia
+http://example.com/id/52886668h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Rome Cavalieri, A Waldorf Astoria Hotel",Italy
+http://example.com/id/53632218h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London ExCel,United Kingdom
+http://example.com/id/53806946h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento do Salvador,Portugal
+http://example.com/id/53881282h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palacete do Chafariz d'El-Rei,Portugal
+http://example.com/id/53999203h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Niseko Village,Japan
+http://example.com/id/5430586h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cairo Heliopolis,Egypt
+http://example.com/id/54474974h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Companhia de Moagens Harmonia,Portugal
+http://example.com/id/54475112h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Quinta da Pacheca,Portugal
+http://example.com/id/54475217h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,NH Collection Porto Batalha,Portugal
+http://example.com/id/54475224h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Moov Hotel Porto Centro,Portugal
+http://example.com/id/546221h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Trump International Hotel and Tower,United States of America
+http://example.com/id/54652699h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree Resort by Hilton Penang,Malaysia
+http://example.com/id/5472556h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Forte de São Sebastião,Portugal
+http://example.com/id/5475490h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Four Seasons Hotel building, San Francisco",United States of America
+http://example.com/id/5475499h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Four Seasons Hotel Chicago,United States of America
+http://example.com/id/55185046h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sint-Antonius van Paduakerk,Netherlands
+http://example.com/id/55346142h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convent of the Capuchinos,Spain
+http://example.com/id/55865629h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Liverpool City Centre,United Kingdom
+http://example.com/id/5594050h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Gran Meliá Don Pepe,Spain
+http://example.com/id/5594866h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Grand Palace Hotel, New Orleans",United States of America
+http://example.com/id/5595660h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Brampton Grange,United Kingdom
+http://example.com/id/56027180h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,former station for biology Plön,Germany
+http://example.com/id/56071855h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel & Spa Liverpool,United Kingdom
+http://example.com/id/56084920h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Crown Hotel,United Kingdom
+http://example.com/id/56085005h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Hotel Chiswick,United Kingdom
+http://example.com/id/56085020h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Hotel Leeds,United Kingdom
+http://example.com/id/56085053h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Hotel Birmingham,United Kingdom
+http://example.com/id/56085075h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Hotel Belfast,United Kingdom
+http://example.com/id/56150916h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clayton Hotel Cardiff,United Kingdom
+http://example.com/id/56194854h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Orenburg,Russia
+http://example.com/id/56214797h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Novorossiysk,Russia
+http://example.com/id/56446735h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Beijing Capital Airport,People's Republic of China
+http://example.com/id/5646336h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Liverpool/John Lennon Airport,United Kingdom
+http://example.com/id/56478942h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Kuwait Resort,Kuwait
+http://example.com/id/56522910h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Grand Hotel des Sablettes Plage, Curio Collection by Hilton",France
+http://example.com/id/56598554h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Canopy by Hilton Reykjavik City Centre,Iceland
+http://example.com/id/56705491h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"former Hotel Castilla, Toledo",Spain
+http://example.com/id/56711100h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Edifício A Tarde,Brazil
+http://example.com/id/56827407h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Puchong,Malaysia
+http://example.com/id/5683588h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Malek al-Tojar House (Yazd),Iran
+http://example.com/id/5705250h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Guged Caravanserai,Iran
+http://example.com/id/5710559h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Paasitorni,Finland
+http://example.com/id/57297679h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Gran Vía 74, Madrid",Spain
+http://example.com/id/57385878h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton London Luton Airport,United Kingdom
+http://example.com/id/57613527h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palazzo Montemartini,Italy
+http://example.com/id/5764637h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Liverpool City Centre,United Kingdom
+http://example.com/id/5764652h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Luxembourg,Luxembourg
+http://example.com/id/5764716h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Safir Sharm Waterfalls Resort,Egypt
+http://example.com/id/57739907h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Xiamen,People's Republic of China
+http://example.com/id/5785660h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento Dominico de Nuestra Señora de la Consolación,Spain
+http://example.com/id/58069409h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Samara,Russia
+http://example.com/id/58086658h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Ufa Riverside,Russia
+http://example.com/id/58229015h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Girona,Spain
+http://example.com/id/5878173h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Malekzadeh House (Yazd),Iran
+http://example.com/id/5883194h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Qorban Alizadeh House,Iran
+http://example.com/id/5884157h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Khoshnevis Mansion,Iran
+http://example.com/id/5885917h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kasra Vafadari House,Iran
+http://example.com/id/5891776h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Moshir Garden,Iran
+http://example.com/id/5892374h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Moshir Caravanserai,Iran
+http://example.com/id/5894717h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dr. Hojjat House,Iran
+http://example.com/id/5901285h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Alafchian House,Iran
+http://example.com/id/5903404h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Málaga Palacio,Spain
+http://example.com/id/5903511h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hotel de las Letras, Madrid",Spain
+http://example.com/id/5907540h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Aminabad Caravanserai,Iran
+http://example.com/id/5908224h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Shah Abbasi Caravanserai of Bisotun,Iran
+http://example.com/id/5912133h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hagia Sofia Mansions Istanbul, Curio Collection by Hilton",Turkey
+http://example.com/id/59131992h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Minsk,Belarus
+http://example.com/id/59138963h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Moscow New Riga,Russia
+http://example.com/id/5918301h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Banitaba House,Iran
+http://example.com/id/5920727h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Manuchehri House (Kashan),Iran
+http://example.com/id/59209270h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Istanbul Maslak,Turkey
+http://example.com/id/59492165h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Hua Hin Resort & Spa,Thailand
+http://example.com/id/59519828h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,house at V jirchářích 13,Czech Republic
+http://example.com/id/5963275h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ehsan House (Kashan),Iran
+http://example.com/id/59872505h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"George Hotel, Sydney",Australia
+http://example.com/id/59872532h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Trickett's Hotel,Australia
+http://example.com/id/60055194h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Wales House, Sydney",Australia
+http://example.com/id/60389409h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ancienne église Saint-Nicolas,France
+http://example.com/id/6044861h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"InterContinental Chicago Magnificent Mile, an IHG Hotel",United States of America
+http://example.com/id/60452089h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Cape Town City Centre,South Africa
+http://example.com/id/6058109h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Antiguo Hotel Miramar,Spain
+http://example.com/id/60641676h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Grand Tirolia Hotel Kitzbuhel, Curio Collection by Hilton",Austria
+http://example.com/id/60642328h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Canopy by Hilton Zagreb - City Centre,Croatia
+http://example.com/id/60732352h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Dubai Al Jadaf Culture Village,United Arab Emirates
+http://example.com/id/60746742h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Durant,United States of America
+http://example.com/id/60847568h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,King's Casino Rozvadov,Czech Republic
+http://example.com/id/60912347h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Freiburg,Germany
+http://example.com/id/61090457h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Transcorp Hilton Abuja,Nigeria
+http://example.com/id/61100884h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - West End,United Kingdom
+http://example.com/id/61114082h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"La Bagnaia Golf & Spa Resort Siena, Curio Collection by Hilton",Italy
+http://example.com/id/61165878h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hilton at St George's Park, Burton Upon Trent",United Kingdom
+http://example.com/id/61357012h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Semnani House,Iran
+http://example.com/id/61465403h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Tyumen,Russia
+http://example.com/id/61567322h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Newcastle Gateshead,United Kingdom
+http://example.com/id/61573625h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Surfers Paradise Hotel & Residences,Australia
+http://example.com/id/616726h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hooters Casino Hotel,United States of America
+http://example.com/id/61717587h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Gatwick Airport,United Kingdom
+http://example.com/id/6172690h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Jeddah Hilton Hotel,Saudi Arabia
+http://example.com/id/61868406h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Woking,United Kingdom
+http://example.com/id/61885625h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Marsa Alam Nubian Resort,Egypt
+http://example.com/id/61888685h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Fiji Beach Resort and Spa,Fiji
+http://example.com/id/61897167h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Bangkok,Thailand
+http://example.com/id/62068054h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Cairo,Egypt
+http://example.com/id/62479268h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Munich City West,Germany
+http://example.com/id/63164854h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Luton North,United Kingdom
+http://example.com/id/63190257h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Brisbane,Australia
+http://example.com/id/63296024h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman South,Malaysia
+http://example.com/id/63435869h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fort Worth Club Building,United States of America
+http://example.com/id/63608863h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel London - Victoria,United Kingdom
+http://example.com/id/637389h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Luxor Resort & Casino,United States of America
+http://example.com/id/63790123h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Kampala,Uganda
+http://example.com/id/63832005h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Warsaw Mokotow,Poland
+http://example.com/id/63859908h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Tirana,Albania
+http://example.com/id/63869688h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Kocaeli,Turkey
+http://example.com/id/63883252h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Moorea Lagoon Resort & Spa,France
+http://example.com/id/63885416h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Birmingham Brindleyplace,United Kingdom
+http://example.com/id/63975276h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Belfast City Centre,United Kingdom
+http://example.com/id/64152343h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Cambridge Belfry,United Kingdom
+http://example.com/id/64363310h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Bristol City Centre,United Kingdom
+http://example.com/id/64701276h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Seychelles Labriz Resort & Spa,Seychelles
+http://example.com/id/64769038h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Washingtonova 23,Czech Republic
+http://example.com/id/64785112h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hotel Villa Magna, Madrid",Spain
+http://example.com/id/64822290h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Reykjavik Nordica,Iceland
+http://example.com/id/64827562h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Singapore Serangoon,Singapore
+http://example.com/id/64845950h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Amsterdam / Arena Boulevard,Netherlands
+http://example.com/id/64845961h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Algarve,Portugal
+http://example.com/id/64859000h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Colombo,Sri Lanka
+http://example.com/id/64868965h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Bristol City Centre,United Kingdom
+http://example.com/id/64933804h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Ras Al Khaimah,United Arab Emirates
+http://example.com/id/64992591h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Exeter Airport,United Kingdom
+http://example.com/id/65037569h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Parnitha Sanatorium,Greece
+http://example.com/id/65042333h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Salvation Army Building,United States of America
+http://example.com/id/65218555h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Danubius Hotel Hungaria City Center, Budapest",Hungary
+http://example.com/id/6538417h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Zargar Yazdi House,Iran
+http://example.com/id/654279h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Aria Resort and Casino,United States of America
+http://example.com/id/654906h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Binion's Horseshoe,United States of America
+http://example.com/id/65769542h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Carcassonne,France
+http://example.com/id/65770076h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Glasgow City Centre,United Kingdom
+http://example.com/id/66423173h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Ras Al Khaimah,United Arab Emirates
+http://example.com/id/66424250h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Istanbul Golden Horn Turkey,Turkey
+http://example.com/id/66437370h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Dubai - Business Bay,United Arab Emirates
+http://example.com/id/66439260h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Gurgaon - New Delhi NCR,India
+http://example.com/id/66586875h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Makkah Convention Hotel,Saudi Arabia
+http://example.com/id/66658603h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Pattaya,Thailand
+http://example.com/id/66660297h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Dubai Al Mina,United Arab Emirates
+http://example.com/id/66771676h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Shillim Estate Retreat & Spa,India
+http://example.com/id/66813051h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Palácio Hotel de Bussaco, Palacete Hotel do Buçaco",Portugal
+http://example.com/id/66813690h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Castle of Estremoz,Portugal
+http://example.com/id/66814366h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hotel Ritz, incluindo o património integrado",Portugal
+http://example.com/id/66924306h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Jurys Inn Leeds,United Kingdom
+http://example.com/id/66969081h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Leeds City Centre,United Kingdom
+http://example.com/id/66969175h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ibis Leeds Centre,United Kingdom
+http://example.com/id/66969326h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Leeds City,United Kingdom
+http://example.com/id/67013894h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Olbia - Sardinia,Italy
+http://example.com/id/67206508h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Rome Airport,Italy
+http://example.com/id/6747856h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Loews Regency San Francisco,United States of America
+http://example.com/id/67765140h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Koh Samui,Thailand
+http://example.com/id/67863357h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Glasgow Grosvenor,United Kingdom
+http://example.com/id/67868674h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Royal Parc Soestduinen,Netherlands
+http://example.com/id/67874379h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Dundee City Centre,United Kingdom
+http://example.com/id/67920401h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Malta,Malta
+http://example.com/id/68121379h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Parkhotel Praha,Czech Republic
+http://example.com/id/68167138h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Pyramida,Czech Republic
+http://example.com/id/69383898h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Sydney,Australia
+http://example.com/id/69531148h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Amsterdam Airport Schiphol,Netherlands
+http://example.com/id/69647678h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Aberdeen TECA,United Kingdom
+http://example.com/id/70206906h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman North,Malaysia
+http://example.com/id/71409297h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Watford,United Kingdom
+http://example.com/id/71817207h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Warsaw Airport,Poland
+http://example.com/id/71828738h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Hilton Puckrup Hall, Tewkesbury",United Kingdom
+http://example.com/id/7203612h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Plaza Hotel & Casino,United States of America
+http://example.com/id/72067004h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Moscow - Vnukovo Airport,Russia
+http://example.com/id/72172868h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Madrid - Prado,Spain
+http://example.com/id/72177013h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palacete B. Carrera,Brazil
+http://example.com/id/72278577h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Jaipur,India
+http://example.com/id/72812966h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Addis Ababa,Ethiopia
+http://example.com/id/72988389h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Zanzibar - Stone Town,Tanzania
+http://example.com/id/7304924h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Red Rock Casino, Resort & Spa",United States of America
+http://example.com/id/73274620h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pellihof,Germany
+http://example.com/id/7336896h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ritz-Carlton Chicago,United States of America
+http://example.com/id/73499085h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Berlin City Centre Alexanderplatz,Germany
+http://example.com/id/73621829h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Luxor Resort & Spa,Egypt
+http://example.com/id/73640935h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Santa Casa da Misericórdia de Óbidos,Portugal
+http://example.com/id/7374338h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Royal Insurance Building,United Kingdom
+http://example.com/id/73879785h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Mandalay,Myanmar
+http://example.com/id/73898961h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Zagreb - Radnicka,Croatia
+http://example.com/id/739914h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Rio All-Suite Hotel and Casino,United States of America
+http://example.com/id/74527699h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Capital Grand Abu Dhabi,United Arab Emirates
+http://example.com/id/74665770h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Jakarta - Diponegoro,Indonesia
+http://example.com/id/74812978h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Aqaba,Jordan
+http://example.com/id/75018491h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Krakow,Poland
+http://example.com/id/7553767h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Shanghai - Pudong,People's Republic of China
+http://example.com/id/7553769h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pullman Bangkok Hotel G,Thailand
+http://example.com/id/75721557h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Edinburgh - Queensferry Crossing,United Kingdom
+http://example.com/id/75971164h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Riyadh Olaya,Saudi Arabia
+http://example.com/id/76021053h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ANA Crowne Plaza Akita,Japan
+http://example.com/id/76355045h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Arena Center,Albania
+http://example.com/id/76620470h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Dubai Al Barsha,United Arab Emirates
+http://example.com/id/76721707h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Kuching,Malaysia
+http://example.com/id/76724214h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Krakow Hotel & Convention Center,Poland
+http://example.com/id/76726211h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Hotel Moscow - Marina,Russia
+http://example.com/id/76795105h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Sharks Bay Resort,Egypt
+http://example.com/id/7720948h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Cairo,United States of America
+http://example.com/id/7730896h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Drayton Court,United Kingdom
+http://example.com/id/7736171h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The George Hotel,United Kingdom
+http://example.com/id/77416106h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Glasgow Westerwood Spa & Golf Resort,United Kingdom
+http://example.com/id/77418726h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Lusaka Society Business Park,Zambia
+http://example.com/id/7745429h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Landmark Hotel and Casino,United States of America
+http://example.com/id/7754900h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The Old Rectory, St Columb Major",United Kingdom
+http://example.com/id/7756547h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Peninsula Chicago,United States of America
+http://example.com/id/7774298h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Western,United States of America
+http://example.com/id/779373h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Linq,United States of America
+http://example.com/id/78036841h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Guam Resort & Spa,United States of America
+http://example.com/id/78054939h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"AlRayyan Hotel Doha, Curio Collection by Hilton",Qatar
+http://example.com/id/7832418h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The Trafalgar St. James London, Curio Collection by Hilton",United Kingdom
+http://example.com/id/78897920h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"West Hotel Sydney, Curio Collection by Hilton",Australia
+http://example.com/id/79309518h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,MLC Building,New Zealand
+http://example.com/id/7969454h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Merdeka 118,Malaysia
+http://example.com/id/79942014h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Amigo,Belgium
+http://example.com/id/805467h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bally's Las Vegas Hotel & Casino,United States of America
+http://example.com/id/81100400h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Casa Pere Villoch,Spain
+http://example.com/id/81100403h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Edifici Companyia Transatlàntica,Spain
+http://example.com/id/81495406h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,DoubleTree by Hilton Bangkok Ploenchit,Thailand
+http://example.com/id/84029894h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampton by Hilton Nuremberg City Centre,Germany
+http://example.com/id/845846h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"The STRAT Hotel, Casino & SkyPod",United States of America
+http://example.com/id/851102h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Kvarner,Croatia
+http://example.com/id/85749503h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bump Block-Bellevue House-Hawthorne Hotel,United States of America
+http://example.com/id/85758819h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Monte Hotel,United States of America
+http://example.com/id/85845504h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Berwyn Apartments,United States of America
+http://example.com/id/86595792h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Valkealinna,Finland
+http://example.com/id/86754328h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Inez Hotel,United States of America
+http://example.com/id/869378h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,California Hotel and Casino,United States of America
+http://example.com/id/89425684h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Rawema-Haus,Germany
+http://example.com/id/900983h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Mirage,United States of America
+http://example.com/id/90404749h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Durban,South Africa
+http://example.com/id/9054487h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palácio do Freixo,Portugal
+http://example.com/id/90545243h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Sevilla,Spain
+http://example.com/id/90682834h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Sandton,South Africa
+http://example.com/id/91607548h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Suites Makkah,Saudi Arabia
+http://example.com/id/916673h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The Signature at MGM Grand,United States of America
+http://example.com/id/92176916h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Heathrow Airport Terminal 5,United Kingdom
+http://example.com/id/9294078h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Gdańsk,Poland
+http://example.com/id/9294080h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Jalta,Czech Republic
+http://example.com/id/9294281h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ameri House,Iran
+http://example.com/id/93121772h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hôtel Napoléon,France
+http://example.com/id/9358597h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Rancho Hotel and Casino,United States of America
+http://example.com/id/96377064h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Bursa Convention Center and Spa,Turkey
+http://example.com/id/96743206h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Great Falls Tavern,United States of America
+http://example.com/id/96757505h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pazo of the Maceda Counts,Spain
+http://example.com/id/96787014h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Garden Inn Kuwait,Kuwait
+http://example.com/id/979477h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Athenee Palace Hilton Bucharest,Romania
+http://example.com/id/98407274h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Albertinkatu 34 - Lönnrotinkatu 26,Finland
+http://example.com/id/98407275h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Albertinkatu 34,Finland
+http://example.com/id/98407311h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Annankatu 1,Finland
+http://example.com/id/98412731h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotelli Helsinki,Finland
+http://example.com/id/98412733h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotelli Marskin talo,Finland
+http://example.com/id/98413370h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kanavakatu 8,Finland
+http://example.com/id/98432053h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Pohjoinen Rautatiekatu 23,Finland
+http://example.com/id/98433308h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Valion juustovaraston rakennus,Finland
+http://example.com/id/98433345h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Valtion biokemiallisen tutkimuslaitoksen laboratoriorakennus,Finland
+http://example.com/id/98433742h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Katajanokan vankilan rakennus,Finland
+http://example.com/id/98433825h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Suomi-yhtiön talo,Finland
+http://example.com/id/98550889h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Villa Gaia,Italy
+http://example.com/id/98582250h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Villa,Finland
+http://example.com/id/9871323h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Convento das Eremitas de Santo Agostinho,Portugal
+http://example.com/id/98784123h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,"Stadshotellet, Karlstad",Sweden
+http://example.com/id/99454646h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Bengaluru,India
+http://example.com/id/99583717h,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hôtel van Ertborn,Belgium
+http://www.wikidata.org/entity/Q1092961,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Circus Circus Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1096141,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Act Tower,Japan
+http://www.wikidata.org/entity/Q1127749,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Kämp,Finland
+http://www.wikidata.org/entity/Q1143174,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ritz-Carlton Toronto,Canada
+http://www.wikidata.org/entity/Q1147483,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sahara Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1200583,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Desert Inn,United States of America
+http://www.wikidata.org/entity/Q12072758,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Westin Book Cadillac Hotel,United States of America
+http://www.wikidata.org/entity/Q1221513,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Grand Hôtel,France
+http://www.wikidata.org/entity/Q12495,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Burj Khalifa,United Arab Emirates
+http://www.wikidata.org/entity/Q1281171,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Trump Hotel Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1304383,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1309059,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Wynn Las Vegas,United States of America
+http://www.wikidata.org/entity/Q13529180,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Hyde Park,United Kingdom
+http://www.wikidata.org/entity/Q1368043,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Mandalay Bay,United States of America
+http://www.wikidata.org/entity/Q1368798,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,SEG Plaza,People's Republic of China
+http://www.wikidata.org/entity/Q1426968,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Flamingo Las Vegas,United States of America
+http://www.wikidata.org/entity/Q1430318,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Rossiya Hotel,Russia
+http://www.wikidata.org/entity/Q145361,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Gezirah Palace,Egypt
+http://www.wikidata.org/entity/Q1457875,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Villa Crespi,Italy
+http://www.wikidata.org/entity/Q14705265,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Resorts World Las Vegas,United States of America
+http://www.wikidata.org/entity/Q15125469,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Prinzenpalais,Germany
+http://www.wikidata.org/entity/Q151599,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Metropolis,New Zealand
+http://www.wikidata.org/entity/Q15228738,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,InterContinental Budapest,Hungary
+http://www.wikidata.org/entity/Q1541365,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Renaissance Center,United States of America
+http://www.wikidata.org/entity/Q15909474,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hengshan Picardie Hotel,People's Republic of China
+http://www.wikidata.org/entity/Q15978898,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Berry Head House,United Kingdom
+http://www.wikidata.org/entity/Q1682221,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dagebüll lighthouse,Germany
+http://www.wikidata.org/entity/Q16843761,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Diagonal Mar Barcelona,Spain
+http://www.wikidata.org/entity/Q168575,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,CTF Finance Centre,People's Republic of China
+http://www.wikidata.org/entity/Q16890775,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Crown Sydney,Australia
+http://www.wikidata.org/entity/Q16949846,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,B&O Railroad Headquarters Building,United States of America
+http://www.wikidata.org/entity/Q16995460,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Wyndham Springfield City Centre,United States of America
+http://www.wikidata.org/entity/Q17019762,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Magnolia Hotel,United States of America
+http://www.wikidata.org/entity/Q1743514,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kirkland Hotel,United States of America
+http://www.wikidata.org/entity/Q17444603,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Frankfurt Airport,Germany
+http://www.wikidata.org/entity/Q17619057,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Agronomitalo,Finland
+http://www.wikidata.org/entity/Q1795050,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palace Station,United States of America
+http://www.wikidata.org/entity/Q18534517,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Syon Park,United Kingdom
+http://www.wikidata.org/entity/Q18547,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Shanghai Tower,People's Republic of China
+http://www.wikidata.org/entity/Q1874734,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel International Prague,Czech Republic
+http://www.wikidata.org/entity/Q18760038,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Munkkiniemi education center,Finland
+http://www.wikidata.org/entity/Q189476,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Abraj Al Bait,Saudi Arabia
+http://www.wikidata.org/entity/Q19462194,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Harper House,United States of America
+http://www.wikidata.org/entity/Q19513101,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Manchester Deansgate,United Kingdom
+http://www.wikidata.org/entity/Q19564041,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hedemora stadshotell,Sweden
+http://www.wikidata.org/entity/Q19817552,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Delta Toronto Hotel,Canada
+http://www.wikidata.org/entity/Q19871631,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Broadway Hotel,United States of America
+http://www.wikidata.org/entity/Q20075891,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Kyiv,Ukraine
+http://www.wikidata.org/entity/Q2048307,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palms Casino Resort,United States of America
+http://www.wikidata.org/entity/Q2135814,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Amsterdam,Netherlands
+http://www.wikidata.org/entity/Q214139,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Morrison Hotel,United States of America
+http://www.wikidata.org/entity/Q21504226,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Birmingham Metropole,United Kingdom
+http://www.wikidata.org/entity/Q220141,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Berlin,Germany
+http://www.wikidata.org/entity/Q22079320,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,St. Nicholas Hotel,United States of America
+http://www.wikidata.org/entity/Q2258969,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Eureka Inn,United States of America
+http://www.wikidata.org/entity/Q2297323,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Delano Las Vegas,United States of America
+http://www.wikidata.org/entity/Q22978033,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,U Medvídků,Czech Republic
+http://www.wikidata.org/entity/Q23301461,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Beaumont Hotel,United States of America
+http://www.wikidata.org/entity/Q2363048,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Place Viger,Canada
+http://www.wikidata.org/entity/Q23640921,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bowen River Hotel,Australia
+http://www.wikidata.org/entity/Q240711,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Chelsea,United States of America
+http://www.wikidata.org/entity/Q2416198,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,MGM Grand Detroit,United States of America
+http://www.wikidata.org/entity/Q2461831,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Las Vegas Plaza,United States of America
+http://www.wikidata.org/entity/Q24693404,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bangor House,United States of America
+http://www.wikidata.org/entity/Q24971211,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Reno Hotel,United States of America
+http://www.wikidata.org/entity/Q264203,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Vegas World,United States of America
+http://www.wikidata.org/entity/Q2648096,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,W San Francisco,United States of America
+http://www.wikidata.org/entity/Q264858,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,M Resort,United States of America
+http://www.wikidata.org/entity/Q280339,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Tropicana Las Vegas,United States of America
+http://www.wikidata.org/entity/Q280910,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Vdara,United States of America
+http://www.wikidata.org/entity/Q28184307,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Royal Mail Hotel,Australia
+http://www.wikidata.org/entity/Q28184310,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Noccundra Hotel,Australia
+http://www.wikidata.org/entity/Q2837946,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Allerton Hotel,United States of America
+http://www.wikidata.org/entity/Q2908788,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Leonardo City Tower Hotel,Israel
+http://www.wikidata.org/entity/Q2928530,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Cadillac Hotel,United States of America
+http://www.wikidata.org/entity/Q2935180,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Camlin Hotel,United States of America
+http://www.wikidata.org/entity/Q2971063,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Taagepera Castle,Estonia
+http://www.wikidata.org/entity/Q3037053,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Athens,Greece
+http://www.wikidata.org/entity/Q306000,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Abbasi Hotel,Iran
+http://www.wikidata.org/entity/Q30644484,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Manger,United States of America
+http://www.wikidata.org/entity/Q3145454,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clarendon Hotel,United States of America
+http://www.wikidata.org/entity/Q3145697,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Windsor Hotel,United States of America
+http://www.wikidata.org/entity/Q3153055,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,InterContinental San Francisco,United States of America
+http://www.wikidata.org/entity/Q3185653,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Joseph Smith Memorial Building,United States of America
+http://www.wikidata.org/entity/Q3359202,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Wyndham Grand İzmir Özdilek,Turkey
+http://www.wikidata.org/entity/Q3389734,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Place Bonaventure,Canada
+http://www.wikidata.org/entity/Q3414568,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Quinta das Lágrimas,Portugal
+http://www.wikidata.org/entity/Q34204337,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Waldorf Astoria Dubai Palm Jumeirah,United Arab Emirates
+http://www.wikidata.org/entity/Q3471438,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,San Francisco Marriott Marquis,United States of America
+http://www.wikidata.org/entity/Q3482309,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Shiodome Media Tower,Japan
+http://www.wikidata.org/entity/Q3498798,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton San Francisco Union Square,United States of America
+http://www.wikidata.org/entity/Q3699364,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Culver Hotel,United States of America
+http://www.wikidata.org/entity/Q38251423,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Mosborough Hall,United Kingdom
+http://www.wikidata.org/entity/Q38251968,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bonneville Hotel,United States of America
+http://www.wikidata.org/entity/Q4040675,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Prague,Czech Republic
+http://www.wikidata.org/entity/Q4260261,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Price Tower,United States of America
+http://www.wikidata.org/entity/Q4261384,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Las Vegas Club,United States of America
+http://www.wikidata.org/entity/Q4272608,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fairmont San Francisco,United States of America
+http://www.wikidata.org/entity/Q4272804,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Breakers Hotel,United States of America
+http://www.wikidata.org/entity/Q43371249,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Brooks Hotel,United States of America
+http://www.wikidata.org/entity/Q44406603,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hampshire House,United States of America
+http://www.wikidata.org/entity/Q4479814,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,West Baden Springs Hotel,United States of America
+http://www.wikidata.org/entity/Q456685,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Ambassador Hotel,United States of America
+http://www.wikidata.org/entity/Q47004857,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Brandt Hotel,United States of America
+http://www.wikidata.org/entity/Q4792350,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Arlington Hotel,Canada
+http://www.wikidata.org/entity/Q4792350,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Arlington Hotel,United States of America
+http://www.wikidata.org/entity/Q4793581,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Arminius Hotel,United States of America
+http://www.wikidata.org/entity/Q4806513,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Istanbul Bosphorus,Turkey
+http://www.wikidata.org/entity/Q4822225,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Izmir,Turkey
+http://www.wikidata.org/entity/Q4841991,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Baglioni Hotel,United Kingdom
+http://www.wikidata.org/entity/Q4842213,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Baha Mar,The Bahamas
+http://www.wikidata.org/entity/Q48843972,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Booth Hotel,United States of America
+http://www.wikidata.org/entity/Q4949600,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Boulder Station,United States of America
+http://www.wikidata.org/entity/Q4979998,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bryan Building,United States of America
+http://www.wikidata.org/entity/Q4985118,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Texas Station,United States of America
+http://www.wikidata.org/entity/Q5061223,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Central House Hotel,United States of America
+http://www.wikidata.org/entity/Q5065298,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Cerulean Tower,Japan
+http://www.wikidata.org/entity/Q510121,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Schlosshotel Kronberg,Germany
+http://www.wikidata.org/entity/Q5120095,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Cimarron Hotel,United States of America
+http://www.wikidata.org/entity/Q5152499,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Commercial Hotel,Australia
+http://www.wikidata.org/entity/Q5152499,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Commercial Hotel,United States of America
+http://www.wikidata.org/entity/Q5179785,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Coworth House,United Kingdom
+http://www.wikidata.org/entity/Q5189543,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Crowne Plaza Times Square,United States of America
+http://www.wikidata.org/entity/Q51956193,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fort Piqua Plaza,United States of America
+http://www.wikidata.org/entity/Q5230243,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Davenport Hotel,United States of America
+http://www.wikidata.org/entity/Q5302326,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dousman Hotel,United States of America
+http://www.wikidata.org/entity/Q5330926,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Eastside Cannery,United States of America
+http://www.wikidata.org/entity/Q5351073,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,El Cortez,United States of America
+http://www.wikidata.org/entity/Q54427554,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Dalmatia Tower,Croatia
+http://www.wikidata.org/entity/Q5472026,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Fort Shelby Hotel,United States of America
+http://www.wikidata.org/entity/Q54873914,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Clarke Hotel,United States of America
+http://www.wikidata.org/entity/Q550379,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Conrad Dubai,United Arab Emirates
+http://www.wikidata.org/entity/Q55075422,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hippee Building,United States of America
+http://www.wikidata.org/entity/Q55347999,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Barcelona,Spain
+http://www.wikidata.org/entity/Q5545987,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,George Washington House,United States of America
+http://www.wikidata.org/entity/Q5594404,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Grand Central Hotel,United States of America
+http://www.wikidata.org/entity/Q5594662,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Grand Hyatt San Francisco,United States of America
+http://www.wikidata.org/entity/Q5602124,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Greektown Casino Hotel,United States of America
+http://www.wikidata.org/entity/Q5637110,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hacienda,United States of America
+http://www.wikidata.org/entity/Q569978,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Caesars Palace,United States of America
+http://www.wikidata.org/entity/Q5764519,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Chennai,India
+http://www.wikidata.org/entity/Q5764570,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Glasgow,United Kingdom
+http://www.wikidata.org/entity/Q5764576,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Hanoi Opera,Vietnam
+http://www.wikidata.org/entity/Q5764648,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton London Metropole,United Kingdom
+http://www.wikidata.org/entity/Q5764722,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Singapore,Singapore
+http://www.wikidata.org/entity/Q587108,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Yokohama Landmark Tower,Japan
+http://www.wikidata.org/entity/Q5872085,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Flour factory San José,Spain
+http://www.wikidata.org/entity/Q5911169,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Alder,United States of America
+http://www.wikidata.org/entity/Q5911415,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Podgorica Crna Gora,Montenegro
+http://www.wikidata.org/entity/Q5952911,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hyatt Regency San Francisco,United States of America
+http://www.wikidata.org/entity/Q60323642,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hoff Building,United States of America
+http://www.wikidata.org/entity/Q60748351,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Harvey Hotel,United States of America
+http://www.wikidata.org/entity/Q60767158,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Oakland Hotel,United States of America
+http://www.wikidata.org/entity/Q6108856,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,JR Central Towers,Japan
+http://www.wikidata.org/entity/Q6109260,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,JW Marriott San Francisco Union Square,United States of America
+http://www.wikidata.org/entity/Q6109264,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,JW Marriott Las Vegas,United States of America
+http://www.wikidata.org/entity/Q6117167,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Jackson Hotel,United States of America
+http://www.wikidata.org/entity/Q634258,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Veer Towers,United States of America
+http://www.wikidata.org/entity/Q6411469,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,King Edward Hotel,United States of America
+http://www.wikidata.org/entity/Q6439146,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Krrish Square,Sri Lanka
+http://www.wikidata.org/entity/Q6448583,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Vakil Caravanserai,Iran
+http://www.wikidata.org/entity/Q646339,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Torni,Finland
+http://www.wikidata.org/entity/Q6493973,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Lassen Hotel,United States of America
+http://www.wikidata.org/entity/Q65043882,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Rickman House,United States of America
+http://www.wikidata.org/entity/Q656743,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Kingdom Centre,Saudi Arabia
+http://www.wikidata.org/entity/Q673627,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,The International,United States of America
+http://www.wikidata.org/entity/Q6747847,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Mandarin Orchard Singapore,Singapore
+http://www.wikidata.org/entity/Q6751307,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Manor Apartment Hotel,Australia
+http://www.wikidata.org/entity/Q6751348,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Manor House Hotel,United States of America
+http://www.wikidata.org/entity/Q6869131,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Minor Sod House,United States of America
+http://www.wikidata.org/entity/Q691491,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Paris Las Vegas,United States of America
+http://www.wikidata.org/entity/Q696927,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Oheka Castle,United States of America
+http://www.wikidata.org/entity/Q7040843,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Nisiyama Onsen Keiunkan,Japan
+http://www.wikidata.org/entity/Q7126178,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Palace Hotel Residential Tower,United States of America
+http://www.wikidata.org/entity/Q713960,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,MGM Grand Las Vegas,United States of America
+http://www.wikidata.org/entity/Q7216435,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Tel Aviv,Israel
+http://www.wikidata.org/entity/Q7247936,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Professional Building,United States of America
+http://www.wikidata.org/entity/Q7281354,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hilton Dubai Creek,United Arab Emirates
+http://www.wikidata.org/entity/Q731089,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Willard InterContinental Washington,United States of America
+http://www.wikidata.org/entity/Q737602,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Aspire Tower,Qatar
+http://www.wikidata.org/entity/Q7419570,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Santa Fe Station,United States of America
+http://www.wikidata.org/entity/Q743147,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Hotel Negresco,France
+http://www.wikidata.org/entity/Q7503956,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Shrigley Hall,United Kingdom
+http://www.wikidata.org/entity/Q7520490,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Simonsbath House,United Kingdom
+http://www.wikidata.org/entity/Q752939,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,RMS Queen Mary,United States of America
+http://www.wikidata.org/entity/Q7553765,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sofitel Chicago Water Tower,United States of America
+http://www.wikidata.org/entity/Q7575371,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Speech House,United Kingdom
+http://www.wikidata.org/entity/Q7588502,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,St. James Hotel,United States of America
+http://www.wikidata.org/entity/Q7591596,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,St. Regis Museum Tower,United States of America
+http://www.wikidata.org/entity/Q7641354,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Sunset Station,United States of America
+http://www.wikidata.org/entity/Q7643550,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Superior Oil Company Building,United States of America
+http://www.wikidata.org/entity/Q7885770,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Union Hotel,United States of America
+http://www.wikidata.org/entity/Q7885775,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Union House,United States of America
+http://www.wikidata.org/entity/Q7988922,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Westin Las Vegas,United States of America
+http://www.wikidata.org/entity/Q7988923,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Westin San Francisco Market Street,United States of America
+http://www.wikidata.org/entity/Q7988926,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Westin St. Francis,United States of America
+http://www.wikidata.org/entity/Q804686,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Balboa Inn,United States of America
+http://www.wikidata.org/entity/Q804702,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Balch Hotel,United States of America
+http://www.wikidata.org/entity/Q896259,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Monrepos,Germany
+http://www.wikidata.org/entity/Q952861,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,World Trade Centre Montreal,Canada
+http://www.wikidata.org/entity/Q995338,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Bryson Apartment Hotel,United States of America

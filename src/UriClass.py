@@ -12,9 +12,9 @@ from src.PathClass import PathClass
 
 
 class Uri:
-    def __init__(self, path, dataset_name, uri_name):
+    def __init__(self, path, uri_name):
         self.path = path
-        self.uri_path = self.path.working_path + '/' + dataset_name + '/' + uri_name+'/'  # ./data_set2/URI
+        self.uri_path = self.path.dataset_path + '/' + uri_name+'/'  # ./data_set2/uri
         self.uri_dict = {}  # str->uri dictionary
         self.inv_dict = {}  # uri->str dictionary
         self.uri_dict_all = {}
@@ -29,7 +29,7 @@ class Uri:
         #         self.inv_dict_all.update(zip(df[1], df[0]))
 
         # def open_mapping(): not used. replaced by uri_dict, etc.
-        #     uri_mapping = './data_set2/URI/URI_mapping.json'
+        #     uri_mapping = './data_set2/uri/URI_mapping.json'
         #     json_open = open(uri_mapping, 'r')
         #     uri_mapping_dict = json.load(json_open)
         #     json_open.close()

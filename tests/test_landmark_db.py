@@ -7,7 +7,7 @@ if working_dir.endswith('src'):
 
 
 def test_sql():
-    conn = sqlite3.connect(working_dir+'/data_set2/landmark.db')
+    conn = sqlite3.connect(working_dir+'/data/data_set2/csv/landmark.db')
     cursor = conn.cursor()
     sql = 'SELECT * FROM hotel;'
     cursor.execute(sql)

@@ -1,0 +1,802 @@
+s,name,country_id
+http://example.com/id/100877359h,Müritz Hotel,http://www.wikidata.org/entity/Q183
+http://example.com/id/1011881h,Burg Großfurra,http://www.wikidata.org/entity/Q183
+http://example.com/id/1015042h,Burghaus Burgsahr,http://www.wikidata.org/entity/Q183
+http://example.com/id/10332618h,Mosteiro de Flor da Rosa,http://www.wikidata.org/entity/Q45
+http://example.com/id/103331335h,"32 Bond Street, Ross",http://www.wikidata.org/entity/Q408
+http://example.com/id/10343928h,Palácio Belmonte,http://www.wikidata.org/entity/Q45
+http://example.com/id/10344021h,Palácio de Estói,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352192h,Convento das Chagas (Vila Viçosa),http://www.wikidata.org/entity/Q45
+http://example.com/id/10352195h,Convento dos Lóios,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352198h,Pousada de Condeixa-a-Nova,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352202h,Capela e Hospital da Santa Casa da Misericórdia de Ourém,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352206h,Pousada de Viseu,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352207h,Antigo Convento do Desagravo do Santíssimo Sacramento,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352211h,Convento de Nossa Senhora da Boa Esperança,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352218h,Solar da Rede,http://www.wikidata.org/entity/Q45
+http://example.com/id/10352219h,Convento dos Lóios,http://www.wikidata.org/entity/Q45
+http://example.com/id/104234251h,British Hotel,http://www.wikidata.org/entity/Q408
+http://example.com/id/104830558h,Welsbach Building,http://example.com/id/30
+http://example.com/id/1049027h,Jumeirah Emirates Towers Hotel,http://www.wikidata.org/entity/Q878
+http://example.com/id/1049209h,The Venetian,http://example.com/id/30
+http://example.com/id/1051604h,Four Queens,http://example.com/id/30
+http://example.com/id/10524043h,Hilton Nairobi,http://www.wikidata.org/entity/Q114
+http://example.com/id/10524047h,Hilton Stockholm Slussen,http://www.wikidata.org/entity/Q34
+http://example.com/id/10526554h,Hotel Knaust,http://www.wikidata.org/entity/Q34
+http://example.com/id/10526572h,Hotel Billingen,http://www.wikidata.org/entity/Q34
+http://example.com/id/105554563h,Heliopolis Towers Hotel,http://www.wikidata.org/entity/Q79
+http://example.com/id/105621651h,Oubangui Hotel,http://www.wikidata.org/entity/Q929
+http://example.com/id/106090892h,"Overtoom 33, Amsterdam",http://www.wikidata.org/entity/Q55
+http://example.com/id/106192327h,Can Ferrandell,http://www.wikidata.org/entity/Q29
+http://example.com/id/1063195h,Torre de Madrid,http://www.wikidata.org/entity/Q29
+http://example.com/id/106393048h,Hampton by Hilton Bursa,http://www.wikidata.org/entity/Q43
+http://example.com/id/1064873h,Excalibur Hotel and Casino,http://example.com/id/30
+http://example.com/id/106996884h,Na můstku 10,http://www.wikidata.org/entity/Q213
+http://example.com/id/107121457h,Brinker Collegiate Institute,http://example.com/id/30
+http://example.com/id/107607598h,Hotel Dudley,http://example.com/id/30
+http://example.com/id/108294146h,"Flour Mill at 129 Port avenue, Valencia",http://www.wikidata.org/entity/Q29
+http://example.com/id/108309815h,Can Cera,http://www.wikidata.org/entity/Q29
+http://example.com/id/108516880h,Villa Balbi,http://www.wikidata.org/entity/Q38
+http://example.com/id/108729880h,Kasteel Solhof,http://www.wikidata.org/entity/Q31
+http://example.com/id/108865646h,Lamar Hotel,http://example.com/id/30
+http://example.com/id/109451447h,Panquinkazerne,http://www.wikidata.org/entity/Q31
+http://example.com/id/110010967h,"SAii Lagoon Maldives, Curio Collection by Hilton",http://www.wikidata.org/entity/Q826
+http://example.com/id/110041692h,Central téléphonique Ségur,http://www.wikidata.org/entity/Q142
+http://example.com/id/110147122h,Hilton Garden Inn London Heathrow Terminals 2 and 3,http://www.wikidata.org/entity/Q145
+http://example.com/id/110251555h,Ostrovní 15,http://www.wikidata.org/entity/Q213
+http://example.com/id/110407965h,Tours Odyssey,http://www.wikidata.org/entity/Q142
+http://example.com/id/110660109h,Silk Road Hotel (Yazd),http://www.wikidata.org/entity/Q794
+http://example.com/id/110660372h,Dalan-e Behesht Hotel,http://www.wikidata.org/entity/Q794
+http://example.com/id/110664670h,Khesht Abad Hotel,http://www.wikidata.org/entity/Q794
+http://example.com/id/1106716h,"Kempinski Hotel Corvinus, Budapest",http://www.wikidata.org/entity/Q28
+http://example.com/id/110681137h,Zoerselhof,http://www.wikidata.org/entity/Q31
+http://example.com/id/110735133h,Can Balaguer,http://www.wikidata.org/entity/Q29
+http://example.com/id/1107391h,Sands Hotel and Casino,http://example.com/id/30
+http://example.com/id/110831132h,Casa Gabino Bobo,http://www.wikidata.org/entity/Q29
+http://example.com/id/111041461h,DoubleTree by Hilton Hannover Schweizerhof,http://www.wikidata.org/entity/Q183
+http://example.com/id/111243216h,Hilton Singapore Orchard,http://www.wikidata.org/entity/Q334
+http://example.com/id/111445383h,Chestnut Residence and Conference Centre,http://www.wikidata.org/entity/Q16
+http://example.com/id/1116194h,The Leland Hotel,http://example.com/id/30
+http://example.com/id/112111547h,Lepopirtti,http://www.wikidata.org/entity/Q33
+http://example.com/id/112147576h,Torenhuis,http://www.wikidata.org/entity/Q31
+http://example.com/id/112168936h,De Gouden Leeuw,http://www.wikidata.org/entity/Q31
+http://example.com/id/113051152h,Putnam House,http://example.com/id/30
+http://example.com/id/113164146h,Palmetto House,http://example.com/id/30
+http://example.com/id/11330330h,Hilton Nagoya,http://www.wikidata.org/entity/Q17
+http://example.com/id/11330330h,Hilton Nagoya,http://www.wikidata.org/entity/Q252
+http://example.com/id/11330332h,Hilton Odawara Resort & Spa,http://www.wikidata.org/entity/Q17
+http://example.com/id/11330335h,Hilton Tokyo Bay,http://www.wikidata.org/entity/Q17
+http://example.com/id/113564549h,Hôtel La Pérouse,http://www.wikidata.org/entity/Q142
+http://example.com/id/1136654h,The D Las Vegas,http://example.com/id/30
+http://example.com/id/1136841h,Fremont Hotel and Casino,http://example.com/id/30
+http://example.com/id/11415297h,JR Gate Tower,http://www.wikidata.org/entity/Q17
+http://example.com/id/114289194h,Grand Hôtel G. Scheers,http://www.wikidata.org/entity/Q31
+http://example.com/id/115282741h,Nedermolen,http://www.wikidata.org/entity/Q31
+http://example.com/id/116215655h,Hotel Antonio Perez,http://www.wikidata.org/entity/Q31
+http://example.com/id/11700542h,Prince George Hotel,http://example.com/id/30
+http://example.com/id/1189944h,Hotel Porta Fira,http://www.wikidata.org/entity/Q29
+http://example.com/id/12020416h,Hotel Paříž,http://www.wikidata.org/entity/Q213
+http://example.com/id/1237113h,Convento de Santa Maria do Bouro,http://www.wikidata.org/entity/Q45
+http://example.com/id/13049756h,Canfranc-Estación,http://www.wikidata.org/entity/Q29
+http://example.com/id/13103085h,Hôtel de Paris,http://www.wikidata.org/entity/Q32
+http://example.com/id/1324543h,El Rancho Hotel & Motel,http://example.com/id/30
+http://example.com/id/1340132h,Encore,http://example.com/id/30
+http://example.com/id/1340365h,Westgate Las Vegas Resort & Casino,http://example.com/id/30
+http://example.com/id/1342565h,Planet Hollywood Resort & Casino,http://example.com/id/30
+http://example.com/id/1347033h,Dunes,http://example.com/id/30
+http://example.com/id/13529145h,"The Biltmore Mayfair, LXR Hotels & Resorts",http://www.wikidata.org/entity/Q145
+http://example.com/id/1360313h,Treasure Island Hotel and Casino,http://example.com/id/30
+http://example.com/id/1401439h,Schüttkasten Geras,http://www.wikidata.org/entity/Q40
+http://example.com/id/1412478h,"The Waldorf Hilton, London",http://www.wikidata.org/entity/Q145
+http://example.com/id/1429071h,New York-New York Hotel and Casino,http://example.com/id/30
+http://example.com/id/1436845h,Cosmopolitan of Las Vegas,http://example.com/id/30
+http://example.com/id/14683065h,"333 Battery Street, San Francisco,",http://example.com/id/30
+http://example.com/id/14753688h,"Casa Alberola Alicante, Curio Collection by Hilton",http://www.wikidata.org/entity/Q29
+http://example.com/id/1481002h,The Ritz London,http://www.wikidata.org/entity/Q145
+http://example.com/id/14954702h,107 Piccadilly,http://www.wikidata.org/entity/Q145
+http://example.com/id/1504641h,Kaufhaus Jonaß,http://www.wikidata.org/entity/Q183
+http://example.com/id/15068974h,Zein-o-Din Caravanserai,http://www.wikidata.org/entity/Q794
+http://example.com/id/1514587h,The Palazzo,http://example.com/id/30
+http://example.com/id/1535018h,Golden Nugget Las Vegas Hotel & Casino,http://example.com/id/30
+http://example.com/id/1535845h,Riviera Hotel and Casino,http://example.com/id/30
+http://example.com/id/15640601h,Palacio del Marqués de Velada,http://www.wikidata.org/entity/Q29
+http://example.com/id/1580067h,Harrah's Las Vegas,http://example.com/id/30
+http://example.com/id/1585008h,Hard Rock Hotel and Casino,http://example.com/id/30
+http://example.com/id/15923583h,Conrad Hong Kong,http://example.com/id/148
+http://example.com/id/16256099h,The Caledonian,http://www.wikidata.org/entity/Q145
+http://example.com/id/1630814h,Hotel Weiss Kreuz,http://www.wikidata.org/entity/Q39
+http://example.com/id/1630833h,"Hotel Berlin, Berlin",http://www.wikidata.org/entity/Q183
+http://example.com/id/1630837h,Hotel Bodenhaus,http://www.wikidata.org/entity/Q39
+http://example.com/id/1630911h,Hilton Warsaw City,http://www.wikidata.org/entity/Q36
+http://example.com/id/16318627h,Abeno Harukas,http://www.wikidata.org/entity/Q17
+http://example.com/id/1637090h,"South Point Hotel, Casino & Spa",http://example.com/id/30
+http://example.com/id/16528268h,Aquarium et Musée de la Mer de Dinard,http://www.wikidata.org/entity/Q142
+http://example.com/id/16621592h,Villa Torretta,http://www.wikidata.org/entity/Q38
+http://example.com/id/167870h,Boardwalk Hotel and Casino,http://example.com/id/30
+http://example.com/id/16833188h,Lloyd-Bahnhof,http://www.wikidata.org/entity/Q183
+http://example.com/id/17043498h,Viciebsk,http://www.wikidata.org/entity/Q184
+http://example.com/id/17183802h,"Castle Hotel, Ruthin",http://www.wikidata.org/entity/Q145
+http://example.com/id/17226268h,Hilton Tokyo,http://www.wikidata.org/entity/Q17
+http://example.com/id/17229982h,Hilton Fukuoka Sea Hawk,http://www.wikidata.org/entity/Q17
+http://example.com/id/17390148h,Citadel of Cascais,http://www.wikidata.org/entity/Q45
+http://example.com/id/17444624h,Hilton Garden Inn Frankfurt Airport,http://www.wikidata.org/entity/Q183
+http://example.com/id/17444904h,DoubleTree by Hilton Hotel London - Docklands Riverside,http://www.wikidata.org/entity/Q145
+http://example.com/id/17532427h,Stanley House,http://www.wikidata.org/entity/Q145
+http://example.com/id/17533843h,Polebarn House,http://www.wikidata.org/entity/Q145
+http://example.com/id/17534979h,5 and 7 High Street and Falcon Hotel Annexe,http://www.wikidata.org/entity/Q145
+http://example.com/id/17544934h,Barton Seagrave Hall,http://www.wikidata.org/entity/Q145
+http://example.com/id/17549646h,"2, 3 and 4, Regency Square",http://www.wikidata.org/entity/Q145
+http://example.com/id/17554574h,Fritton Old Hall,http://www.wikidata.org/entity/Q145
+http://example.com/id/17557267h,11 Market End,http://www.wikidata.org/entity/Q145
+http://example.com/id/17793480h,Hilton Edinburgh Carlton,http://www.wikidata.org/entity/Q145
+http://example.com/id/17834531h,1 Tower Knowe,http://www.wikidata.org/entity/Q145
+http://example.com/id/17834546h,"Hawick, 1 Tower Dykeside",http://www.wikidata.org/entity/Q145
+http://example.com/id/17834566h,"Hawick, 3, 4 Tower Dykeside",http://www.wikidata.org/entity/Q145
+http://example.com/id/17835167h,2 Tower Dykeside,http://www.wikidata.org/entity/Q145
+http://example.com/id/18008489h,Torre del Remei,http://www.wikidata.org/entity/Q29
+http://example.com/id/18112026h,DoubleTree by Hilton Hotel London - Chelsea,http://www.wikidata.org/entity/Q145
+http://example.com/id/18286846h,Waldorf Astoria Amsterdam,http://www.wikidata.org/entity/Q55
+http://example.com/id/18340195h,Hybernská 12,http://www.wikidata.org/entity/Q213
+http://example.com/id/18509174h,Fayrouz Ressort,http://www.wikidata.org/entity/Q79
+http://example.com/id/18509281h,Hilton Hurghada Resort,http://www.wikidata.org/entity/Q79
+http://example.com/id/18536h,The Shard,http://www.wikidata.org/entity/Q145
+http://example.com/id/18712428h,Makkah Clock Royal Tower Hotel,http://www.wikidata.org/entity/Q851
+http://example.com/id/1879918h,Löwenburger Hof,http://www.wikidata.org/entity/Q183
+http://example.com/id/18813051h,Hilton Rotterdam,http://www.wikidata.org/entity/Q55
+http://example.com/id/19307691h,Hilton Garden Inn London Heathrow Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/19348190h,"25, place Dauphine",http://www.wikidata.org/entity/Q142
+http://example.com/id/19362430h,Gasthof Krone,http://www.wikidata.org/entity/Q39
+http://example.com/id/1943482h,Hilton Molino Stucky Venice,http://www.wikidata.org/entity/Q38
+http://example.com/id/19962146h,CloudNo7,http://www.wikidata.org/entity/Q183
+http://example.com/id/20046383h,Hilton Bonn,http://www.wikidata.org/entity/Q183
+http://example.com/id/202599h,Stardust Resort and Casino,http://example.com/id/30
+http://example.com/id/20650664h,La Clef Louvre,http://www.wikidata.org/entity/Q142
+http://example.com/id/20828319h,Villa Santana,http://example.com/id/30
+http://example.com/id/20830632h,Bluebeard's Castle,http://example.com/id/30
+http://example.com/id/21402642h,18 Gramercy Park,http://example.com/id/30
+http://example.com/id/2141411h,Hilton Bandung,http://www.wikidata.org/entity/Q252
+http://example.com/id/21532003h,Radisson Blu Hotel in Bamako,http://www.wikidata.org/entity/Q912
+http://example.com/id/21568919h,Tabacos de Filipinas building,http://www.wikidata.org/entity/Q29
+http://example.com/id/21619228h,Sheraton Guiyang Hotel,http://example.com/id/148
+http://example.com/id/22073967h,Hilton Bournemouth,http://www.wikidata.org/entity/Q145
+http://example.com/id/22118627h,Global Gate,http://www.wikidata.org/entity/Q17
+http://example.com/id/22583354h,Nový Pachtovský palác,http://www.wikidata.org/entity/Q213
+http://example.com/id/22976715h,Hilton Dubai The Walk,http://www.wikidata.org/entity/Q878
+http://example.com/id/22997753h,Bay Mills Resort & Casino,http://example.com/id/30
+http://example.com/id/23265h,Hôtel des 3 Collèges,http://www.wikidata.org/entity/Q142
+http://example.com/id/23305592h,"Kewadin Casino, Hotel and Convention Center",http://example.com/id/30
+http://example.com/id/23646439h,"100 Queen's Gate Hotel London, Curio Collection by Hilton",http://www.wikidata.org/entity/Q145
+http://example.com/id/23685988h,DoubleTree by Hilton Hotel Bristol North,http://www.wikidata.org/entity/Q145
+http://example.com/id/23828028h,Edificio Gran Vía 4,http://www.wikidata.org/entity/Q29
+http://example.com/id/23907594h,CAAC Tower,http://example.com/id/148
+http://example.com/id/23907601h,The London NYC,http://example.com/id/30
+http://example.com/id/2398831h,Teatro Eden,http://www.wikidata.org/entity/Q45
+http://example.com/id/24054070h,Hilton Cambridge City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/24241038h,Cambridge Hotel,http://www.wikidata.org/entity/Q145
+http://example.com/id/24708167h,"Dominican monastery in Malá Strana, Prague",http://www.wikidata.org/entity/Q213
+http://example.com/id/25007h,Bellagio Hotel & Casino,http://example.com/id/30
+http://example.com/id/25204442h,Hilton Zurich Airport,http://www.wikidata.org/entity/Q39
+http://example.com/id/2523683h,Château d'Artigny,http://www.wikidata.org/entity/Q142
+http://example.com/id/2567200h,The Whittier,http://example.com/id/30
+http://example.com/id/2579998h,Castle of Óbidos,http://www.wikidata.org/entity/Q45
+http://example.com/id/26237391h,Conrad Tokyo,http://www.wikidata.org/entity/Q17
+http://example.com/id/26242212h,Hilton Garden Inn Sunderland,http://www.wikidata.org/entity/Q145
+http://example.com/id/26306764h,The Mytton and Mermaid Hotel,http://www.wikidata.org/entity/Q145
+http://example.com/id/2631856h,520 West 41st Street,http://example.com/id/30
+http://example.com/id/26398842h,The Old Hall Hotel,http://www.wikidata.org/entity/Q145
+http://example.com/id/26463120h,13 Market End,http://www.wikidata.org/entity/Q145
+http://example.com/id/26483035h,"14 and 15, Warwick Road",http://www.wikidata.org/entity/Q145
+http://example.com/id/26537718h,Dove Nest,http://www.wikidata.org/entity/Q145
+http://example.com/id/26609450h,Crosby Lodge,http://www.wikidata.org/entity/Q145
+http://example.com/id/26617946h,Kenwith Castle,http://www.wikidata.org/entity/Q145
+http://example.com/id/26684094h,"12 and 13, Warwick Road",http://www.wikidata.org/entity/Q145
+http://example.com/id/26685058h,15 Market End,http://www.wikidata.org/entity/Q145
+http://example.com/id/26700322h,Hotel Omni Mont-Royal,http://www.wikidata.org/entity/Q16
+http://example.com/id/26707727h,Hotel Santo Mauro,http://www.wikidata.org/entity/Q29
+http://example.com/id/26723836h,De Gamlas Hem,http://www.wikidata.org/entity/Q33
+http://example.com/id/26734729h,Conrad Istanbul Bosphorus,http://www.wikidata.org/entity/Q43
+http://example.com/id/26878946h,Hilton Sukhumvit Bangkok,http://www.wikidata.org/entity/Q869
+http://example.com/id/26902701h,Hilton Helsinki Kalastajatorppa,http://www.wikidata.org/entity/Q33
+http://example.com/id/26960663h,Hampton by Hilton Bournemouth,http://www.wikidata.org/entity/Q145
+http://example.com/id/27456363h,DoubleTree by Hilton Gurugram Baani Square,http://www.wikidata.org/entity/Q668
+http://example.com/id/2748565h,Claridge's,http://www.wikidata.org/entity/Q145
+http://example.com/id/27825013h,Hilton Frankfurt City Centre,http://www.wikidata.org/entity/Q183
+http://example.com/id/27826630h,DoubleTree by Hilton Hotel Cairns,http://www.wikidata.org/entity/Q408
+http://example.com/id/278380h,The Drew Las Vegas,http://example.com/id/30
+http://example.com/id/27962079h,Ausonia Palace Hotel,http://www.wikidata.org/entity/Q38
+http://example.com/id/27981667h,Hilton Garden Inn Dubai Mall of the Emirates,http://www.wikidata.org/entity/Q878
+http://example.com/id/28053246h,Hilton Auckland,http://www.wikidata.org/entity/Q664
+http://example.com/id/28192892h,Waldorf Astoria Beijing,http://example.com/id/148
+http://example.com/id/28214174h,Hampton by Hilton Newcastle,http://www.wikidata.org/entity/Q145
+http://example.com/id/28456180h,Makkah Millennium Hotel,http://www.wikidata.org/entity/Q851
+http://example.com/id/28609672h,DoubleTree by Hilton Hotel Coventry,http://www.wikidata.org/entity/Q145
+http://example.com/id/28662736h,"Gran Vía 22, Madrid",http://www.wikidata.org/entity/Q29
+http://example.com/id/28675210h,Castle mill in Toruń,http://www.wikidata.org/entity/Q36
+http://example.com/id/28675745h,15/17 Mostowa Street in Toruń,http://www.wikidata.org/entity/Q36
+http://example.com/id/28680070h,Sanatório das Penhas da Saúde,http://www.wikidata.org/entity/Q45
+http://example.com/id/28746397h,Hotel NH Paseo del Prado,http://www.wikidata.org/entity/Q29
+http://example.com/id/28755991h,Hotel Catalonia Atocha,http://www.wikidata.org/entity/Q29
+http://example.com/id/28756542h,Palacio Oriol,http://www.wikidata.org/entity/Q29
+http://example.com/id/28756862h,Hotel Catalonia Gran Vía,http://www.wikidata.org/entity/Q29
+http://example.com/id/28757120h,Gran Vía 18,http://www.wikidata.org/entity/Q29
+http://example.com/id/28757959h,Hotel Senator Gran Vía,http://www.wikidata.org/entity/Q29
+http://example.com/id/28757977h,Hotel Tryp Cibeles,http://www.wikidata.org/entity/Q29
+http://example.com/id/28769024h,Hotel Gran Vía,http://www.wikidata.org/entity/Q29
+http://example.com/id/28777988h,DoubleTree by Hilton Hotel Aberdeen Treetops,http://www.wikidata.org/entity/Q145
+http://example.com/id/28844857h,El Palace Hotel Barcelona,http://www.wikidata.org/entity/Q29
+http://example.com/id/2899830h,Hilton The Hague,http://www.wikidata.org/entity/Q55
+http://example.com/id/29000794h,DoubleTree by Hilton Hotel Darwin,http://www.wikidata.org/entity/Q408
+http://example.com/id/29007102h,Papelera Española building,http://www.wikidata.org/entity/Q29
+http://example.com/id/2902501h,Palatin Hotel Tel Aviv,http://www.wikidata.org/entity/Q801
+http://example.com/id/29053655h,Hilton Paris Charles de Gaulle Airport,http://www.wikidata.org/entity/Q142
+http://example.com/id/29053691h,Hilton Coylumbridge,http://www.wikidata.org/entity/Q145
+http://example.com/id/2905596h,The Blackstone Hotel,http://example.com/id/30
+http://example.com/id/2912992h,The Harmon,http://example.com/id/30
+http://example.com/id/29415039h,Hotel Alay,http://www.wikidata.org/entity/Q29
+http://example.com/id/2961297h,Chartreuse du Reposoir,http://www.wikidata.org/entity/Q142
+http://example.com/id/29909111h,Hotel Alfonso X El Sabio,http://www.wikidata.org/entity/Q29
+http://example.com/id/2992084h,Hilton Paris Opera,http://www.wikidata.org/entity/Q142
+http://example.com/id/29948012h,DoubleTree by Hilton Hotel Edinburgh Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/29981099h,Conrad Bali,http://www.wikidata.org/entity/Q252
+http://example.com/id/30014678h,DoubleTree by Hilton Hotel Istanbul - Old Town,http://www.wikidata.org/entity/Q43
+http://example.com/id/30021076h,Hilton Cologne,http://www.wikidata.org/entity/Q183
+http://example.com/id/30021879h,DoubleTree by Hilton London Heathrow Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/30035305h,Hilton Saint Petersburg ExpoForum,http://www.wikidata.org/entity/Q159
+http://example.com/id/30047899h,Hilton Garden Inn Stuttgart NeckarPark,http://www.wikidata.org/entity/Q183
+http://example.com/id/30090585h,Conrad Makkah,http://www.wikidata.org/entity/Q851
+http://example.com/id/30097763h,"The Westminster London, Curio Collection by Hilton",http://www.wikidata.org/entity/Q145
+http://example.com/id/30097821h,Conrad Beijing,http://example.com/id/148
+http://example.com/id/30139243h,Hilton Prague Old Town,http://www.wikidata.org/entity/Q213
+http://example.com/id/30140581h,DoubleTree by Hilton Hotel Oradea,http://www.wikidata.org/entity/Q218
+http://example.com/id/30147522h,Hilton Dubai Jumeirah,http://www.wikidata.org/entity/Q878
+http://example.com/id/30174421h,Hilton Colombo Residences,http://www.wikidata.org/entity/Q854
+http://example.com/id/30242708h,DoubleTree by Hilton Hotel Avanos - Cappadocia,http://www.wikidata.org/entity/Q43
+http://example.com/id/30251296h,Hilton Garden Inn Matera,http://www.wikidata.org/entity/Q38
+http://example.com/id/30301927h,Hampton by Hilton Bristol City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/30302746h,Hilton Brussels City,http://www.wikidata.org/entity/Q31
+http://example.com/id/30306779h,Hilton Adelaide,http://www.wikidata.org/entity/Q408
+http://example.com/id/30307361h,Hilton Hurghada Plaza,http://www.wikidata.org/entity/Q79
+http://example.com/id/30308807h,Hilton Alexandria King's Ranch,http://www.wikidata.org/entity/Q79
+http://example.com/id/30337433h,Hilton Garden Inn Volgograd,http://www.wikidata.org/entity/Q159
+http://example.com/id/30346525h,Hilton Edinburgh Grosvenor,http://www.wikidata.org/entity/Q145
+http://example.com/id/30347445h,DoubleTree by Hilton Hotel Milan,http://www.wikidata.org/entity/Q38
+http://example.com/id/30402016h,Hilton Belfast,http://www.wikidata.org/entity/Q145
+http://example.com/id/30407987h,DoubleTree by Hilton Hotel Wroclaw,http://www.wikidata.org/entity/Q36
+http://example.com/id/30409284h,Hilton Vienna Park,http://www.wikidata.org/entity/Q40
+http://example.com/id/30438998h,Hilton Dusseldorf,http://www.wikidata.org/entity/Q183
+http://example.com/id/30504052h,DoubleTree by Hilton Hotel London - Marble Arch,http://www.wikidata.org/entity/Q145
+http://example.com/id/30504754h,Hilton Nottingham,http://www.wikidata.org/entity/Q145
+http://example.com/id/30522857h,Hilton Brussels Grand Place,http://www.wikidata.org/entity/Q31
+http://example.com/id/30736107h,Hilton Imperial Dubrovnik,http://www.wikidata.org/entity/Q224
+http://example.com/id/30927563h,Koriyama View Hotel Annex,http://www.wikidata.org/entity/Q17
+http://example.com/id/31277862h,Hilton Tallinn Park,http://www.wikidata.org/entity/Q191
+http://example.com/id/3142395h,Hyatt Regency Paris Etoile,http://www.wikidata.org/entity/Q142
+http://example.com/id/31827676h,U zlatého anděla,http://www.wikidata.org/entity/Q213
+http://example.com/id/31861463h,"Krajinská 41, Zátkův dům",http://www.wikidata.org/entity/Q213
+http://example.com/id/3192583h,Kanayama Minami Building,http://www.wikidata.org/entity/Q17
+http://example.com/id/3278286h,Main Street Station Hotel and Casino and Brewery,http://example.com/id/30
+http://example.com/id/3281025h,APA Hotel & Resort Tokyo Bay Makuhari,http://www.wikidata.org/entity/Q17
+http://example.com/id/32947262h,Hilton Garden Inn New Delhi/Saket,http://www.wikidata.org/entity/Q668
+http://example.com/id/33035435h,DoubleTree by Hilton Hotel Istanbul - Moda,http://www.wikidata.org/entity/Q43
+http://example.com/id/33101471h,DoubleTree by Hilton Hotel Cluj - City Plaza,http://www.wikidata.org/entity/Q218
+http://example.com/id/33189243h,Feuerschiff,http://www.wikidata.org/entity/Q183
+http://example.com/id/33229354h,Hilton London Croydon,http://www.wikidata.org/entity/Q145
+http://example.com/id/33382454h,DoubleTree by Hilton Hotel Melbourne - Flinders Street,http://www.wikidata.org/entity/Q408
+http://example.com/id/3356472h,The Orleans,http://example.com/id/30
+http://example.com/id/3533060h,Tour Duo,http://www.wikidata.org/entity/Q142
+http://example.com/id/3545225h,"Sam's Town Hotel and Gambling Hall, Las Vegas",http://example.com/id/30
+http://example.com/id/37857517h,Hampton by Hilton Birmingham Jewellery Quarter,http://www.wikidata.org/entity/Q145
+http://example.com/id/37858337h,Hampton by Hilton Glasgow Central,http://www.wikidata.org/entity/Q145
+http://example.com/id/37858682h,DoubleTree by Hilton Hotel Leeds City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/38251391h,3 V Tourist Court,http://example.com/id/30
+http://example.com/id/40037779h,Dämman,http://www.wikidata.org/entity/Q34
+http://example.com/id/41069183h,Hilton Amsterdam Airport Schiphol,http://www.wikidata.org/entity/Q55
+http://example.com/id/41300192h,Hilton Pyramids Golf,http://www.wikidata.org/entity/Q79
+http://example.com/id/42341625h,DoubleTree by Hilton Hotel London - Hyde Park,http://www.wikidata.org/entity/Q145
+http://example.com/id/4261094h,Downtown Grand Hotel & Casino,http://example.com/id/30
+http://example.com/id/4261374h,Suncoast Hotel and Casino,http://example.com/id/30
+http://example.com/id/42748124h,Shah Abbasi Caravanserai of Abuzeydabad,http://www.wikidata.org/entity/Q794
+http://example.com/id/42867978h,Tehrani House (Yazd),http://www.wikidata.org/entity/Q794
+http://example.com/id/42874514h,Golshan House (Yazd),http://www.wikidata.org/entity/Q794
+http://example.com/id/43031921h,Corona Hotel in Baia Sprie,http://www.wikidata.org/entity/Q218
+http://example.com/id/4385582h,Page-Walker Hotel,http://example.com/id/30
+http://example.com/id/4448816h,Tsukuba Center Building,http://www.wikidata.org/entity/Q17
+http://example.com/id/45316350h,DoubleTree by Hilton Hotel Edinburgh City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/4596016h,1 Snow Hill Plaza,http://www.wikidata.org/entity/Q145
+http://example.com/id/47166648h,Palau Benet-Desvilar,http://www.wikidata.org/entity/Q29
+http://example.com/id/4725573h,Aliante Casino and Hotel,http://example.com/id/30
+http://example.com/id/47401774h,Conrad Bora Bora Nui,http://www.wikidata.org/entity/Q142
+http://example.com/id/47518776h,Millennium Hilton Bangkok,http://www.wikidata.org/entity/Q869
+http://example.com/id/47902573h,Schloss Kölzow,http://www.wikidata.org/entity/Q183
+http://example.com/id/4791273h,Arizona Charlie's Boulder,http://example.com/id/30
+http://example.com/id/49393251h,DoubleTree by Hilton Hotel Kuala Lumpur,http://www.wikidata.org/entity/Q833
+http://example.com/id/49573628h,Hilton Cabo Verde Sal Resort,http://www.wikidata.org/entity/Q1011
+http://example.com/id/49593283h,Breite Straße 19,http://www.wikidata.org/entity/Q183
+http://example.com/id/49593839h,Friedrichplatz 8,http://www.wikidata.org/entity/Q183
+http://example.com/id/49594143h,Kurstraße 6,http://www.wikidata.org/entity/Q183
+http://example.com/id/49595033h,Schloßstraße 5,http://www.wikidata.org/entity/Q183
+http://example.com/id/49807274h,Hilton London Bankside,http://www.wikidata.org/entity/Q145
+http://example.com/id/4993716h,Castle of Alvito,http://www.wikidata.org/entity/Q45
+http://example.com/id/4999251h,Burlington Hotel,http://example.com/id/30
+http://example.com/id/50308536h,DoubleTree by Hilton Hotel Dubai - Jumeirah Beach,http://www.wikidata.org/entity/Q878
+http://example.com/id/50353048h,Hilton Istanbul Bomonti Hotel & Conference Center,http://www.wikidata.org/entity/Q43
+http://example.com/id/50356312h,Hotel Palace of Valencia,http://www.wikidata.org/entity/Q29
+http://example.com/id/5049621h,Castaways Hotel and Casino,http://example.com/id/30
+http://example.com/id/5049734h,Castle of Alcácer do Sal,http://www.wikidata.org/entity/Q45
+http://example.com/id/5049843h,Castle of Vila Nova de Cerveira,http://www.wikidata.org/entity/Q45
+http://example.com/id/50611971h,Hampton by Hilton London Gatwick Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/50809149h,Hilton Astana,http://www.wikidata.org/entity/Q232
+http://example.com/id/50841764h,Hilton York,http://www.wikidata.org/entity/Q145
+http://example.com/id/51025456h,Hilton Garden Inn Florence Novoli,http://www.wikidata.org/entity/Q38
+http://example.com/id/51222702h,H10 Berlin Ku'damm,http://www.wikidata.org/entity/Q183
+http://example.com/id/51824364h,Hilton London Kensington,http://www.wikidata.org/entity/Q145
+http://example.com/id/51918515h,Hilton Cairns,http://www.wikidata.org/entity/Q408
+http://example.com/id/52886668h,"Rome Cavalieri, A Waldorf Astoria Hotel",http://www.wikidata.org/entity/Q38
+http://example.com/id/53632218h,DoubleTree by Hilton Hotel London ExCel,http://www.wikidata.org/entity/Q145
+http://example.com/id/53806946h,Convento do Salvador,http://www.wikidata.org/entity/Q45
+http://example.com/id/53881282h,Palacete do Chafariz d'El-Rei,http://www.wikidata.org/entity/Q45
+http://example.com/id/53999203h,Hilton Niseko Village,http://www.wikidata.org/entity/Q17
+http://example.com/id/5430586h,Hilton Cairo Heliopolis,http://www.wikidata.org/entity/Q79
+http://example.com/id/54474974h,Companhia de Moagens Harmonia,http://www.wikidata.org/entity/Q45
+http://example.com/id/54475112h,Quinta da Pacheca,http://www.wikidata.org/entity/Q45
+http://example.com/id/54475217h,NH Collection Porto Batalha,http://www.wikidata.org/entity/Q45
+http://example.com/id/54475224h,Moov Hotel Porto Centro,http://www.wikidata.org/entity/Q45
+http://example.com/id/546221h,Trump International Hotel and Tower,http://example.com/id/30
+http://example.com/id/54652699h,DoubleTree Resort by Hilton Penang,http://www.wikidata.org/entity/Q833
+http://example.com/id/5472556h,Forte de São Sebastião,http://www.wikidata.org/entity/Q45
+http://example.com/id/5475490h,"Four Seasons Hotel building, San Francisco",http://example.com/id/30
+http://example.com/id/5475499h,Four Seasons Hotel Chicago,http://example.com/id/30
+http://example.com/id/55185046h,Sint-Antonius van Paduakerk,http://www.wikidata.org/entity/Q55
+http://example.com/id/55346142h,Convent of the Capuchinos,http://www.wikidata.org/entity/Q29
+http://example.com/id/55865629h,Hampton by Hilton Liverpool City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/5594050h,Hotel Gran Meliá Don Pepe,http://www.wikidata.org/entity/Q29
+http://example.com/id/5594866h,"Grand Palace Hotel, New Orleans",http://example.com/id/30
+http://example.com/id/5595660h,Brampton Grange,http://www.wikidata.org/entity/Q145
+http://example.com/id/56027180h,former station for biology Plön,http://www.wikidata.org/entity/Q183
+http://example.com/id/56071855h,DoubleTree by Hilton Hotel & Spa Liverpool,http://www.wikidata.org/entity/Q145
+http://example.com/id/56084920h,Clayton Crown Hotel,http://www.wikidata.org/entity/Q145
+http://example.com/id/56085005h,Clayton Hotel Chiswick,http://www.wikidata.org/entity/Q145
+http://example.com/id/56085020h,Clayton Hotel Leeds,http://www.wikidata.org/entity/Q145
+http://example.com/id/56085053h,Clayton Hotel Birmingham,http://www.wikidata.org/entity/Q145
+http://example.com/id/56085075h,Clayton Hotel Belfast,http://www.wikidata.org/entity/Q145
+http://example.com/id/56150916h,Clayton Hotel Cardiff,http://www.wikidata.org/entity/Q145
+http://example.com/id/56194854h,Hilton Garden Inn Orenburg,http://www.wikidata.org/entity/Q159
+http://example.com/id/56214797h,Hilton Garden Inn Novorossiysk,http://www.wikidata.org/entity/Q159
+http://example.com/id/56446735h,Hilton Beijing Capital Airport,http://example.com/id/148
+http://example.com/id/5646336h,Hampton by Hilton Liverpool/John Lennon Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/56478942h,Hilton Kuwait Resort,http://www.wikidata.org/entity/Q817
+http://example.com/id/56522910h,"Grand Hotel des Sablettes Plage, Curio Collection by Hilton",http://www.wikidata.org/entity/Q142
+http://example.com/id/56598554h,Canopy by Hilton Reykjavik City Centre,http://www.wikidata.org/entity/Q189
+http://example.com/id/56705491h,"former Hotel Castilla, Toledo",http://www.wikidata.org/entity/Q29
+http://example.com/id/56711100h,Edifício A Tarde,http://www.wikidata.org/entity/Q155
+http://example.com/id/56827407h,Hilton Garden Inn Puchong,http://www.wikidata.org/entity/Q833
+http://example.com/id/5683588h,Malek al-Tojar House (Yazd),http://www.wikidata.org/entity/Q794
+http://example.com/id/5705250h,Guged Caravanserai,http://www.wikidata.org/entity/Q794
+http://example.com/id/5710559h,Paasitorni,http://www.wikidata.org/entity/Q33
+http://example.com/id/57297679h,"Gran Vía 74, Madrid",http://www.wikidata.org/entity/Q29
+http://example.com/id/57385878h,Hampton by Hilton London Luton Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/57613527h,Palazzo Montemartini,http://www.wikidata.org/entity/Q38
+http://example.com/id/5764637h,Hilton Liverpool City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/5764652h,DoubleTree by Hilton Hotel Luxembourg,http://www.wikidata.org/entity/Q32
+http://example.com/id/5764716h,Safir Sharm Waterfalls Resort,http://www.wikidata.org/entity/Q79
+http://example.com/id/57739907h,Conrad Xiamen,http://example.com/id/148
+http://example.com/id/5785660h,Convento Dominico de Nuestra Señora de la Consolación,http://www.wikidata.org/entity/Q29
+http://example.com/id/58069409h,Hampton by Hilton Samara,http://www.wikidata.org/entity/Q159
+http://example.com/id/58086658h,Hilton Garden Inn Ufa Riverside,http://www.wikidata.org/entity/Q159
+http://example.com/id/58229015h,DoubleTree by Hilton Hotel Girona,http://www.wikidata.org/entity/Q29
+http://example.com/id/5878173h,Malekzadeh House (Yazd),http://www.wikidata.org/entity/Q794
+http://example.com/id/5883194h,Qorban Alizadeh House,http://www.wikidata.org/entity/Q794
+http://example.com/id/5884157h,Khoshnevis Mansion,http://www.wikidata.org/entity/Q794
+http://example.com/id/5885917h,Kasra Vafadari House,http://www.wikidata.org/entity/Q794
+http://example.com/id/5891776h,Moshir Garden,http://www.wikidata.org/entity/Q794
+http://example.com/id/5892374h,Moshir Caravanserai,http://www.wikidata.org/entity/Q794
+http://example.com/id/5894717h,Dr. Hojjat House,http://www.wikidata.org/entity/Q794
+http://example.com/id/5901285h,Alafchian House,http://www.wikidata.org/entity/Q794
+http://example.com/id/5903404h,Hotel Málaga Palacio,http://www.wikidata.org/entity/Q29
+http://example.com/id/5903511h,"Hotel de las Letras, Madrid",http://www.wikidata.org/entity/Q29
+http://example.com/id/5907540h,Aminabad Caravanserai,http://www.wikidata.org/entity/Q794
+http://example.com/id/5908224h,Shah Abbasi Caravanserai of Bisotun,http://www.wikidata.org/entity/Q794
+http://example.com/id/5912133h,"Hagia Sofia Mansions Istanbul, Curio Collection by Hilton",http://www.wikidata.org/entity/Q43
+http://example.com/id/59131992h,DoubleTree by Hilton Hotel Minsk,http://www.wikidata.org/entity/Q184
+http://example.com/id/59138963h,Hilton Garden Inn Moscow New Riga,http://www.wikidata.org/entity/Q159
+http://example.com/id/5918301h,Banitaba House,http://www.wikidata.org/entity/Q794
+http://example.com/id/5920727h,Manuchehri House (Kashan),http://www.wikidata.org/entity/Q794
+http://example.com/id/59209270h,Hilton Istanbul Maslak,http://www.wikidata.org/entity/Q43
+http://example.com/id/59492165h,Hilton Hua Hin Resort & Spa,http://www.wikidata.org/entity/Q869
+http://example.com/id/59519828h,house at V jirchářích 13,http://www.wikidata.org/entity/Q213
+http://example.com/id/5963275h,Ehsan House (Kashan),http://www.wikidata.org/entity/Q794
+http://example.com/id/59872505h,"George Hotel, Sydney",http://www.wikidata.org/entity/Q408
+http://example.com/id/59872532h,Trickett's Hotel,http://www.wikidata.org/entity/Q408
+http://example.com/id/60055194h,"Wales House, Sydney",http://www.wikidata.org/entity/Q408
+http://example.com/id/60389409h,Ancienne église Saint-Nicolas,http://www.wikidata.org/entity/Q142
+http://example.com/id/6044861h,"InterContinental Chicago Magnificent Mile, an IHG Hotel",http://example.com/id/30
+http://example.com/id/60452089h,Hilton Cape Town City Centre,http://www.wikidata.org/entity/Q258
+http://example.com/id/6058109h,Antiguo Hotel Miramar,http://www.wikidata.org/entity/Q29
+http://example.com/id/60641676h,"Grand Tirolia Hotel Kitzbuhel, Curio Collection by Hilton",http://www.wikidata.org/entity/Q40
+http://example.com/id/60642328h,Canopy by Hilton Zagreb - City Centre,http://www.wikidata.org/entity/Q224
+http://example.com/id/60732352h,Hilton Garden Inn Dubai Al Jadaf Culture Village,http://www.wikidata.org/entity/Q878
+http://example.com/id/60746742h,The Durant,http://example.com/id/30
+http://example.com/id/60847568h,King's Casino Rozvadov,http://www.wikidata.org/entity/Q213
+http://example.com/id/60912347h,Hampton by Hilton Freiburg,http://www.wikidata.org/entity/Q183
+http://example.com/id/61090457h,Transcorp Hilton Abuja,http://www.wikidata.org/entity/Q1033
+http://example.com/id/61100884h,DoubleTree by Hilton Hotel London - West End,http://www.wikidata.org/entity/Q145
+http://example.com/id/61114082h,"La Bagnaia Golf & Spa Resort Siena, Curio Collection by Hilton",http://www.wikidata.org/entity/Q38
+http://example.com/id/61165878h,"Hilton at St George's Park, Burton Upon Trent",http://www.wikidata.org/entity/Q145
+http://example.com/id/61357012h,Semnani House,http://www.wikidata.org/entity/Q794
+http://example.com/id/61465403h,DoubleTree by Hilton Hotel Tyumen,http://www.wikidata.org/entity/Q159
+http://example.com/id/61567322h,Hilton Newcastle Gateshead,http://www.wikidata.org/entity/Q145
+http://example.com/id/61573625h,Hilton Surfers Paradise Hotel & Residences,http://www.wikidata.org/entity/Q408
+http://example.com/id/616726h,Hooters Casino Hotel,http://example.com/id/30
+http://example.com/id/61717587h,Hilton London Gatwick Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/6172690h,Jeddah Hilton Hotel,http://www.wikidata.org/entity/Q851
+http://example.com/id/61868406h,DoubleTree by Hilton Hotel Woking,http://www.wikidata.org/entity/Q145
+http://example.com/id/61885625h,Hilton Marsa Alam Nubian Resort,http://www.wikidata.org/entity/Q79
+http://example.com/id/61888685h,Hilton Fiji Beach Resort and Spa,http://www.wikidata.org/entity/Q712
+http://example.com/id/61897167h,Conrad Bangkok,http://www.wikidata.org/entity/Q869
+http://example.com/id/62068054h,Conrad Cairo,http://www.wikidata.org/entity/Q79
+http://example.com/id/62479268h,Hampton by Hilton Munich City West,http://www.wikidata.org/entity/Q183
+http://example.com/id/63164854h,Hilton Garden Inn Luton North,http://www.wikidata.org/entity/Q145
+http://example.com/id/63190257h,Hilton Brisbane,http://www.wikidata.org/entity/Q408
+http://example.com/id/63296024h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman South,http://www.wikidata.org/entity/Q833
+http://example.com/id/63435869h,Fort Worth Club Building,http://example.com/id/30
+http://example.com/id/63608863h,DoubleTree by Hilton Hotel London - Victoria,http://www.wikidata.org/entity/Q145
+http://example.com/id/637389h,Luxor Resort & Casino,http://example.com/id/30
+http://example.com/id/63790123h,Hilton Garden Inn Kampala,http://www.wikidata.org/entity/Q1036
+http://example.com/id/63832005h,Hampton by Hilton Warsaw Mokotow,http://www.wikidata.org/entity/Q36
+http://example.com/id/63859908h,Hilton Garden Inn Tirana,http://www.wikidata.org/entity/Q222
+http://example.com/id/63869688h,DoubleTree by Hilton Kocaeli,http://www.wikidata.org/entity/Q43
+http://example.com/id/63883252h,Hilton Moorea Lagoon Resort & Spa,http://www.wikidata.org/entity/Q142
+http://example.com/id/63885416h,Hilton Garden Inn Birmingham Brindleyplace,http://www.wikidata.org/entity/Q145
+http://example.com/id/63975276h,Hampton by Hilton Belfast City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/64152343h,DoubleTree by Hilton Cambridge Belfry,http://www.wikidata.org/entity/Q145
+http://example.com/id/64363310h,DoubleTree by Hilton Hotel Bristol City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/64701276h,Hilton Seychelles Labriz Resort & Spa,http://www.wikidata.org/entity/Q1042
+http://example.com/id/64769038h,Washingtonova 23,http://www.wikidata.org/entity/Q213
+http://example.com/id/64785112h,"Hotel Villa Magna, Madrid",http://www.wikidata.org/entity/Q29
+http://example.com/id/64822290h,Hilton Reykjavik Nordica,http://www.wikidata.org/entity/Q189
+http://example.com/id/64827562h,Hilton Garden Inn Singapore Serangoon,http://www.wikidata.org/entity/Q334
+http://example.com/id/64845950h,Hampton by Hilton Amsterdam / Arena Boulevard,http://www.wikidata.org/entity/Q55
+http://example.com/id/64845961h,Conrad Algarve,http://www.wikidata.org/entity/Q45
+http://example.com/id/64859000h,Hilton Colombo,http://www.wikidata.org/entity/Q854
+http://example.com/id/64868965h,Hilton Garden Inn Bristol City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/64933804h,Hilton Garden Inn Ras Al Khaimah,http://www.wikidata.org/entity/Q878
+http://example.com/id/64992591h,Hampton by Hilton Exeter Airport,http://www.wikidata.org/entity/Q145
+http://example.com/id/65037569h,Parnitha Sanatorium,http://example.com/id/41
+http://example.com/id/65042333h,The Salvation Army Building,http://example.com/id/30
+http://example.com/id/65218555h,"Danubius Hotel Hungaria City Center, Budapest",http://www.wikidata.org/entity/Q28
+http://example.com/id/6538417h,Zargar Yazdi House,http://www.wikidata.org/entity/Q794
+http://example.com/id/654279h,Aria Resort and Casino,http://example.com/id/30
+http://example.com/id/654906h,Binion's Horseshoe,http://example.com/id/30
+http://example.com/id/65769542h,DoubleTree by Hilton Carcassonne,http://www.wikidata.org/entity/Q142
+http://example.com/id/65770076h,Hilton Garden Inn Glasgow City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/66423173h,Waldorf Astoria Ras Al Khaimah,http://www.wikidata.org/entity/Q878
+http://example.com/id/66424250h,Hilton Garden Inn Istanbul Golden Horn Turkey,http://www.wikidata.org/entity/Q43
+http://example.com/id/66437370h,DoubleTree by Hilton Dubai - Business Bay,http://www.wikidata.org/entity/Q878
+http://example.com/id/66439260h,DoubleTree by Hilton Hotel Gurgaon - New Delhi NCR,http://www.wikidata.org/entity/Q668
+http://example.com/id/66586875h,Hilton Makkah Convention Hotel,http://www.wikidata.org/entity/Q851
+http://example.com/id/66658603h,Hilton Pattaya,http://www.wikidata.org/entity/Q869
+http://example.com/id/66660297h,Hilton Garden Inn Dubai Al Mina,http://www.wikidata.org/entity/Q878
+http://example.com/id/66771676h,Hilton Shillim Estate Retreat & Spa,http://www.wikidata.org/entity/Q668
+http://example.com/id/66813051h,"Palácio Hotel de Bussaco, Palacete Hotel do Buçaco",http://www.wikidata.org/entity/Q45
+http://example.com/id/66813690h,Castle of Estremoz,http://www.wikidata.org/entity/Q45
+http://example.com/id/66814366h,"Hotel Ritz, incluindo o património integrado",http://www.wikidata.org/entity/Q45
+http://example.com/id/66924306h,Jurys Inn Leeds,http://www.wikidata.org/entity/Q145
+http://example.com/id/66969081h,Hampton by Hilton Leeds City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/66969175h,Ibis Leeds Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/66969326h,Hilton Leeds City,http://www.wikidata.org/entity/Q145
+http://example.com/id/67013894h,DoubleTree by Hilton Hotel Olbia - Sardinia,http://www.wikidata.org/entity/Q38
+http://example.com/id/67206508h,Hilton Garden Inn Rome Airport,http://www.wikidata.org/entity/Q38
+http://example.com/id/6747856h,Loews Regency San Francisco,http://example.com/id/30
+http://example.com/id/67765140h,Conrad Koh Samui,http://www.wikidata.org/entity/Q869
+http://example.com/id/67863357h,Hilton Glasgow Grosvenor,http://www.wikidata.org/entity/Q145
+http://example.com/id/67868674h,DoubleTree by Hilton Royal Parc Soestduinen,http://www.wikidata.org/entity/Q55
+http://example.com/id/67874379h,Hampton by Hilton Dundee City Centre,http://www.wikidata.org/entity/Q145
+http://example.com/id/67920401h,Hilton Malta,http://www.wikidata.org/entity/Q233
+http://example.com/id/68121379h,Parkhotel Praha,http://www.wikidata.org/entity/Q213
+http://example.com/id/68167138h,Hotel Pyramida,http://www.wikidata.org/entity/Q213
+http://example.com/id/69383898h,Hilton Sydney,http://www.wikidata.org/entity/Q408
+http://example.com/id/69531148h,Hampton by Hilton Amsterdam Airport Schiphol,http://www.wikidata.org/entity/Q55
+http://example.com/id/69647678h,Hilton Aberdeen TECA,http://www.wikidata.org/entity/Q145
+http://example.com/id/70206906h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman North,http://www.wikidata.org/entity/Q833
+http://example.com/id/71409297h,Hilton London Watford,http://www.wikidata.org/entity/Q145
+http://example.com/id/71817207h,Hampton by Hilton Warsaw Airport,http://www.wikidata.org/entity/Q36
+http://example.com/id/71828738h,"Hilton Puckrup Hall, Tewkesbury",http://www.wikidata.org/entity/Q145
+http://example.com/id/7203612h,Plaza Hotel & Casino,http://example.com/id/30
+http://example.com/id/72067004h,DoubleTree by Hilton Moscow - Vnukovo Airport,http://www.wikidata.org/entity/Q159
+http://example.com/id/72172868h,DoubleTree by Hilton Madrid - Prado,http://www.wikidata.org/entity/Q29
+http://example.com/id/72177013h,Palacete B. Carrera,http://www.wikidata.org/entity/Q155
+http://example.com/id/72278577h,Hilton Jaipur,http://www.wikidata.org/entity/Q668
+http://example.com/id/72812966h,Hilton Addis Ababa,http://www.wikidata.org/entity/Q115
+http://example.com/id/72988389h,DoubleTree by Hilton Hotel Zanzibar - Stone Town,http://www.wikidata.org/entity/Q924
+http://example.com/id/7304924h,"Red Rock Casino, Resort & Spa",http://example.com/id/30
+http://example.com/id/73274620h,Pellihof,http://www.wikidata.org/entity/Q183
+http://example.com/id/7336896h,Ritz-Carlton Chicago,http://example.com/id/30
+http://example.com/id/73499085h,Hampton by Hilton Berlin City Centre Alexanderplatz,http://www.wikidata.org/entity/Q183
+http://example.com/id/73621829h,Hilton Luxor Resort & Spa,http://www.wikidata.org/entity/Q79
+http://example.com/id/73640935h,Santa Casa da Misericórdia de Óbidos,http://www.wikidata.org/entity/Q45
+http://example.com/id/7374338h,Royal Insurance Building,http://www.wikidata.org/entity/Q145
+http://example.com/id/73879785h,Hilton Mandalay,http://www.wikidata.org/entity/Q836
+http://example.com/id/73898961h,Hilton Garden Inn Zagreb - Radnicka,http://www.wikidata.org/entity/Q224
+http://example.com/id/739914h,Rio All-Suite Hotel and Casino,http://example.com/id/30
+http://example.com/id/74527699h,Hilton Capital Grand Abu Dhabi,http://www.wikidata.org/entity/Q878
+http://example.com/id/74665770h,DoubleTree by Hilton Hotel Jakarta - Diponegoro,http://www.wikidata.org/entity/Q252
+http://example.com/id/74812978h,DoubleTree by Hilton Hotel Aqaba,http://www.wikidata.org/entity/Q810
+http://example.com/id/75018491h,Hilton Garden Inn Krakow,http://www.wikidata.org/entity/Q36
+http://example.com/id/7553767h,DoubleTree by Hilton Hotel Shanghai - Pudong,http://example.com/id/148
+http://example.com/id/7553769h,Pullman Bangkok Hotel G,http://www.wikidata.org/entity/Q869
+http://example.com/id/75721557h,DoubleTree by Hilton Edinburgh - Queensferry Crossing,http://www.wikidata.org/entity/Q145
+http://example.com/id/75971164h,Hilton Garden Inn Riyadh Olaya,http://www.wikidata.org/entity/Q851
+http://example.com/id/76021053h,ANA Crowne Plaza Akita,http://www.wikidata.org/entity/Q17
+http://example.com/id/76355045h,Arena Center,http://www.wikidata.org/entity/Q222
+http://example.com/id/76620470h,Hampton by Hilton Dubai Al Barsha,http://www.wikidata.org/entity/Q878
+http://example.com/id/76721707h,Hilton Kuching,http://www.wikidata.org/entity/Q833
+http://example.com/id/76724214h,DoubleTree by Hilton Krakow Hotel & Convention Center,http://www.wikidata.org/entity/Q36
+http://example.com/id/76726211h,DoubleTree by Hilton Hotel Moscow - Marina,http://www.wikidata.org/entity/Q159
+http://example.com/id/76795105h,Hilton Sharks Bay Resort,http://www.wikidata.org/entity/Q79
+http://example.com/id/7720948h,The Cairo,http://example.com/id/30
+http://example.com/id/7730896h,The Drayton Court,http://www.wikidata.org/entity/Q145
+http://example.com/id/7736171h,The George Hotel,http://www.wikidata.org/entity/Q145
+http://example.com/id/77416106h,DoubleTree by Hilton Glasgow Westerwood Spa & Golf Resort,http://www.wikidata.org/entity/Q145
+http://example.com/id/77418726h,Hilton Garden Inn Lusaka Society Business Park,http://www.wikidata.org/entity/Q953
+http://example.com/id/7745429h,The Landmark Hotel and Casino,http://example.com/id/30
+http://example.com/id/7754900h,"The Old Rectory, St Columb Major",http://www.wikidata.org/entity/Q145
+http://example.com/id/7756547h,The Peninsula Chicago,http://example.com/id/30
+http://example.com/id/7774298h,The Western,http://example.com/id/30
+http://example.com/id/779373h,The Linq,http://example.com/id/30
+http://example.com/id/78036841h,Hilton Guam Resort & Spa,http://example.com/id/30
+http://example.com/id/78054939h,"AlRayyan Hotel Doha, Curio Collection by Hilton",http://www.wikidata.org/entity/Q846
+http://example.com/id/7832418h,"The Trafalgar St. James London, Curio Collection by Hilton",http://www.wikidata.org/entity/Q145
+http://example.com/id/78897920h,"West Hotel Sydney, Curio Collection by Hilton",http://www.wikidata.org/entity/Q408
+http://example.com/id/79309518h,MLC Building,http://www.wikidata.org/entity/Q664
+http://example.com/id/7969454h,Merdeka 118,http://www.wikidata.org/entity/Q833
+http://example.com/id/79942014h,Hotel Amigo,http://www.wikidata.org/entity/Q31
+http://example.com/id/805467h,Bally's Las Vegas Hotel & Casino,http://example.com/id/30
+http://example.com/id/81100400h,Casa Pere Villoch,http://www.wikidata.org/entity/Q29
+http://example.com/id/81100403h,Edifici Companyia Transatlàntica,http://www.wikidata.org/entity/Q29
+http://example.com/id/81495406h,DoubleTree by Hilton Bangkok Ploenchit,http://www.wikidata.org/entity/Q869
+http://example.com/id/84029894h,Hampton by Hilton Nuremberg City Centre,http://www.wikidata.org/entity/Q183
+http://example.com/id/845846h,"The STRAT Hotel, Casino & SkyPod",http://example.com/id/30
+http://example.com/id/851102h,Hotel Kvarner,http://www.wikidata.org/entity/Q224
+http://example.com/id/85749503h,Bump Block-Bellevue House-Hawthorne Hotel,http://example.com/id/30
+http://example.com/id/85758819h,El Monte Hotel,http://example.com/id/30
+http://example.com/id/85845504h,Berwyn Apartments,http://example.com/id/30
+http://example.com/id/86595792h,Valkealinna,http://www.wikidata.org/entity/Q33
+http://example.com/id/86754328h,Inez Hotel,http://example.com/id/30
+http://example.com/id/869378h,California Hotel and Casino,http://example.com/id/30
+http://example.com/id/89425684h,Rawema-Haus,http://www.wikidata.org/entity/Q183
+http://example.com/id/900983h,The Mirage,http://example.com/id/30
+http://example.com/id/90404749h,Hilton Durban,http://www.wikidata.org/entity/Q258
+http://example.com/id/9054487h,Palácio do Freixo,http://www.wikidata.org/entity/Q45
+http://example.com/id/90545243h,Hilton Garden Inn Sevilla,http://www.wikidata.org/entity/Q29
+http://example.com/id/90682834h,Hilton Sandton,http://www.wikidata.org/entity/Q258
+http://example.com/id/91607548h,Hilton Suites Makkah,http://www.wikidata.org/entity/Q851
+http://example.com/id/916673h,The Signature at MGM Grand,http://example.com/id/30
+http://example.com/id/92176916h,Hilton London Heathrow Airport Terminal 5,http://www.wikidata.org/entity/Q145
+http://example.com/id/9294078h,Hilton Gdańsk,http://www.wikidata.org/entity/Q36
+http://example.com/id/9294080h,Hotel Jalta,http://www.wikidata.org/entity/Q213
+http://example.com/id/9294281h,Ameri House,http://www.wikidata.org/entity/Q794
+http://example.com/id/93121772h,Hôtel Napoléon,http://www.wikidata.org/entity/Q142
+http://example.com/id/9358597h,El Rancho Hotel and Casino,http://example.com/id/30
+http://example.com/id/96377064h,Hilton Bursa Convention Center and Spa,http://www.wikidata.org/entity/Q43
+http://example.com/id/96743206h,Great Falls Tavern,http://example.com/id/30
+http://example.com/id/96757505h,Pazo of the Maceda Counts,http://www.wikidata.org/entity/Q29
+http://example.com/id/96787014h,Hilton Garden Inn Kuwait,http://www.wikidata.org/entity/Q817
+http://example.com/id/979477h,Athenee Palace Hilton Bucharest,http://www.wikidata.org/entity/Q218
+http://example.com/id/98407274h,Albertinkatu 34 - Lönnrotinkatu 26,http://www.wikidata.org/entity/Q33
+http://example.com/id/98407275h,Albertinkatu 34,http://www.wikidata.org/entity/Q33
+http://example.com/id/98407311h,Annankatu 1,http://www.wikidata.org/entity/Q33
+http://example.com/id/98412731h,Hotelli Helsinki,http://www.wikidata.org/entity/Q33
+http://example.com/id/98412733h,Hotelli Marskin talo,http://www.wikidata.org/entity/Q33
+http://example.com/id/98413370h,Kanavakatu 8,http://www.wikidata.org/entity/Q33
+http://example.com/id/98432053h,Pohjoinen Rautatiekatu 23,http://www.wikidata.org/entity/Q33
+http://example.com/id/98433308h,Valion juustovaraston rakennus,http://www.wikidata.org/entity/Q33
+http://example.com/id/98433345h,Valtion biokemiallisen tutkimuslaitoksen laboratoriorakennus,http://www.wikidata.org/entity/Q33
+http://example.com/id/98433742h,Katajanokan vankilan rakennus,http://www.wikidata.org/entity/Q33
+http://example.com/id/98433825h,Suomi-yhtiön talo,http://www.wikidata.org/entity/Q33
+http://example.com/id/98550889h,Villa Gaia,http://www.wikidata.org/entity/Q38
+http://example.com/id/98582250h,Hotel Villa,http://www.wikidata.org/entity/Q33
+http://example.com/id/9871323h,Convento das Eremitas de Santo Agostinho,http://www.wikidata.org/entity/Q45
+http://example.com/id/98784123h,"Stadshotellet, Karlstad",http://www.wikidata.org/entity/Q34
+http://example.com/id/99454646h,Conrad Bengaluru,http://www.wikidata.org/entity/Q668
+http://example.com/id/99583717h,Hôtel van Ertborn,http://www.wikidata.org/entity/Q31
+http://www.wikidata.org/entity/Q1092961,Circus Circus Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q1096141,Act Tower,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q1127749,Hotel Kämp,http://www.wikidata.org/entity/Q33
+http://www.wikidata.org/entity/Q1143174,Ritz-Carlton Toronto,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q1147483,Sahara Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q1200583,Desert Inn,http://example.com/id/30
+http://www.wikidata.org/entity/Q12072758,Westin Book Cadillac Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q1221513,Grand Hôtel,http://www.wikidata.org/entity/Q142
+http://www.wikidata.org/entity/Q12495,Burj Khalifa,http://www.wikidata.org/entity/Q878
+http://www.wikidata.org/entity/Q1281171,Trump Hotel Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q1304383,Waldorf Astoria Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q1309059,Wynn Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q13529180,Hilton London Hyde Park,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q1368043,Mandalay Bay,http://example.com/id/30
+http://www.wikidata.org/entity/Q1368798,SEG Plaza,http://example.com/id/148
+http://www.wikidata.org/entity/Q1426968,Flamingo Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q1430318,Rossiya Hotel,http://www.wikidata.org/entity/Q159
+http://www.wikidata.org/entity/Q145361,Gezirah Palace,http://www.wikidata.org/entity/Q79
+http://www.wikidata.org/entity/Q1457875,Villa Crespi,http://www.wikidata.org/entity/Q38
+http://www.wikidata.org/entity/Q14705265,Resorts World Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q15125469,Prinzenpalais,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q151599,Metropolis,http://www.wikidata.org/entity/Q664
+http://www.wikidata.org/entity/Q15228738,InterContinental Budapest,http://www.wikidata.org/entity/Q28
+http://www.wikidata.org/entity/Q1541365,Renaissance Center,http://example.com/id/30
+http://www.wikidata.org/entity/Q15909474,Hengshan Picardie Hotel,http://example.com/id/148
+http://www.wikidata.org/entity/Q15978898,Berry Head House,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q1682221,Dagebüll lighthouse,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q16843761,Hilton Diagonal Mar Barcelona,http://www.wikidata.org/entity/Q29
+http://www.wikidata.org/entity/Q168575,CTF Finance Centre,http://example.com/id/148
+http://www.wikidata.org/entity/Q16890775,Crown Sydney,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q16949846,B&O Railroad Headquarters Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q16995460,Wyndham Springfield City Centre,http://example.com/id/30
+http://www.wikidata.org/entity/Q17019762,Magnolia Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q1743514,Kirkland Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q17444603,Hilton Frankfurt Airport,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q17619057,Agronomitalo,http://www.wikidata.org/entity/Q33
+http://www.wikidata.org/entity/Q1795050,Palace Station,http://example.com/id/30
+http://www.wikidata.org/entity/Q18534517,Hilton London Syon Park,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q18547,Shanghai Tower,http://example.com/id/148
+http://www.wikidata.org/entity/Q1874734,Hotel International Prague,http://www.wikidata.org/entity/Q213
+http://www.wikidata.org/entity/Q18760038,Munkkiniemi education center,http://www.wikidata.org/entity/Q33
+http://www.wikidata.org/entity/Q189476,Abraj Al Bait,http://www.wikidata.org/entity/Q851
+http://www.wikidata.org/entity/Q19462194,Harper House,http://example.com/id/30
+http://www.wikidata.org/entity/Q19513101,Hilton Manchester Deansgate,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q19564041,Hedemora stadshotell,http://www.wikidata.org/entity/Q34
+http://www.wikidata.org/entity/Q19817552,Delta Toronto Hotel,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q19871631,Broadway Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q20075891,Hilton Kyiv,http://www.wikidata.org/entity/Q212
+http://www.wikidata.org/entity/Q2048307,Palms Casino Resort,http://example.com/id/30
+http://www.wikidata.org/entity/Q2135814,Hilton Amsterdam,http://www.wikidata.org/entity/Q55
+http://www.wikidata.org/entity/Q214139,Morrison Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q21504226,Hilton Birmingham Metropole,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q220141,Waldorf Astoria Berlin,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q22079320,St. Nicholas Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q2258969,Eureka Inn,http://example.com/id/30
+http://www.wikidata.org/entity/Q2297323,Delano Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q22978033,U Medvídků,http://www.wikidata.org/entity/Q213
+http://www.wikidata.org/entity/Q23301461,Beaumont Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q2363048,Place Viger,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q23640921,Bowen River Hotel,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q240711,Hotel Chelsea,http://example.com/id/30
+http://www.wikidata.org/entity/Q2416198,MGM Grand Detroit,http://example.com/id/30
+http://www.wikidata.org/entity/Q2461831,Las Vegas Plaza,http://example.com/id/30
+http://www.wikidata.org/entity/Q24693404,Bangor House,http://example.com/id/30
+http://www.wikidata.org/entity/Q24971211,El Reno Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q264203,Vegas World,http://example.com/id/30
+http://www.wikidata.org/entity/Q2648096,W San Francisco,http://example.com/id/30
+http://www.wikidata.org/entity/Q264858,M Resort,http://example.com/id/30
+http://www.wikidata.org/entity/Q280339,Tropicana Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q280910,Vdara,http://example.com/id/30
+http://www.wikidata.org/entity/Q28184307,Royal Mail Hotel,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q28184310,Noccundra Hotel,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q2837946,Allerton Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q2908788,Leonardo City Tower Hotel,http://www.wikidata.org/entity/Q801
+http://www.wikidata.org/entity/Q2928530,Cadillac Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q2935180,Camlin Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q2971063,Taagepera Castle,http://www.wikidata.org/entity/Q191
+http://www.wikidata.org/entity/Q3037053,Hilton Athens,http://example.com/id/41
+http://www.wikidata.org/entity/Q306000,Abbasi Hotel,http://www.wikidata.org/entity/Q794
+http://www.wikidata.org/entity/Q30644484,Hotel Manger,http://example.com/id/30
+http://www.wikidata.org/entity/Q3145454,Clarendon Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q3145697,Windsor Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q3153055,InterContinental San Francisco,http://example.com/id/30
+http://www.wikidata.org/entity/Q3185653,Joseph Smith Memorial Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q3359202,Wyndham Grand İzmir Özdilek,http://www.wikidata.org/entity/Q43
+http://www.wikidata.org/entity/Q3389734,Place Bonaventure,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q3414568,Quinta das Lágrimas,http://www.wikidata.org/entity/Q45
+http://www.wikidata.org/entity/Q34204337,Waldorf Astoria Dubai Palm Jumeirah,http://www.wikidata.org/entity/Q878
+http://www.wikidata.org/entity/Q3471438,San Francisco Marriott Marquis,http://example.com/id/30
+http://www.wikidata.org/entity/Q3482309,Shiodome Media Tower,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q3498798,Hilton San Francisco Union Square,http://example.com/id/30
+http://www.wikidata.org/entity/Q3699364,Culver Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q38251423,Mosborough Hall,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q38251968,Bonneville Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q4040675,Hilton Prague,http://www.wikidata.org/entity/Q213
+http://www.wikidata.org/entity/Q4260261,Price Tower,http://example.com/id/30
+http://www.wikidata.org/entity/Q4261384,Las Vegas Club,http://example.com/id/30
+http://www.wikidata.org/entity/Q4272608,Fairmont San Francisco,http://example.com/id/30
+http://www.wikidata.org/entity/Q4272804,Breakers Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q43371249,Brooks Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q44406603,Hampshire House,http://example.com/id/30
+http://www.wikidata.org/entity/Q4479814,West Baden Springs Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q456685,Ambassador Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q47004857,Brandt Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q4792350,Arlington Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q4792350,Arlington Hotel,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q4793581,Arminius Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q4806513,Hilton Istanbul Bosphorus,http://www.wikidata.org/entity/Q43
+http://www.wikidata.org/entity/Q4822225,Hilton Izmir,http://www.wikidata.org/entity/Q43
+http://www.wikidata.org/entity/Q4841991,Baglioni Hotel,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q4842213,Baha Mar,http://example.com/id/778
+http://www.wikidata.org/entity/Q48843972,Booth Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q4949600,Boulder Station,http://example.com/id/30
+http://www.wikidata.org/entity/Q4979998,Bryan Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q4985118,Texas Station,http://example.com/id/30
+http://www.wikidata.org/entity/Q5061223,Central House Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5065298,Cerulean Tower,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q510121,Schlosshotel Kronberg,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q5120095,Cimarron Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5152499,Commercial Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5152499,Commercial Hotel,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q5179785,Coworth House,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q5189543,Crowne Plaza Times Square,http://example.com/id/30
+http://www.wikidata.org/entity/Q51956193,Fort Piqua Plaza,http://example.com/id/30
+http://www.wikidata.org/entity/Q5230243,Davenport Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5302326,Dousman Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5330926,Eastside Cannery,http://example.com/id/30
+http://www.wikidata.org/entity/Q5351073,El Cortez,http://example.com/id/30
+http://www.wikidata.org/entity/Q54427554,Dalmatia Tower,http://www.wikidata.org/entity/Q224
+http://www.wikidata.org/entity/Q5472026,Fort Shelby Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q54873914,Clarke Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q550379,Conrad Dubai,http://www.wikidata.org/entity/Q878
+http://www.wikidata.org/entity/Q55075422,Hippee Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q55347999,Hilton Barcelona,http://www.wikidata.org/entity/Q29
+http://www.wikidata.org/entity/Q5545987,George Washington House,http://example.com/id/30
+http://www.wikidata.org/entity/Q5594404,Grand Central Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5594662,Grand Hyatt San Francisco,http://example.com/id/30
+http://www.wikidata.org/entity/Q5602124,Greektown Casino Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q5637110,Hacienda,http://example.com/id/30
+http://www.wikidata.org/entity/Q569978,Caesars Palace,http://example.com/id/30
+http://www.wikidata.org/entity/Q5764519,Hilton Chennai,http://www.wikidata.org/entity/Q668
+http://www.wikidata.org/entity/Q5764570,Hilton Glasgow,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q5764576,Hilton Hanoi Opera,http://www.wikidata.org/entity/Q881
+http://www.wikidata.org/entity/Q5764648,Hilton London Metropole,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q5764722,Hilton Singapore,http://www.wikidata.org/entity/Q334
+http://www.wikidata.org/entity/Q587108,Yokohama Landmark Tower,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q5872085,Flour factory San José,http://www.wikidata.org/entity/Q29
+http://www.wikidata.org/entity/Q5911169,Hotel Alder,http://example.com/id/30
+http://www.wikidata.org/entity/Q5911415,Hilton Podgorica Crna Gora,http://www.wikidata.org/entity/Q236
+http://www.wikidata.org/entity/Q5952911,Hyatt Regency San Francisco,http://example.com/id/30
+http://www.wikidata.org/entity/Q60323642,Hoff Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q60748351,Harvey Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q60767158,Oakland Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q6108856,JR Central Towers,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q6109260,JW Marriott San Francisco Union Square,http://example.com/id/30
+http://www.wikidata.org/entity/Q6109264,JW Marriott Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q6117167,Jackson Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q634258,Veer Towers,http://example.com/id/30
+http://www.wikidata.org/entity/Q6411469,King Edward Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q6439146,Krrish Square,http://www.wikidata.org/entity/Q854
+http://www.wikidata.org/entity/Q6448583,Vakil Caravanserai,http://www.wikidata.org/entity/Q794
+http://www.wikidata.org/entity/Q646339,Hotel Torni,http://www.wikidata.org/entity/Q33
+http://www.wikidata.org/entity/Q6493973,Lassen Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q65043882,Rickman House,http://example.com/id/30
+http://www.wikidata.org/entity/Q656743,Kingdom Centre,http://www.wikidata.org/entity/Q851
+http://www.wikidata.org/entity/Q673627,The International,http://example.com/id/30
+http://www.wikidata.org/entity/Q6747847,Mandarin Orchard Singapore,http://www.wikidata.org/entity/Q334
+http://www.wikidata.org/entity/Q6751307,Manor Apartment Hotel,http://www.wikidata.org/entity/Q408
+http://www.wikidata.org/entity/Q6751348,Manor House Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q6869131,Minor Sod House,http://example.com/id/30
+http://www.wikidata.org/entity/Q691491,Paris Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q696927,Oheka Castle,http://example.com/id/30
+http://www.wikidata.org/entity/Q7040843,Nisiyama Onsen Keiunkan,http://www.wikidata.org/entity/Q17
+http://www.wikidata.org/entity/Q7126178,Palace Hotel Residential Tower,http://example.com/id/30
+http://www.wikidata.org/entity/Q713960,MGM Grand Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q7216435,Hilton Tel Aviv,http://www.wikidata.org/entity/Q801
+http://www.wikidata.org/entity/Q7247936,Professional Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q7281354,Hilton Dubai Creek,http://www.wikidata.org/entity/Q878
+http://www.wikidata.org/entity/Q731089,Willard InterContinental Washington,http://example.com/id/30
+http://www.wikidata.org/entity/Q737602,Aspire Tower,http://www.wikidata.org/entity/Q846
+http://www.wikidata.org/entity/Q7419570,Santa Fe Station,http://example.com/id/30
+http://www.wikidata.org/entity/Q743147,Hotel Negresco,http://www.wikidata.org/entity/Q142
+http://www.wikidata.org/entity/Q7503956,Shrigley Hall,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q7520490,Simonsbath House,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q752939,RMS Queen Mary,http://example.com/id/30
+http://www.wikidata.org/entity/Q7553765,Sofitel Chicago Water Tower,http://example.com/id/30
+http://www.wikidata.org/entity/Q7575371,Speech House,http://www.wikidata.org/entity/Q145
+http://www.wikidata.org/entity/Q7588502,St. James Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q7591596,St. Regis Museum Tower,http://example.com/id/30
+http://www.wikidata.org/entity/Q7641354,Sunset Station,http://example.com/id/30
+http://www.wikidata.org/entity/Q7643550,Superior Oil Company Building,http://example.com/id/30
+http://www.wikidata.org/entity/Q7885770,Union Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q7885775,Union House,http://example.com/id/30
+http://www.wikidata.org/entity/Q7988922,Westin Las Vegas,http://example.com/id/30
+http://www.wikidata.org/entity/Q7988923,Westin San Francisco Market Street,http://example.com/id/30
+http://www.wikidata.org/entity/Q7988926,Westin St. Francis,http://example.com/id/30
+http://www.wikidata.org/entity/Q804686,Balboa Inn,http://example.com/id/30
+http://www.wikidata.org/entity/Q804702,Balch Hotel,http://example.com/id/30
+http://www.wikidata.org/entity/Q896259,Monrepos,http://www.wikidata.org/entity/Q183
+http://www.wikidata.org/entity/Q952861,World Trade Centre Montreal,http://www.wikidata.org/entity/Q16
+http://www.wikidata.org/entity/Q995338,Bryson Apartment Hotel,http://example.com/id/30

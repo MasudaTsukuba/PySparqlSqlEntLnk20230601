@@ -20,7 +20,7 @@ class SparqlQuery:
             self.query_in_json = json.load(json_open)  # read query in json format
 
         # def open_mapping():
-        #     uri_mapping = './data_set2/URI/URI_mapping.json'
+        #     uri_mapping = './data_set2/uri/URI_mapping.json'
         #     json_open = open(uri_mapping, 'r')
         #     uri_mapping_dict = json.load(json_open)
         #     json_open.close()
@@ -233,7 +233,7 @@ class SparqlQuery:
         # # test_results = cursor.execute(test_query).fetchall()  # debug 20230323
         #
         # def build_query(cursor, r_list, sql_tquery):
-        #     # by searching ID with ID->URI conversion table, convert ID to URI
+        #     # by searching ID with ID->uri conversion table, convert ID to uri
         #     select_var2 = ''
         #     for r_l, var in zip(r_list, self.var_list):
         #         if r_l:
@@ -244,7 +244,7 @@ class SparqlQuery:
         #
         #     # exe_query = 'SELECT ' + select_var2 + ' FROM (Result) '
         #     exe_query = 'SELECT DISTINCT ' + select_var2 + ' FROM (Result) '  # 20230323
-        #     # match 's' against Results and at the same time 's' and URI against PREFIX***
+        #     # match 's' against Results and at the same time 's' and uri against PREFIX***
         #     for sql_tq in sql_tquery:
         #         if sql_tq != ' ;':  # 2023/5/18
         #             # exe_query = exe_query + ' NATURAL JOIN (' + SQL_tquery[i] + ')'
