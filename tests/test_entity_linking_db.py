@@ -7,7 +7,7 @@ path = PathClass('data_set2')
 
 
 def test_entity_linking_db():
-    uri = Uri(path, 'uri')
+    uri = Uri(path)
     conn = sqlite3.connect(uri.entity_linking_file)
     cursor = conn.cursor()
     sql = 'SELECT * FROM hotel;'

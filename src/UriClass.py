@@ -12,9 +12,9 @@ from src.PathClass import PathClass
 
 
 class Uri:
-    def __init__(self, path, uri_name):
+    def __init__(self, path):
         self.path = path
-        self.uri_path = self.path.dataset_path + '/' + uri_name+'/'  # ./data_set2/uri
+        self.uri_path = self.path.dataset_path + '/uri/'  # ./data_set2/uri
         self.uri_dict = {}  # str->uri dictionary
         self.inv_dict = {}  # uri->str dictionary
         self.uri_dict_all = {}
@@ -51,7 +51,7 @@ class Uri:
             return re_sql
 
         def rewrite_where_sql_filter(sql: str, sql_filter):
-            pattern = r'"(http://.*)"'
+            pattern = r'"(https?://.*)"'
             matches = re.findall(pattern, sql_filter)
             if matches:
                 for match in matches:
@@ -82,6 +82,10 @@ class Uri:
         # subject
         if triple['subject']['termType'] == 'Variable':  # in the case the subject is a variable
             trans_uri, sql, value = create_trans_uri(triple, sql, 'subject')
+            for filter_item in filter_list:
+                if filter_item[0] == value:
+                    sql = rewrite_where_sql_filter(sql, filter_item[1])
+
         elif triple['subject']['termType'] == 'NamedNode':  # in the case the subject is a constant
             value = triple['subject']['value']
             uri_function = mapping['subject']['uri']
@@ -149,18 +153,18 @@ class Uri:
         return [sql, trans_uri]
 
     # create tables in entity_linking.db database
-    def create_entity_linking_db(self):
+    def create_entity_linking_db(self, tables, sqls):
         conn = sqlite3.connect(self.entity_linking_file)
         cursor = conn.cursor()
 
-        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
-        sqls = [
-            'CREATE TABLE hotel (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
-            'CREATE TABLE building (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
-            'CREATE TABLE museum (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
-            'CREATE TABLE heritage (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
-            'CREATE TABLE country (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));'
-        ]
+        # tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        # sqls = [
+        #     'CREATE TABLE hotel (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+        #     'CREATE TABLE building (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+        #     'CREATE TABLE museum (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+        #     'CREATE TABLE heritage (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));',
+        #     'CREATE TABLE country (id VARCHAR(255) PRIMARY KEY, uri VARCHAR(255), status VARCHAR(255));'
+        # ]
 
         for table in tables:
             sql = f'DROP TABLE {table};'
@@ -187,22 +191,24 @@ class Uri:
         pass
 
     # for test entity_linking.db
-    def test_entity_linking(self):
+    def test_entity_linking(self, print_results=True):
         conn = sqlite3.connect(self.entity_linking_file)
         cursor = conn.cursor()
         # sql = 'INSERT INTO hotel (id, uri, status) VALUES ("aaa", "bbb", "ccc");'
         # cursor.execute(sql)
 
-        sql = 'SELECT * FROM hotel;'
+        # sql = 'SELECT * FROM building;'
+        sql = 'SELECT * FROM country;'
         return_list = cursor.execute(sql).fetchall()
         headers = [col[0] for col in cursor.description]
         results = [list(i) for i in return_list]
-        # print(results)
+        if print_results:
+            print(results)
         cursor.close()
         conn.close()
 
     # build entity linking
-    def build_entity_linking(self):
+    def build_entity_linking(self, database, tables, id_label=True, replace=True):
         conn = sqlite3.connect(self.entity_linking_file)
         cursor = conn.cursor()
 
@@ -244,9 +250,9 @@ class Uri:
             pass
             return result_status, result_uri, result_label, result_description, xxx
 
-        path = PathClass('')
-        database = DataBase(path, 'data_set2', 'landmark.db')
-        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        # path = PathClass('data_set2')
+        # database = DataBase(path, 'landmark.db')
+        # tables = ['country', 'hotel', 'building', 'museum', 'heritage']
         # tables = ['hotel']  # debug
         conn.execute("BEGIN")
         for table in tables:
@@ -258,10 +264,11 @@ class Uri:
                 name = result[1]
                 status, uri, label, description, xxx = spacy_entity_linking(name)
                 if status == 'Succeeded':
-                    uri = uri.replace('https://www.wikidata.org/wiki/', 'http://www.wikidata.org/entity/')
+                    if replace:
+                        uri = uri.replace('https://www.wikidata.org/wiki/', 'http://www.wikidata.org/entity/')
                 else:
                     uri = f'http://example.com/id/{table_id}'
-                sql = f'INSERT INTO {table} (id, uri, status) VALUES ("{table_id}", "{uri}", "{status}");'
+                sql = f'INSERT INTO {table} (id, name, uri, status) VALUES ("{table_id}", "{name}", "{uri}", "{status}");'
                 if status == 'Succeeded' and table_id.replace('h', '') != uri.split('/')[-1].replace('Q', ''):
                     # print(sql)  # debug
                     pass
@@ -272,20 +279,24 @@ class Uri:
             results = cursor.execute(query).fetchall()
             for row in results:
                 if row[0].replace('h', '') != row[1].split('/')[-1]:
-                    pass
-            with open(f'uri_{table}.csv', 'w') as f:  # debug
+                    pass  # debug
+            with open(f'{self.uri_path}EntityLinking_{table}.csv', 'w') as f:  # debug
                 writer = csv.writer(f)
-                writer.writerows(results)
+                for result in results:
+                    row = [result[0], result[2]]  # table_id, uri
+                    if not id_label:
+                        row = [result[1], result[2]]  # name, uri
+                    writer.writerow(row)
             pass
         cursor.close()
         conn.close()
         pass
 
-    def read_entity_linking(self):
+    def read_entity_linking(self, tables):
         conn = sqlite3.connect(self.entity_linking_file)
         cursor = conn.cursor()
 
-        tables = ['country', 'hotel', 'building', 'museum', 'heritage']
+        # tables = ['country', 'hotel', 'building', 'museum', 'heritage']
         for table in tables:  # read from tables in entity_linking.db
             sql = f'SELECT id, uri, status from {table};'
             results = cursor.execute(sql).fetchall()
@@ -299,3 +310,16 @@ class Uri:
         cursor.close()
         conn.close()
         pass
+
+    def read_entity_linking_from_csv(self):
+        for file in os.listdir(self.uri_path):  # read PREFIX*.csv
+            if file.endswith(".csv"):
+                df = pd.read_csv(self.uri_path + file, header=None)
+                key = file.replace('.csv', '')  # key = PREFIX_Build, etc.
+                self.uri_dict[key] = dict(zip(df[0], df[1]))  # str->uri dictionary
+                self.inv_dict[key] = dict(zip(df[1], df[0]))  # uri->str dictionary
+                # self.uri_dict_all.update(zip(df[0], df[1]))  # all the files in one dictionary
+                # self.inv_dict_all.update(zip(df[1], df[0]))
+                for value0, value1 in zip(df[0], df[1]):
+                    self.uri_dict_all[str(value0)] = str(value1)
+                    self.inv_dict_all[str(value1)] = str(value0)

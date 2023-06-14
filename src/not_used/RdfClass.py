@@ -4,7 +4,7 @@
 # # import csv
 # # import rewriter
 #
-# URI_directory = '/data_set2/URI/'
+# URI_directory = '/data_set2/uri/'
 #
 #
 # class Rdf:
@@ -22,7 +22,7 @@
 #         trans_uri_list = create_trans_uri_list(sparql_query)
 #
 #         def open_mapping():
-#             uri_mapping = './data_set2/URI/URI_mapping.json'
+#             uri_mapping = './data_set2/uri/URI_mapping.json'
 #             json_open = open(uri_mapping, 'r')
 #             uri_mapping_dict = json.load(json_open)
 #             json_open.close()

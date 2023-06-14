@@ -260,7 +260,7 @@ class SparqlQuery:
         for result in results:
             row = []
             for element in result:
-                converted_element = element
+                converted_element = str(element)
                 try:
                     converted_element = uri.uri_dict_all[element]
                 except KeyError:

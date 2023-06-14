@@ -17,7 +17,7 @@ from src.UriClass import Uri
 #     cursor = conn.cursor()
 #     with open(csv_file, 'r') as input_file:
 #         csv_reader = csv.reader(input_file)
-#         header = ['ID', csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'URI')]  # next(csv_reader)
+#         header = ['ID', csv_file.split('/')[-1].replace('.csv', '').replace('PREFIX', 'uri')]  # next(csv_reader)
 #         columns = [f'{column} TEXT' for column in header]
 #         try:
 #             drop_table_query = f'DROP TABLE {table_name}'  # drop the table to create from zero
@@ -36,7 +36,7 @@ from src.UriClass import Uri
 #     conn.close()
 
 
-# uri_path = path.working_path+'/data_set2/URI/'  # '../data_set2/URI/'
+# uri_path = path.working_path+'/data_set2/uri/'  # '../data_set2/uri/'
 # files = os.listdir(uri_path)
 # for file in files:
 #     if file.startswith('PREFIX'):  # read all the file with a file name starting with 'PREFIX'
@@ -49,5 +49,5 @@ from src.UriClass import Uri
 
 if __name__ == '__main__':
     path = PathClass('')
-    uri = Uri(path, 'data_set2', 'URI')
+    uri = Uri(path, 'data_set2', 'uri')
     uri.create_uri_db()

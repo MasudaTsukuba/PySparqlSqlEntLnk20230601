@@ -7,11 +7,11 @@
     },
     {
       "termType": "Variable",
-      "value": "name"
+      "value": "hotel_name"
     },
     {
       "termType": "Variable",
-      "value": "cname"
+      "value": "country_name"
     }
   ],
   "where": [
@@ -39,11 +39,11 @@
           },
           "predicate": {
             "termType": "NamedNode",
-            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label"
+            "value": "http://www.w3.org/2000/01/rdf-schema#label"
           },
           "object": {
             "termType": "Variable",
-            "value": "name"
+            "value": "hotel_name"
           }
         },
         {
@@ -57,21 +57,21 @@
           },
           "object": {
             "termType": "Variable",
-            "value": "c_id"
+            "value": "country_id"
           }
         },
         {
           "subject": {
             "termType": "Variable",
-            "value": "c_id"
+            "value": "country_id"
           },
           "predicate": {
             "termType": "NamedNode",
-            "value": "http://example.com/predicate/country_name/"
+            "value": "http://example.com/predicate/country_name"
           },
           "object": {
             "termType": "Variable",
-            "value": "cname"
+            "value": "country_name"
           }
         }
       ]
@@ -80,9 +80,13 @@
   "type": "query",
   "prefixes": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/",
     "ex": "http://example.com/ontology/",
+    "pred": "http://example.com/predicate/",
     "country": "http://example.com/predicate/country",
-    "country_name": "http://example.com/predicate/country_name/",
-    "country_description": "http://example.com/predicate/country_description/"
+    "country_name": "http://example.com/predicate/country_name",
+    "country_description": "http://example.com/predicate/country_description"
   }
 }

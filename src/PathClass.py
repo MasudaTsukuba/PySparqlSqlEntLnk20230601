@@ -8,8 +8,10 @@ class PathClass:
     def __init__(self, dataset_name):
         # root of working path
         self.working_path = os.getcwd()
-        if self.working_path.endswith('src'):
+        if self.working_path.find('data')>=0:
             self.working_path = os.path.dirname(self.working_path)
+            if self.working_path.endswith('src'):
+                self.working_path = os.path.dirname(self.working_path)
 
         # path storing queries
         self.dataset_path = self.working_path + '/data/' + dataset_name
